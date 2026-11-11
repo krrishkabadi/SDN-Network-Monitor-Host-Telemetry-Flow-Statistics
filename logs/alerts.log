@@ -1,0 +1,223 @@
+08:46:25 [ALERT] WARN SDN/controller: no fresh flow statistics from controller
+11:43:49 [ALERT] WARN SDN/controller: no fresh flow statistics from controller
+12:19:34 [ALERT] WARN RTT/h1: round-trip time 126 ms
+12:19:34 [ALERT] WARN RTT/h2: round-trip time 125 ms
+12:19:34 [ALERT] WARN RTT/h3: round-trip time 111 ms
+12:19:34 [ALERT] WARN RTT/h4: round-trip time 108 ms
+12:19:34 [CLEAR] OK   SDN/controller: back to normal
+12:19:36 [CLEAR] OK   RTT/h1: back to normal
+12:19:36 [CLEAR] OK   RTT/h2: back to normal
+12:19:36 [CLEAR] OK   RTT/h3: back to normal
+12:19:36 [CLEAR] OK   RTT/h4: back to normal
+12:20:20 [ALERT] WARN UTIL/s1:1: host link utilisation 63%
+12:20:20 [ALERT] WARN UTIL/s1:3: trunk link utilisation 63%
+12:20:20 [ALERT] WARN UTIL/s2:1: host link utilisation 63%
+12:20:20 [ALERT] WARN UTIL/s2:3: trunk link utilisation 63%
+12:20:20 [ALERT] WARN RATE/h1: sending 9.7 Mbps (limit 5.0)
+12:20:20 [ALERT] CRIT FUSED/h1: host reports 9.7 Mbps and switch s1:1 confirms 6.3 Mbps in -> congestion source
+12:20:22 [ALERT] CRIT UTIL/s1:1: host link utilisation 97%
+12:20:22 [ALERT] CRIT UTIL/s1:3: trunk link utilisation 97%
+12:20:22 [ALERT] CRIT UTIL/s2:1: host link utilisation 97%
+12:20:22 [ALERT] CRIT UTIL/s2:3: trunk link utilisation 97%
+12:20:50 [CLEAR] OK   UTIL/s1:1: back to normal
+12:20:50 [CLEAR] OK   UTIL/s1:3: back to normal
+12:20:50 [CLEAR] OK   UTIL/s2:1: back to normal
+12:20:50 [CLEAR] OK   UTIL/s2:3: back to normal
+12:20:50 [CLEAR] OK   RATE/h1: back to normal
+12:20:50 [CLEAR] OK   FUSED/h1: back to normal
+12:21:26 [ALERT] CRIT HOST/h4: no telemetry for 8s (host or agent down)
+13:51:28 [ALERT] WARN SDN/controller: no fresh flow statistics from controller
+13:51:28 [ALERT] CRIT HOST/h1: no telemetry for 5272s (host or agent down)
+13:51:28 [ALERT] CRIT HOST/h2: no telemetry for 5272s (host or agent down)
+13:51:28 [ALERT] CRIT HOST/h3: no telemetry for 5272s (host or agent down)
+13:51:30 [CLEAR] OK   SDN/controller: back to normal
+13:51:30 [CLEAR] OK   HOST/h1: back to normal
+13:51:30 [CLEAR] OK   HOST/h2: back to normal
+13:51:30 [CLEAR] OK   HOST/h3: back to normal
+10:48:29 [ALERT] WARN SDN/controller: no fresh flow statistics from controller
+11:17:03 [ALERT] CRIT UTIL/s1:1: host link utilisation 97%
+11:17:03 [ALERT] CRIT UTIL/s1:3: trunk link utilisation 97%
+11:17:03 [ALERT] CRIT UTIL/s2:1: host link utilisation 97%
+11:17:03 [ALERT] CRIT UTIL/s2:3: trunk link utilisation 97%
+11:17:03 [ALERT] WARN RATE/h1: sending 9.7 Mbps (limit 5.0)
+11:17:03 [ALERT] CRIT FUSED/h1: host reports 9.7 Mbps and switch s1:1 confirms 9.7 Mbps in -> congestion source
+11:17:31 [ALERT] WARN UTIL/s1:1: host link utilisation 79%
+11:17:31 [ALERT] WARN UTIL/s1:3: trunk link utilisation 79%
+11:17:31 [ALERT] WARN UTIL/s2:1: host link utilisation 78%
+11:17:31 [ALERT] WARN UTIL/s2:3: trunk link utilisation 78%
+11:17:33 [CLEAR] OK   UTIL/s1:1: back to normal
+11:17:33 [CLEAR] OK   UTIL/s1:3: back to normal
+11:17:33 [CLEAR] OK   UTIL/s2:1: back to normal
+11:17:33 [CLEAR] OK   UTIL/s2:3: back to normal
+11:17:33 [CLEAR] OK   RATE/h1: back to normal
+11:17:33 [CLEAR] OK   FUSED/h1: back to normal
+11:18:03 [ALERT] CRIT HOST/h4: no telemetry for 9s (host or agent down)
+12:09:00 [ALERT] CRIT UTIL/s1:1: host link utilisation 100%
+12:09:00 [ALERT] CRIT UTIL/s1:3: trunk link utilisation 100%
+12:09:00 [ALERT] CRIT UTIL/s2:1: host link utilisation 100%
+12:09:00 [ALERT] CRIT UTIL/s2:3: trunk link utilisation 100%
+12:09:06 [ALERT] WARN RATE/h1: sending 10.0 Mbps (limit 5.0)
+12:09:06 [ALERT] CRIT FUSED/h1: host reports 10.0 Mbps and switch s1:1 confirms 10.0 Mbps in -> congestion source
+12:09:10 [ALERT] WARN LOSS/h1: telemetry loss 23%
+12:09:10 [CLEAR] OK   UTIL/s1:1: back to normal
+12:09:10 [CLEAR] OK   UTIL/s1:3: back to normal
+12:09:10 [CLEAR] OK   UTIL/s2:1: back to normal
+12:09:10 [CLEAR] OK   UTIL/s2:3: back to normal
+12:09:10 [CLEAR] OK   RATE/h1: back to normal
+12:09:10 [CLEAR] OK   FUSED/h1: back to normal
+12:09:26 [CLEAR] OK   LOSS/h1: back to normal
+12:10:52 [ALERT] WARN UTIL/s1:1: host link utilisation 84%
+12:10:52 [ALERT] WARN UTIL/s1:3: trunk link utilisation 83%
+12:10:52 [ALERT] WARN UTIL/s2:1: host link utilisation 83%
+12:10:52 [ALERT] WARN UTIL/s2:3: trunk link utilisation 83%
+12:10:52 [ALERT] WARN RATE/h1: sending 9.7 Mbps (limit 5.0)
+12:10:52 [ALERT] CRIT FUSED/h1: host reports 9.7 Mbps and switch s1:1 confirms 8.4 Mbps in -> congestion source
+12:10:54 [ALERT] CRIT UTIL/s1:1: host link utilisation 97%
+12:10:54 [ALERT] CRIT UTIL/s1:3: trunk link utilisation 97%
+12:10:54 [ALERT] CRIT UTIL/s2:1: host link utilisation 99%
+12:10:54 [ALERT] CRIT UTIL/s2:3: trunk link utilisation 99%
+12:11:22 [CLEAR] OK   UTIL/s1:1: back to normal
+12:11:22 [CLEAR] OK   UTIL/s1:3: back to normal
+12:11:22 [CLEAR] OK   UTIL/s2:1: back to normal
+12:11:22 [CLEAR] OK   UTIL/s2:3: back to normal
+12:11:22 [CLEAR] OK   RATE/h1: back to normal
+12:11:22 [CLEAR] OK   FUSED/h1: back to normal
+12:53:04 [ALERT] WARN UTIL/s1:1: host link utilisation 75%
+12:53:04 [ALERT] WARN UTIL/s1:3: trunk link utilisation 74%
+12:53:04 [ALERT] WARN UTIL/s2:1: host link utilisation 75%
+12:53:04 [ALERT] WARN UTIL/s2:3: trunk link utilisation 75%
+12:53:06 [ALERT] CRIT UTIL/s1:1: host link utilisation 97%
+12:53:06 [ALERT] CRIT UTIL/s1:3: trunk link utilisation 97%
+12:53:06 [ALERT] CRIT UTIL/s2:1: host link utilisation 97%
+12:53:06 [ALERT] CRIT UTIL/s2:3: trunk link utilisation 97%
+12:53:06 [ALERT] WARN RATE/h1: sending 9.7 Mbps (limit 5.0)
+12:53:06 [ALERT] CRIT FUSED/h1: host reports 9.7 Mbps and switch s1:1 confirms 9.7 Mbps in -> congestion source
+12:54:04 [CLEAR] OK   UTIL/s1:1: back to normal
+12:54:04 [CLEAR] OK   UTIL/s1:3: back to normal
+12:54:04 [CLEAR] OK   UTIL/s2:1: back to normal
+12:54:04 [CLEAR] OK   UTIL/s2:3: back to normal
+12:54:04 [CLEAR] OK   FUSED/h1: back to normal
+12:54:06 [CLEAR] OK   RATE/h1: back to normal
+12:56:39 [ALERT] WARN UTIL/s1:1: host link utilisation 64%
+12:56:39 [ALERT] WARN UTIL/s1:3: trunk link utilisation 64%
+12:56:39 [ALERT] WARN UTIL/s2:1: host link utilisation 64%
+12:56:39 [ALERT] WARN UTIL/s2:3: trunk link utilisation 64%
+12:56:41 [ALERT] CRIT UTIL/s1:1: host link utilisation 97%
+12:56:41 [ALERT] CRIT UTIL/s1:3: trunk link utilisation 97%
+12:56:41 [ALERT] CRIT UTIL/s2:1: host link utilisation 97%
+12:56:41 [ALERT] CRIT UTIL/s2:3: trunk link utilisation 97%
+12:56:41 [ALERT] WARN RATE/h1: sending 9.7 Mbps (limit 5.0)
+12:56:41 [ALERT] CRIT FUSED/h1: host reports 9.7 Mbps and switch s1:1 confirms 9.7 Mbps in -> congestion source
+12:57:09 [CLEAR] OK   UTIL/s1:1: back to normal
+12:57:09 [CLEAR] OK   UTIL/s1:3: back to normal
+12:57:09 [CLEAR] OK   UTIL/s2:1: back to normal
+12:57:09 [CLEAR] OK   UTIL/s2:3: back to normal
+12:57:09 [CLEAR] OK   FUSED/h1: back to normal
+12:57:11 [CLEAR] OK   RATE/h1: back to normal
+13:14:14 [ALERT] CRIT UTIL/s1:1: host link utilisation 97%
+13:14:14 [ALERT] CRIT UTIL/s1:3: trunk link utilisation 97%
+13:14:14 [ALERT] CRIT UTIL/s2:1: host link utilisation 97%
+13:14:14 [ALERT] CRIT UTIL/s2:3: trunk link utilisation 97%
+13:14:14 [ALERT] WARN RATE/h1: sending 9.7 Mbps (limit 5.0)
+13:14:14 [ALERT] CRIT FUSED/h1: host reports 9.7 Mbps and switch s1:1 confirms 9.7 Mbps in -> congestion source
+13:14:42 [ALERT] WARN UTIL/s1:1: host link utilisation 75%
+13:14:42 [ALERT] WARN UTIL/s1:3: trunk link utilisation 75%
+13:14:42 [ALERT] WARN UTIL/s2:1: host link utilisation 75%
+13:14:42 [ALERT] WARN UTIL/s2:3: trunk link utilisation 75%
+13:14:44 [CLEAR] OK   UTIL/s1:1: back to normal
+13:14:44 [CLEAR] OK   UTIL/s1:3: back to normal
+13:14:44 [CLEAR] OK   UTIL/s2:1: back to normal
+13:14:44 [CLEAR] OK   UTIL/s2:3: back to normal
+13:14:44 [CLEAR] OK   RATE/h1: back to normal
+13:14:44 [CLEAR] OK   FUSED/h1: back to normal
+13:17:56 [ALERT] WARN LOSS/h1: telemetry loss 23%
+13:17:58 [ALERT] WARN RTT/h1: round-trip time 113 ms
+13:18:20 [CLEAR] OK   LOSS/h1: back to normal
+13:19:04 [ALERT] WARN LOSS/h2: telemetry loss 29%
+13:19:06 [ALERT] WARN LOSS/h1: telemetry loss 23%
+13:19:26 [CLEAR] OK   LOSS/h2: back to normal
+13:19:34 [CLEAR] OK   LOSS/h1: back to normal
+13:19:52 [ALERT] WARN LOSS/h1: telemetry loss 23%
+13:19:54 [CLEAR] OK   LOSS/h1: back to normal
+13:20:38 [ALERT] WARN LOSS/h1: telemetry loss 23%
+13:20:56 [CLEAR] OK   LOSS/h1: back to normal
+13:21:04 [ALERT] WARN LOSS/h2: telemetry loss 23%
+13:21:16 [CLEAR] OK   LOSS/h2: back to normal
+13:22:14 [ALERT] WARN LOSS/h1: telemetry loss 29%
+13:22:16 [ALERT] CRIT UTIL/s1:1: host link utilisation 97%
+13:22:16 [ALERT] CRIT UTIL/s1:3: trunk link utilisation 87%
+13:22:16 [ALERT] CRIT UTIL/s2:1: host link utilisation 87%
+13:22:16 [ALERT] CRIT UTIL/s2:3: trunk link utilisation 87%
+13:22:16 [ALERT] WARN RATE/h1: sending 9.0 Mbps (limit 5.0)
+13:22:16 [ALERT] CRIT FUSED/h1: host reports 9.0 Mbps and switch s1:1 confirms 9.7 Mbps in -> congestion source
+13:22:36 [CLEAR] OK   LOSS/h1: back to normal
+13:22:44 [ALERT] WARN UTIL/s1:1: host link utilisation 75%
+13:22:44 [ALERT] WARN UTIL/s1:3: trunk link utilisation 66%
+13:22:44 [ALERT] WARN UTIL/s2:1: host link utilisation 67%
+13:22:44 [ALERT] WARN UTIL/s2:3: trunk link utilisation 67%
+13:22:46 [CLEAR] OK   UTIL/s1:1: back to normal
+13:22:46 [CLEAR] OK   UTIL/s1:3: back to normal
+13:22:46 [CLEAR] OK   UTIL/s2:1: back to normal
+13:22:46 [CLEAR] OK   UTIL/s2:3: back to normal
+13:22:46 [CLEAR] OK   RATE/h1: back to normal
+13:22:46 [CLEAR] OK   FUSED/h1: back to normal
+13:22:58 [ALERT] WARN LOSS/h2: telemetry loss 23%
+13:23:12 [CLEAR] OK   LOSS/h2: back to normal
+13:31:39 [ALERT] CRIT UTIL/s1:1: host link utilisation 97%
+13:31:39 [ALERT] CRIT UTIL/s1:3: trunk link utilisation 97%
+13:31:39 [ALERT] CRIT UTIL/s2:1: host link utilisation 97%
+13:31:39 [ALERT] CRIT UTIL/s2:3: trunk link utilisation 97%
+13:31:39 [ALERT] WARN RATE/h1: sending 9.7 Mbps (limit 5.0)
+13:31:39 [ALERT] CRIT FUSED/h1: host reports 9.7 Mbps and switch s1:1 confirms 9.7 Mbps in -> congestion source
+13:32:07 [CLEAR] OK   UTIL/s1:1: back to normal
+13:32:07 [CLEAR] OK   UTIL/s1:3: back to normal
+13:32:07 [CLEAR] OK   UTIL/s2:1: back to normal
+13:32:07 [CLEAR] OK   UTIL/s2:3: back to normal
+13:32:07 [CLEAR] OK   FUSED/h1: back to normal
+13:32:09 [CLEAR] OK   RATE/h1: back to normal
+13:33:41 [ALERT] CRIT UTIL/s1:1: host link utilisation 97%
+13:33:41 [ALERT] CRIT UTIL/s1:3: trunk link utilisation 97%
+13:33:41 [ALERT] CRIT UTIL/s2:1: host link utilisation 96%
+13:33:41 [ALERT] CRIT UTIL/s2:3: trunk link utilisation 96%
+13:33:41 [ALERT] WARN RATE/h1: sending 9.7 Mbps (limit 5.0)
+13:33:41 [ALERT] CRIT FUSED/h1: host reports 9.7 Mbps and switch s1:1 confirms 9.7 Mbps in -> congestion source
+13:34:09 [ALERT] WARN UTIL/s1:1: host link utilisation 69%
+13:34:09 [ALERT] WARN UTIL/s1:3: trunk link utilisation 69%
+13:34:09 [ALERT] WARN UTIL/s2:1: host link utilisation 69%
+13:34:09 [ALERT] WARN UTIL/s2:3: trunk link utilisation 69%
+13:34:11 [CLEAR] OK   UTIL/s1:1: back to normal
+13:34:11 [CLEAR] OK   UTIL/s1:3: back to normal
+13:34:11 [CLEAR] OK   UTIL/s2:1: back to normal
+13:34:11 [CLEAR] OK   UTIL/s2:3: back to normal
+13:34:11 [CLEAR] OK   RATE/h1: back to normal
+13:34:11 [CLEAR] OK   FUSED/h1: back to normal
+13:34:47 [ALERT] CRIT UTIL/s1:1: host link utilisation 99%
+13:34:47 [ALERT] CRIT UTIL/s1:3: trunk link utilisation 100%
+13:34:47 [ALERT] CRIT UTIL/s2:1: host link utilisation 99%
+13:34:47 [ALERT] CRIT UTIL/s2:3: trunk link utilisation 99%
+13:34:47 [ALERT] WARN RATE/h1: sending 10.0 Mbps (limit 5.0)
+13:34:47 [ALERT] CRIT FUSED/h1: host reports 10.0 Mbps and switch s1:1 confirms 9.9 Mbps in -> congestion source
+13:34:55 [ALERT] WARN LOSS/h1: telemetry loss 23%
+13:35:03 [ALERT] CRIT HOST/h1: no telemetry for 8s (host or agent down)
+13:35:03 [CLEAR] OK   RATE/h1: back to normal
+13:35:03 [CLEAR] OK   LOSS/h1: back to normal
+13:35:05 [ALERT] WARN RATE/h1: sending 10.0 Mbps (limit 5.0)
+13:35:05 [ALERT] WARN LOSS/h1: telemetry loss 41%
+13:35:05 [CLEAR] OK   HOST/h1: back to normal
+13:35:17 [CLEAR] OK   UTIL/s1:1: back to normal
+13:35:17 [CLEAR] OK   UTIL/s1:3: back to normal
+13:35:17 [CLEAR] OK   UTIL/s2:1: back to normal
+13:35:17 [CLEAR] OK   UTIL/s2:3: back to normal
+13:35:17 [CLEAR] OK   FUSED/h1: back to normal
+13:35:19 [CLEAR] OK   RATE/h1: back to normal
+13:35:29 [CLEAR] OK   LOSS/h1: back to normal
+13:45:50 [ALERT] CRIT HOST/h4: no telemetry for 8s (host or agent down)
+08:19:00 [ALERT] WARN SDN/controller: no fresh flow statistics from controller
+08:19:00 [ALERT] CRIT HOST/h1: no telemetry for 35814s (host or agent down)
+08:19:00 [ALERT] CRIT HOST/h2: no telemetry for 35814s (host or agent down)
+08:19:00 [ALERT] CRIT HOST/h3: no telemetry for 35814s (host or agent down)
+08:19:02 [CLEAR] OK   SDN/controller: back to normal
+08:19:02 [CLEAR] OK   HOST/h1: back to normal
+08:19:02 [CLEAR] OK   HOST/h2: back to normal
+08:19:02 [CLEAR] OK   HOST/h3: back to normal
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               

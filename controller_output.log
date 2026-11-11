@@ -1,0 +1,2199 @@
+loading app SDN_Controller.py
+loading app ryu.controller.ofp_handler
+instantiating app SDN_Controller.py of SDNAnomalyController
+Loaded 100 historical measurements
+Global thresholds: {'traffic_mbps': 2.5358085, 'active_flows': 8.4478}
+Per-host thresholds: {'h1': {'traffic_mbps': 2.428785200000001, 'active_flows': 12.8956}, 'h2': {'traffic_mbps': 2.69534, 'active_flows': 8.4478}, 'h3': {'traffic_mbps': 2.406472, 'active_flows': 8.4478}, 'h4': {'traffic_mbps': 2.6062934000000006, 'active_flows': 8.4478}}
+instantiating app ryu.controller.ofp_handler of OFPHandler
+Switch connected: 1
+Switch connected: 3
+Switch connected: 2
+packet in 1 00:00:00:00:00:02 33:33:00:00:00:02 2
+packet in 2 00:00:00:00:00:02 33:33:00:00:00:02 3
+packet in 3 00:00:00:00:00:02 33:33:00:00:00:02 2
+packet in 3 76:94:36:c5:84:8a 33:33:00:00:00:02 2
+packet in 3 00:00:00:00:01:00 33:33:00:00:00:02 1
+packet in 2 00:00:00:00:00:03 33:33:00:00:00:02 1
+packet in 2 3e:1a:ad:7f:6a:3c 33:33:00:00:00:02 4
+packet in 2 00:00:00:00:00:04 33:33:00:00:00:02 2
+packet in 1 16:42:c4:5a:76:69 33:33:00:00:00:02 3
+packet in 1 00:00:00:00:00:03 33:33:00:00:00:02 3
+packet in 1 3e:1a:ad:7f:6a:3c 33:33:00:00:00:02 3
+packet in 1 00:00:00:00:00:04 33:33:00:00:00:02 3
+packet in 2 00:00:00:00:01:00 33:33:00:00:00:02 4
+packet in 3 00:00:00:00:00:03 33:33:00:00:00:02 2
+packet in 3 00:00:00:00:00:04 33:33:00:00:00:02 2
+packet in 1 00:00:00:00:01:00 33:33:00:00:00:02 3
+packet in 1 00:00:00:00:00:01 33:33:00:00:00:02 1
+packet in 2 a6:d0:3a:40:0f:d0 33:33:00:00:00:02 3
+packet in 2 00:00:00:00:00:01 33:33:00:00:00:02 3
+packet in 3 a6:d0:3a:40:0f:d0 33:33:00:00:00:02 2
+packet in 3 00:00:00:00:00:01 33:33:00:00:00:02 2
+packet in 2 3e:1a:ad:7f:6a:3c 33:33:00:00:00:fb 4
+packet in 1 3e:1a:ad:7f:6a:3c 33:33:00:00:00:fb 3
+packet in 1 16:42:c4:5a:76:69 33:33:00:00:00:fb 3
+packet in 3 76:94:36:c5:84:8a 33:33:00:00:00:fb 2
+packet in 2 a6:d0:3a:40:0f:d0 33:33:00:00:00:fb 3
+packet in 3 a6:d0:3a:40:0f:d0 33:33:00:00:00:fb 2
+packet in 2 00:00:00:00:00:03 ff:ff:ff:ff:ff:ff 1
+packet in 1 00:00:00:00:00:01 ff:ff:ff:ff:ff:ff 1
+packet in 1 00:00:00:00:00:02 ff:ff:ff:ff:ff:ff 2
+packet in 1 00:00:00:00:00:03 ff:ff:ff:ff:ff:ff 3
+packet in 3 00:00:00:00:00:03 ff:ff:ff:ff:ff:ff 2
+packet in 2 00:00:00:00:00:04 ff:ff:ff:ff:ff:ff 2
+packet in 2 00:00:00:00:00:01 ff:ff:ff:ff:ff:ff 3
+packet in 2 00:00:00:00:00:02 ff:ff:ff:ff:ff:ff 3
+packet in 3 00:00:00:00:00:04 ff:ff:ff:ff:ff:ff 2
+packet in 3 00:00:00:00:00:01 ff:ff:ff:ff:ff:ff 2
+packet in 1 00:00:00:00:00:04 ff:ff:ff:ff:ff:ff 3
+packet in 3 00:00:00:00:00:02 ff:ff:ff:ff:ff:ff 2
+packet in 3 00:00:00:00:01:00 00:00:00:00:00:03 1
+packet in 2 00:00:00:00:01:00 00:00:00:00:00:03 4
+packet in 3 00:00:00:00:01:00 00:00:00:00:00:04 1
+packet in 3 00:00:00:00:01:00 00:00:00:00:00:01 1
+packet in 3 00:00:00:00:01:00 00:00:00:00:00:02 1
+packet in 2 00:00:00:00:00:03 00:00:00:00:01:00 1
+packet in 2 00:00:00:00:01:00 00:00:00:00:00:04 4
+packet in 2 00:00:00:00:01:00 00:00:00:00:00:01 4
+packet in 2 00:00:00:00:01:00 00:00:00:00:00:02 4
+packet in 1 00:00:00:00:01:00 00:00:00:00:00:01 3
+packet in 1 00:00:00:00:01:00 00:00:00:00:00:02 3
+packet in 3 00:00:00:00:00:03 00:00:00:00:01:00 2
+packet in 2 00:00:00:00:00:04 00:00:00:00:01:00 2
+packet in 3 00:00:00:00:00:04 00:00:00:00:01:00 2
+packet in 1 00:00:00:00:00:01 00:00:00:00:01:00 1
+packet in 1 00:00:00:00:00:02 00:00:00:00:01:00 2
+packet in 2 00:00:00:00:00:01 00:00:00:00:01:00 3
+packet in 2 00:00:00:00:00:02 00:00:00:00:01:00 3
+packet in 3 00:00:00:00:00:01 00:00:00:00:01:00 2
+packet in 3 00:00:00:00:00:02 00:00:00:00:01:00 2
+packet in 1 00:00:00:00:00:02 33:33:00:00:00:02 2
+packet in 2 00:00:00:00:00:02 33:33:00:00:00:02 3
+packet in 3 00:00:00:00:00:02 33:33:00:00:00:02 2
+packet in 3 76:94:36:c5:84:8a 33:33:00:00:00:02 2
+packet in 3 00:00:00:00:01:00 33:33:00:00:00:02 1
+packet in 2 00:00:00:00:00:03 33:33:00:00:00:02 1
+packet in 2 00:00:00:00:01:00 33:33:00:00:00:02 4
+packet in 3 00:00:00:00:00:03 33:33:00:00:00:02 2
+packet in 1 00:00:00:00:00:03 33:33:00:00:00:02 3
+packet in 1 00:00:00:00:01:00 33:33:00:00:00:02 3
+packet in 1 00:00:00:00:00:01 33:33:00:00:00:02 1
+packet in 2 00:00:00:00:00:01 33:33:00:00:00:02 3
+packet in 3 00:00:00:00:00:01 33:33:00:00:00:02 2
+packet in 2 00:00:00:00:00:04 33:33:00:00:00:02 2
+packet in 2 3e:1a:ad:7f:6a:3c 33:33:00:00:00:02 4
+packet in 1 00:00:00:00:00:04 33:33:00:00:00:02 3
+packet in 1 3e:1a:ad:7f:6a:3c 33:33:00:00:00:02 3
+packet in 3 00:00:00:00:00:04 33:33:00:00:00:02 2
+packet in 1 16:42:c4:5a:76:69 33:33:00:00:00:02 3
+packet in 2 a6:d0:3a:40:0f:d0 33:33:00:00:00:02 3
+packet in 3 a6:d0:3a:40:0f:d0 33:33:00:00:00:02 2
+packet in 2 3e:1a:ad:7f:6a:3c 33:33:00:00:00:fb 4
+packet in 1 3e:1a:ad:7f:6a:3c 33:33:00:00:00:fb 3
+packet in 1 16:42:c4:5a:76:69 33:33:00:00:00:fb 3
+packet in 3 76:94:36:c5:84:8a 33:33:00:00:00:fb 2
+packet in 2 a6:d0:3a:40:0f:d0 33:33:00:00:00:fb 3
+packet in 3 a6:d0:3a:40:0f:d0 33:33:00:00:00:fb 2
+packet in 1 00:00:00:00:00:01 ff:ff:ff:ff:ff:ff 1
+packet in 2 00:00:00:00:00:01 ff:ff:ff:ff:ff:ff 3
+packet in 1 00:00:00:00:00:02 00:00:00:00:00:01 2
+packet in 3 00:00:00:00:00:01 ff:ff:ff:ff:ff:ff 2
+packet in 1 00:00:00:00:00:01 00:00:00:00:00:02 1
+packet in 1 00:00:00:00:00:01 ff:ff:ff:ff:ff:ff 1
+packet in 2 00:00:00:00:00:01 ff:ff:ff:ff:ff:ff 3
+packet in 3 00:00:00:00:00:01 ff:ff:ff:ff:ff:ff 2
+packet in 2 00:00:00:00:00:03 00:00:00:00:00:01 1
+packet in 1 00:00:00:00:00:03 00:00:00:00:00:01 3
+packet in 1 00:00:00:00:00:01 00:00:00:00:00:03 1
+packet in 2 00:00:00:00:00:01 00:00:00:00:00:03 3
+packet in 1 00:00:00:00:00:01 ff:ff:ff:ff:ff:ff 1
+packet in 2 00:00:00:00:00:01 ff:ff:ff:ff:ff:ff 3
+packet in 3 00:00:00:00:00:01 ff:ff:ff:ff:ff:ff 2
+packet in 2 00:00:00:00:00:04 00:00:00:00:00:01 2
+packet in 1 00:00:00:00:00:04 00:00:00:00:00:01 3
+packet in 1 00:00:00:00:00:01 00:00:00:00:00:04 1
+packet in 2 00:00:00:00:00:01 00:00:00:00:00:04 3
+packet in 1 00:00:00:00:00:02 ff:ff:ff:ff:ff:ff 2
+packet in 2 00:00:00:00:00:02 ff:ff:ff:ff:ff:ff 3
+packet in 3 00:00:00:00:00:02 ff:ff:ff:ff:ff:ff 2
+packet in 2 00:00:00:00:00:03 00:00:00:00:00:02 1
+packet in 1 00:00:00:00:00:03 00:00:00:00:00:02 3
+packet in 1 00:00:00:00:00:02 00:00:00:00:00:03 2
+packet in 2 00:00:00:00:00:02 00:00:00:00:00:03 3
+packet in 1 00:00:00:00:00:02 ff:ff:ff:ff:ff:ff 2
+packet in 2 00:00:00:00:00:02 ff:ff:ff:ff:ff:ff 3
+packet in 3 00:00:00:00:00:02 ff:ff:ff:ff:ff:ff 2
+packet in 2 00:00:00:00:00:04 00:00:00:00:00:02 2
+packet in 1 00:00:00:00:00:04 00:00:00:00:00:02 3
+packet in 1 00:00:00:00:00:02 00:00:00:00:00:04 2
+packet in 2 00:00:00:00:00:02 00:00:00:00:00:04 3
+packet in 2 00:00:00:00:00:03 ff:ff:ff:ff:ff:ff 1
+packet in 3 00:00:00:00:00:03 ff:ff:ff:ff:ff:ff 2
+packet in 1 00:00:00:00:00:03 ff:ff:ff:ff:ff:ff 3
+packet in 2 00:00:00:00:00:04 00:00:00:00:00:03 2
+packet in 2 00:00:00:00:00:03 00:00:00:00:00:04 1
+packet in 1 00:00:00:00:00:02 33:33:00:00:00:02 2
+packet in 2 00:00:00:00:00:02 33:33:00:00:00:02 3
+packet in 3 00:00:00:00:00:02 33:33:00:00:00:02 2
+packet in 3 76:94:36:c5:84:8a 33:33:00:00:00:02 2
+packet in 1 00:00:00:00:00:01 33:33:00:00:00:02 1
+packet in 2 00:00:00:00:00:01 33:33:00:00:00:02 3
+packet in 3 00:00:00:00:00:01 33:33:00:00:00:02 2
+packet in 3 00:00:00:00:01:00 33:33:00:00:00:02 1
+packet in 2 00:00:00:00:01:00 33:33:00:00:00:02 4
+packet in 1 00:00:00:00:01:00 33:33:00:00:00:02 3
+packet in 2 3e:1a:ad:7f:6a:3c 33:33:00:00:00:fb 4
+packet in 1 3e:1a:ad:7f:6a:3c 33:33:00:00:00:fb 3
+packet in 1 16:42:c4:5a:76:69 33:33:00:00:00:fb 3
+packet in 3 76:94:36:c5:84:8a 33:33:00:00:00:fb 2
+packet in 2 a6:d0:3a:40:0f:d0 33:33:00:00:00:fb 3
+packet in 3 a6:d0:3a:40:0f:d0 33:33:00:00:00:fb 2
+packet in 2 a6:d0:3a:40:0f:d0 33:33:00:00:00:02 3
+packet in 2 00:00:00:00:00:03 33:33:00:00:00:02 1
+packet in 2 3e:1a:ad:7f:6a:3c 33:33:00:00:00:02 4
+packet in 2 00:00:00:00:00:04 33:33:00:00:00:02 2
+packet in 1 00:00:00:00:00:03 33:33:00:00:00:02 3
+packet in 1 3e:1a:ad:7f:6a:3c 33:33:00:00:00:02 3
+packet in 1 00:00:00:00:00:04 33:33:00:00:00:02 3
+packet in 3 a6:d0:3a:40:0f:d0 33:33:00:00:00:02 2
+packet in 3 00:00:00:00:00:03 33:33:00:00:00:02 2
+packet in 3 00:00:00:00:00:04 33:33:00:00:00:02 2
+packet in 1 16:42:c4:5a:76:69 33:33:00:00:00:02 3
+packet in 1 00:00:00:00:00:02 33:33:00:00:00:02 2
+packet in 2 00:00:00:00:00:02 33:33:00:00:00:02 3
+packet in 3 00:00:00:00:00:02 33:33:00:00:00:02 2
+packet in 3 76:94:36:c5:84:8a 33:33:00:00:00:02 2
+packet in 1 00:00:00:00:00:01 33:33:00:00:00:02 1
+packet in 3 00:00:00:00:01:00 33:33:00:00:00:02 1
+packet in 2 00:00:00:00:00:01 33:33:00:00:00:02 3
+packet in 2 00:00:00:00:01:00 33:33:00:00:00:02 4
+packet in 3 00:00:00:00:00:01 33:33:00:00:00:02 2
+packet in 1 00:00:00:00:01:00 33:33:00:00:00:02 3
+packet in 2 3e:1a:ad:7f:6a:3c 33:33:00:00:00:fb 4
+packet in 1 3e:1a:ad:7f:6a:3c 33:33:00:00:00:fb 3
+packet in 1 16:42:c4:5a:76:69 33:33:00:00:00:fb 3
+packet in 3 76:94:36:c5:84:8a 33:33:00:00:00:fb 2
+packet in 2 a6:d0:3a:40:0f:d0 33:33:00:00:00:fb 3
+packet in 3 a6:d0:3a:40:0f:d0 33:33:00:00:00:fb 2
+packet in 2 00:00:00:00:00:03 33:33:00:00:00:02 1
+packet in 2 00:00:00:00:00:04 33:33:00:00:00:02 2
+packet in 2 3e:1a:ad:7f:6a:3c 33:33:00:00:00:02 4
+packet in 1 00:00:00:00:00:03 33:33:00:00:00:02 3
+packet in 1 00:00:00:00:00:04 33:33:00:00:00:02 3
+packet in 1 3e:1a:ad:7f:6a:3c 33:33:00:00:00:02 3
+packet in 3 00:00:00:00:00:03 33:33:00:00:00:02 2
+packet in 3 00:00:00:00:00:04 33:33:00:00:00:02 2
+packet in 2 a6:d0:3a:40:0f:d0 33:33:00:00:00:02 3
+packet in 3 a6:d0:3a:40:0f:d0 33:33:00:00:00:02 2
+packet in 1 16:42:c4:5a:76:69 33:33:00:00:00:02 3
+Switch 1 port 1: TX 0.00 Mbps, RX 2.00 Mbps, new drops 0
+Switch 1 port 3: TX 2.00 Mbps, RX 0.00 Mbps, new drops 0
+Switch 2 port 1: TX 1.99 Mbps, RX 0.00 Mbps, new drops 0
+Switch 2 port 3: TX 0.00 Mbps, RX 2.00 Mbps, new drops 0
+Switch 1 port 1: TX 0.00 Mbps, RX 2.17 Mbps, new drops 0
+Switch 1 port 3: TX 2.16 Mbps, RX 0.00 Mbps, new drops 0
+Switch 2 port 1: TX 2.17 Mbps, RX 0.00 Mbps, new drops 0
+Switch 2 port 3: TX 0.00 Mbps, RX 2.18 Mbps, new drops 0
+Switch 1 port 1: TX 0.00 Mbps, RX 2.16 Mbps, new drops 0
+Switch 1 port 3: TX 2.16 Mbps, RX 0.00 Mbps, new drops 0
+Switch 2 port 1: TX 2.16 Mbps, RX 0.00 Mbps, new drops 0
+Switch 2 port 3: TX 0.00 Mbps, RX 2.16 Mbps, new drops 0
+Switch 1 port 1: TX 0.00 Mbps, RX 2.17 Mbps, new drops 0
+Switch 1 port 3: TX 2.17 Mbps, RX 0.00 Mbps, new drops 0
+Switch 2 port 1: TX 2.16 Mbps, RX 0.00 Mbps, new drops 0
+Switch 2 port 3: TX 0.00 Mbps, RX 2.16 Mbps, new drops 0
+Switch 1 port 1: TX 0.00 Mbps, RX 2.15 Mbps, new drops 0
+Switch 1 port 3: TX 2.15 Mbps, RX 0.00 Mbps, new drops 0
+Switch 2 port 1: TX 2.14 Mbps, RX 0.00 Mbps, new drops 0
+Switch 2 port 3: TX 0.00 Mbps, RX 2.14 Mbps, new drops 0
+Switch 1 port 1: TX 0.00 Mbps, RX 2.16 Mbps, new drops 0
+Switch 1 port 3: TX 2.16 Mbps, RX 0.00 Mbps, new drops 0
+Switch 2 port 1: TX 2.17 Mbps, RX 0.00 Mbps, new drops 0
+Switch 2 port 3: TX 0.00 Mbps, RX 2.18 Mbps, new drops 0
+Switch 1 port 1: TX 0.00 Mbps, RX 2.16 Mbps, new drops 0
+Switch 1 port 3: TX 2.16 Mbps, RX 0.00 Mbps, new drops 0
+Switch 2 port 1: TX 2.14 Mbps, RX 0.00 Mbps, new drops 0
+Switch 2 port 3: TX 0.00 Mbps, RX 2.14 Mbps, new drops 0
+Switch 1 port 1: TX 0.00 Mbps, RX 2.16 Mbps, new drops 0
+Switch 1 port 3: TX 2.17 Mbps, RX 0.00 Mbps, new drops 0
+Switch 2 port 1: TX 2.17 Mbps, RX 0.00 Mbps, new drops 0
+Switch 2 port 3: TX 0.00 Mbps, RX 2.17 Mbps, new drops 0
+Switch 1 port 1: TX 0.00 Mbps, RX 2.15 Mbps, new drops 0
+Switch 1 port 3: TX 2.16 Mbps, RX 0.00 Mbps, new drops 0
+Switch 2 port 1: TX 2.15 Mbps, RX 0.00 Mbps, new drops 0
+Switch 2 port 3: TX 0.00 Mbps, RX 2.15 Mbps, new drops 0
+Switch 1 port 1: TX 0.00 Mbps, RX 2.16 Mbps, new drops 0
+Switch 1 port 3: TX 2.16 Mbps, RX 0.00 Mbps, new drops 0
+Switch 2 port 1: TX 2.17 Mbps, RX 0.00 Mbps, new drops 0
+Switch 2 port 3: TX 0.00 Mbps, RX 2.17 Mbps, new drops 0
+Switch 1 port 1: TX 0.00 Mbps, RX 0.17 Mbps, new drops 0
+Switch 1 port 3: TX 0.17 Mbps, RX 0.00 Mbps, new drops 0
+Switch 2 port 1: TX 0.17 Mbps, RX 0.00 Mbps, new drops 0
+Switch 2 port 3: TX 0.00 Mbps, RX 0.17 Mbps, new drops 0
+packet in 1 00:00:00:00:00:02 33:33:00:00:00:02 2
+packet in 2 00:00:00:00:00:02 33:33:00:00:00:02 3
+packet in 3 00:00:00:00:00:02 33:33:00:00:00:02 2
+ANOMALY: Switch 1: h1 -> h3, 3.40 Mbps (threshold 2.43)
+Switch 1 port 1: TX 0.00 Mbps, RX 5.00 Mbps, new drops 0
+Switch 1 port 3: TX 5.00 Mbps, RX 0.00 Mbps, new drops 0
+ANOMALY: Switch 2: h1 -> h3, 3.43 Mbps (threshold 2.43)
+Switch 2 port 1: TX 5.03 Mbps, RX 0.00 Mbps, new drops 0
+Switch 2 port 3: TX 0.00 Mbps, RX 5.04 Mbps, new drops 0
+Switch 1 port 1: TX 0.00 Mbps, RX 9.71 Mbps, new drops 0
+Switch 1 port 3: TX 9.71 Mbps, RX 0.00 Mbps, new drops 0
+Switch 2 port 1: TX 9.71 Mbps, RX 0.00 Mbps, new drops 0
+Switch 2 port 3: TX 0.00 Mbps, RX 9.72 Mbps, new drops 0
+Switch 1 port 1: TX 0.00 Mbps, RX 9.71 Mbps, new drops 0
+Switch 1 port 3: TX 9.71 Mbps, RX 0.00 Mbps, new drops 0
+Switch 2 port 1: TX 9.71 Mbps, RX 0.00 Mbps, new drops 0
+Switch 2 port 3: TX 0.00 Mbps, RX 9.71 Mbps, new drops 0
+Switch 1 port 1: TX 0.00 Mbps, RX 9.68 Mbps, new drops 0
+Switch 1 port 3: TX 9.68 Mbps, RX 0.00 Mbps, new drops 0
+Switch 2 port 1: TX 9.63 Mbps, RX 0.00 Mbps, new drops 0
+Switch 2 port 3: TX 0.00 Mbps, RX 9.63 Mbps, new drops 0
+Switch 1 port 1: TX 0.00 Mbps, RX 9.73 Mbps, new drops 0
+Switch 1 port 3: TX 9.74 Mbps, RX 0.00 Mbps, new drops 0
+Switch 2 port 1: TX 9.78 Mbps, RX 0.00 Mbps, new drops 0
+Switch 2 port 3: TX 0.00 Mbps, RX 9.79 Mbps, new drops 0
+Switch 1 port 1: TX 0.00 Mbps, RX 9.71 Mbps, new drops 0
+Switch 1 port 3: TX 9.71 Mbps, RX 0.00 Mbps, new drops 0
+Switch 2 port 1: TX 9.72 Mbps, RX 0.00 Mbps, new drops 0
+Switch 2 port 3: TX 0.00 Mbps, RX 9.72 Mbps, new drops 0
+Switch 1 port 1: TX 0.00 Mbps, RX 9.71 Mbps, new drops 0
+Switch 1 port 3: TX 9.71 Mbps, RX 0.00 Mbps, new drops 0
+Switch 2 port 1: TX 9.70 Mbps, RX 0.00 Mbps, new drops 0
+Switch 2 port 3: TX 0.00 Mbps, RX 9.70 Mbps, new drops 0
+packet in 3 76:94:36:c5:84:8a 33:33:00:00:00:02 2
+Switch 1 port 1: TX 0.00 Mbps, RX 9.71 Mbps, new drops 0
+Switch 1 port 3: TX 9.71 Mbps, RX 0.00 Mbps, new drops 0
+Switch 2 port 1: TX 9.71 Mbps, RX 0.00 Mbps, new drops 0
+Switch 2 port 3: TX 0.00 Mbps, RX 9.71 Mbps, new drops 0
+Switch 1 port 1: TX 0.00 Mbps, RX 9.71 Mbps, new drops 0
+Switch 1 port 3: TX 9.71 Mbps, RX 0.00 Mbps, new drops 0
+Switch 2 port 1: TX 9.70 Mbps, RX 0.00 Mbps, new drops 0
+Switch 2 port 3: TX 0.00 Mbps, RX 9.70 Mbps, new drops 0
+Switch 1 port 1: TX 0.00 Mbps, RX 9.70 Mbps, new drops 0
+Switch 1 port 3: TX 9.71 Mbps, RX 0.00 Mbps, new drops 0
+Switch 2 port 1: TX 9.71 Mbps, RX 0.00 Mbps, new drops 0
+Switch 2 port 3: TX 0.00 Mbps, RX 9.72 Mbps, new drops 0
+Switch 1 port 1: TX 0.00 Mbps, RX 9.68 Mbps, new drops 0
+Switch 1 port 3: TX 9.68 Mbps, RX 0.00 Mbps, new drops 0
+Switch 2 port 1: TX 9.62 Mbps, RX 0.00 Mbps, new drops 0
+Switch 2 port 3: TX 0.00 Mbps, RX 9.62 Mbps, new drops 0
+packet in 1 00:00:00:00:00:01 33:33:00:00:00:02 1
+packet in 2 00:00:00:00:00:01 33:33:00:00:00:02 3
+packet in 3 00:00:00:00:00:01 33:33:00:00:00:02 2
+Switch 1 port 1: TX 0.00 Mbps, RX 9.74 Mbps, new drops 0
+Switch 1 port 3: TX 9.74 Mbps, RX 0.00 Mbps, new drops 0
+Switch 2 port 1: TX 9.80 Mbps, RX 0.00 Mbps, new drops 0
+Switch 2 port 3: TX 0.00 Mbps, RX 9.80 Mbps, new drops 0
+Switch 1 port 1: TX 0.00 Mbps, RX 9.68 Mbps, new drops 0
+Switch 1 port 3: TX 9.68 Mbps, RX 0.00 Mbps, new drops 0
+Switch 2 port 1: TX 9.59 Mbps, RX 0.00 Mbps, new drops 0
+Switch 2 port 3: TX 0.00 Mbps, RX 9.59 Mbps, new drops 0
+Switch 1 port 1: TX 0.00 Mbps, RX 9.71 Mbps, new drops 0
+Switch 1 port 3: TX 9.71 Mbps, RX 0.00 Mbps, new drops 0
+Switch 2 port 1: TX 9.72 Mbps, RX 0.00 Mbps, new drops 0
+Switch 2 port 3: TX 0.00 Mbps, RX 9.72 Mbps, new drops 0
+Switch 1 port 1: TX 0.00 Mbps, RX 9.73 Mbps, new drops 0
+Switch 1 port 3: TX 9.74 Mbps, RX 0.00 Mbps, new drops 0
+Switch 2 port 1: TX 9.80 Mbps, RX 0.00 Mbps, new drops 0
+Switch 2 port 3: TX 0.00 Mbps, RX 9.80 Mbps, new drops 0
+Switch 1 port 1: TX 0.00 Mbps, RX 4.61 Mbps, new drops 0
+Switch 1 port 3: TX 4.62 Mbps, RX 0.00 Mbps, new drops 0
+Switch 2 port 1: TX 4.60 Mbps, RX 0.00 Mbps, new drops 0
+Switch 2 port 3: TX 0.00 Mbps, RX 4.59 Mbps, new drops 0
+RECOVERED: Switch 1: h1 -> h3, 0.00 Mbps (threshold 2.43)
+RECOVERED: Switch 2: h1 -> h3, 0.00 Mbps (threshold 2.43)
+packet in 3 00:00:00:00:01:00 33:33:00:00:00:02 1
+packet in 2 00:00:00:00:01:00 33:33:00:00:00:02 4
+packet in 1 00:00:00:00:01:00 33:33:00:00:00:02 3
+packet in 2 3e:1a:ad:7f:6a:3c 33:33:00:00:00:fb 4
+packet in 1 3e:1a:ad:7f:6a:3c 33:33:00:00:00:fb 3
+packet in 1 16:42:c4:5a:76:69 33:33:00:00:00:fb 3
+packet in 3 76:94:36:c5:84:8a 33:33:00:00:00:fb 2
+packet in 2 a6:d0:3a:40:0f:d0 33:33:00:00:00:fb 3
+packet in 3 a6:d0:3a:40:0f:d0 33:33:00:00:00:fb 2
+packet in 2 3e:1a:ad:7f:6a:3c 33:33:00:00:00:02 4
+packet in 2 00:00:00:00:00:03 33:33:00:00:00:02 1
+packet in 2 00:00:00:00:00:04 33:33:00:00:00:02 2
+packet in 1 3e:1a:ad:7f:6a:3c 33:33:00:00:00:02 3
+packet in 1 00:00:00:00:00:03 33:33:00:00:00:02 3
+packet in 1 00:00:00:00:00:04 33:33:00:00:00:02 3
+packet in 3 00:00:00:00:00:03 33:33:00:00:00:02 2
+packet in 3 00:00:00:00:00:04 33:33:00:00:00:02 2
+packet in 2 a6:d0:3a:40:0f:d0 33:33:00:00:00:02 3
+packet in 3 a6:d0:3a:40:0f:d0 33:33:00:00:00:02 2
+packet in 1 16:42:c4:5a:76:69 33:33:00:00:00:02 3
+Switch 1 port 1: TX 0.00 Mbps, RX 2.69 Mbps, new drops 0
+Switch 1 port 3: TX 2.68 Mbps, RX 0.00 Mbps, new drops 0
+Switch 2 port 1: TX 2.68 Mbps, RX 0.00 Mbps, new drops 0
+Switch 2 port 3: TX 0.00 Mbps, RX 2.70 Mbps, new drops 0
+ANOMALY: Switch 1: h1 -> h3, 9.70 Mbps (threshold 2.43)
+Switch 1 port 1: TX 0.00 Mbps, RX 9.68 Mbps, new drops 0
+Switch 1 port 3: TX 9.68 Mbps, RX 0.00 Mbps, new drops 0
+ANOMALY: Switch 2: h1 -> h3, 9.65 Mbps (threshold 2.43)
+Switch 2 port 1: TX 9.63 Mbps, RX 0.00 Mbps, new drops 0
+Switch 2 port 3: TX 0.00 Mbps, RX 9.63 Mbps, new drops 0
+Switch 1 port 1: TX 0.00 Mbps, RX 9.70 Mbps, new drops 0
+Switch 1 port 3: TX 9.70 Mbps, RX 0.00 Mbps, new drops 0
+Switch 2 port 1: TX 9.66 Mbps, RX 0.00 Mbps, new drops 0
+Switch 2 port 3: TX 0.00 Mbps, RX 9.66 Mbps, new drops 0
+Switch 1 port 1: TX 0.00 Mbps, RX 9.72 Mbps, new drops 0
+Switch 1 port 3: TX 9.72 Mbps, RX 0.00 Mbps, new drops 0
+Switch 2 port 1: TX 9.76 Mbps, RX 0.00 Mbps, new drops 0
+Switch 2 port 3: TX 0.00 Mbps, RX 9.76 Mbps, new drops 0
+Switch 1 port 1: TX 0.00 Mbps, RX 9.73 Mbps, new drops 0
+Switch 1 port 3: TX 9.73 Mbps, RX 0.00 Mbps, new drops 0
+Switch 2 port 1: TX 9.78 Mbps, RX 0.00 Mbps, new drops 0
+Switch 2 port 3: TX 0.00 Mbps, RX 9.77 Mbps, new drops 0
+Switch 1 port 1: TX 0.00 Mbps, RX 9.70 Mbps, new drops 0
+Switch 1 port 3: TX 9.70 Mbps, RX 0.00 Mbps, new drops 0
+Switch 2 port 1: TX 9.69 Mbps, RX 0.00 Mbps, new drops 0
+Switch 2 port 3: TX 0.00 Mbps, RX 9.70 Mbps, new drops 0
+Switch 1 port 1: TX 0.00 Mbps, RX 9.72 Mbps, new drops 0
+Switch 1 port 3: TX 9.72 Mbps, RX 0.00 Mbps, new drops 0
+Switch 2 port 1: TX 9.73 Mbps, RX 0.00 Mbps, new drops 0
+Switch 2 port 3: TX 0.00 Mbps, RX 9.73 Mbps, new drops 0
+Switch 1 port 1: TX 0.00 Mbps, RX 9.71 Mbps, new drops 0
+Switch 1 port 3: TX 9.71 Mbps, RX 0.00 Mbps, new drops 0
+Switch 2 port 1: TX 9.70 Mbps, RX 0.00 Mbps, new drops 0
+Switch 2 port 3: TX 0.00 Mbps, RX 9.71 Mbps, new drops 0
+Switch 1 port 1: TX 0.00 Mbps, RX 9.71 Mbps, new drops 0
+Switch 1 port 3: TX 9.71 Mbps, RX 0.00 Mbps, new drops 0
+Switch 2 port 1: TX 9.70 Mbps, RX 0.00 Mbps, new drops 0
+Switch 2 port 3: TX 0.00 Mbps, RX 9.70 Mbps, new drops 0
+Switch 1 port 1: TX 0.00 Mbps, RX 9.71 Mbps, new drops 0
+Switch 1 port 3: TX 9.71 Mbps, RX 0.00 Mbps, new drops 0
+Switch 2 port 1: TX 9.72 Mbps, RX 0.00 Mbps, new drops 0
+Switch 2 port 3: TX 0.00 Mbps, RX 9.72 Mbps, new drops 0
+Switch 1 port 1: TX 0.00 Mbps, RX 9.68 Mbps, new drops 0
+Switch 1 port 3: TX 9.67 Mbps, RX 0.00 Mbps, new drops 0
+Switch 2 port 1: TX 9.60 Mbps, RX 0.00 Mbps, new drops 0
+Switch 2 port 3: TX 0.00 Mbps, RX 9.60 Mbps, new drops 0
+Switch 1 port 1: TX 0.00 Mbps, RX 9.74 Mbps, new drops 0
+Switch 1 port 3: TX 9.74 Mbps, RX 0.00 Mbps, new drops 0
+Switch 2 port 1: TX 9.81 Mbps, RX 0.00 Mbps, new drops 0
+Switch 2 port 3: TX 0.00 Mbps, RX 9.81 Mbps, new drops 0
+Switch 1 port 1: TX 0.00 Mbps, RX 9.70 Mbps, new drops 0
+Switch 1 port 3: TX 9.71 Mbps, RX 0.00 Mbps, new drops 0
+Switch 2 port 1: TX 9.70 Mbps, RX 0.00 Mbps, new drops 0
+Switch 2 port 3: TX 0.00 Mbps, RX 9.71 Mbps, new drops 0
+Switch 1 port 1: TX 0.00 Mbps, RX 9.71 Mbps, new drops 0
+Switch 1 port 3: TX 9.70 Mbps, RX 0.00 Mbps, new drops 0
+Switch 2 port 1: TX 9.71 Mbps, RX 0.00 Mbps, new drops 0
+Switch 2 port 3: TX 0.00 Mbps, RX 9.71 Mbps, new drops 0
+Switch 1 port 1: TX 0.00 Mbps, RX 9.71 Mbps, new drops 0
+Switch 1 port 3: TX 9.71 Mbps, RX 0.00 Mbps, new drops 0
+Switch 2 port 1: TX 9.69 Mbps, RX 0.00 Mbps, new drops 0
+Switch 2 port 3: TX 0.00 Mbps, RX 9.69 Mbps, new drops 0
+Switch 1 port 1: TX 0.00 Mbps, RX 6.91 Mbps, new drops 0
+Switch 1 port 3: TX 6.92 Mbps, RX 0.00 Mbps, new drops 0
+Switch 2 port 1: TX 6.90 Mbps, RX 0.00 Mbps, new drops 0
+Switch 2 port 3: TX 0.00 Mbps, RX 6.90 Mbps, new drops 0
+RECOVERED: Switch 1: h1 -> h3, 0.00 Mbps (threshold 2.43)
+RECOVERED: Switch 2: h1 -> h3, 0.00 Mbps (threshold 2.43)
+Switch 1 port 1: TX 0.00 Mbps, RX 3.10 Mbps, new drops 0
+Switch 1 port 3: TX 3.09 Mbps, RX 0.00 Mbps, new drops 0
+Switch 2 port 1: TX 3.11 Mbps, RX 0.00 Mbps, new drops 0
+Switch 2 port 3: TX 0.00 Mbps, RX 3.12 Mbps, new drops 0
+ANOMALY: Switch 1: h1 -> h3, 9.96 Mbps (threshold 2.43)
+Switch 1 port 1: TX 0.00 Mbps, RX 9.95 Mbps, new drops 0
+Switch 1 port 3: TX 9.95 Mbps, RX 0.00 Mbps, new drops 0
+ANOMALY: Switch 2: h1 -> h3, 9.89 Mbps (threshold 2.43)
+Switch 2 port 1: TX 9.86 Mbps, RX 0.00 Mbps, new drops 0
+Switch 2 port 3: TX 0.00 Mbps, RX 9.87 Mbps, new drops 0
+Switch 1 port 1: TX 0.00 Mbps, RX 10.04 Mbps, new drops 0
+Switch 1 port 3: TX 10.04 Mbps, RX 0.00 Mbps, new drops 0
+Switch 2 port 1: TX 10.11 Mbps, RX 0.00 Mbps, new drops 0
+Switch 2 port 3: TX 0.00 Mbps, RX 10.12 Mbps, new drops 0
+Switch 1 port 1: TX 0.00 Mbps, RX 10.00 Mbps, new drops 0
+Switch 1 port 3: TX 10.00 Mbps, RX 0.00 Mbps, new drops 0
+Switch 2 port 1: TX 10.00 Mbps, RX 0.00 Mbps, new drops 0
+Switch 2 port 3: TX 0.00 Mbps, RX 10.00 Mbps, new drops 0
+Switch 1 port 1: TX 0.00 Mbps, RX 10.00 Mbps, new drops 0
+Switch 1 port 3: TX 10.00 Mbps, RX 0.00 Mbps, new drops 0
+Switch 2 port 1: TX 10.00 Mbps, RX 0.00 Mbps, new drops 0
+Switch 2 port 3: TX 0.00 Mbps, RX 10.01 Mbps, new drops 0
+Switch 1 port 1: TX 0.00 Mbps, RX 10.00 Mbps, new drops 0
+Switch 1 port 3: TX 10.00 Mbps, RX 0.00 Mbps, new drops 0
+Switch 2 port 1: TX 9.99 Mbps, RX 0.00 Mbps, new drops 0
+Switch 2 port 3: TX 0.00 Mbps, RX 9.99 Mbps, new drops 0
+Switch 1 port 1: TX 0.00 Mbps, RX 9.97 Mbps, new drops 0
+Switch 1 port 3: TX 9.97 Mbps, RX 0.00 Mbps, new drops 0
+Switch 2 port 1: TX 9.93 Mbps, RX 0.00 Mbps, new drops 0
+Switch 2 port 3: TX 0.00 Mbps, RX 9.93 Mbps, new drops 0
+Switch 1 port 1: TX 0.00 Mbps, RX 9.99 Mbps, new drops 0
+Switch 1 port 3: TX 10.00 Mbps, RX 0.00 Mbps, new drops 0
+Switch 2 port 1: TX 9.97 Mbps, RX 0.00 Mbps, new drops 0
+Switch 2 port 3: TX 0.00 Mbps, RX 9.97 Mbps, new drops 0
+Switch 1 port 1: TX 0.00 Mbps, RX 10.03 Mbps, new drops 0
+Switch 1 port 3: TX 10.03 Mbps, RX 0.00 Mbps, new drops 0
+Switch 2 port 1: TX 10.10 Mbps, RX 0.00 Mbps, new drops 0
+Switch 2 port 3: TX 0.00 Mbps, RX 10.11 Mbps, new drops 0
+packet in 1 00:00:00:00:00:02 33:33:00:00:00:02 2
+packet in 2 00:00:00:00:00:02 33:33:00:00:00:02 3
+packet in 3 00:00:00:00:00:02 33:33:00:00:00:02 2
+Switch 1 port 1: TX 0.00 Mbps, RX 9.99 Mbps, new drops 0
+Switch 1 port 3: TX 9.99 Mbps, RX 0.00 Mbps, new drops 0
+Switch 2 port 1: TX 9.98 Mbps, RX 0.00 Mbps, new drops 0
+Switch 2 port 3: TX 0.00 Mbps, RX 9.99 Mbps, new drops 0
+Switch 1 port 1: TX 0.00 Mbps, RX 10.01 Mbps, new drops 0
+Switch 1 port 3: TX 10.01 Mbps, RX 0.00 Mbps, new drops 0
+Switch 2 port 1: TX 10.01 Mbps, RX 0.00 Mbps, new drops 0
+Switch 2 port 3: TX 0.00 Mbps, RX 10.01 Mbps, new drops 0
+Switch 1 port 1: TX 0.00 Mbps, RX 9.97 Mbps, new drops 0
+Switch 1 port 3: TX 9.97 Mbps, RX 0.00 Mbps, new drops 0
+Switch 2 port 1: TX 9.93 Mbps, RX 0.00 Mbps, new drops 0
+Switch 2 port 3: TX 0.00 Mbps, RX 9.93 Mbps, new drops 0
+Switch 1 port 1: TX 0.00 Mbps, RX 10.00 Mbps, new drops 0
+Switch 1 port 3: TX 9.99 Mbps, RX 0.00 Mbps, new drops 0
+Switch 2 port 1: TX 9.98 Mbps, RX 0.00 Mbps, new drops 0
+Switch 2 port 3: TX 0.00 Mbps, RX 9.97 Mbps, new drops 0
+Switch 1 port 1: TX 0.00 Mbps, RX 10.00 Mbps, new drops 0
+Switch 1 port 3: TX 10.00 Mbps, RX 0.00 Mbps, new drops 0
+Switch 2 port 1: TX 10.00 Mbps, RX 0.00 Mbps, new drops 0
+Switch 2 port 3: TX 0.00 Mbps, RX 10.01 Mbps, new drops 0
+Switch 1 port 1: TX 0.00 Mbps, RX 10.03 Mbps, new drops 0
+Switch 1 port 3: TX 10.03 Mbps, RX 0.00 Mbps, new drops 0
+Switch 2 port 1: TX 10.08 Mbps, RX 0.00 Mbps, new drops 0
+Switch 2 port 3: TX 0.00 Mbps, RX 10.07 Mbps, new drops 0
+Switch 1 port 1: TX 0.00 Mbps, RX 9.95 Mbps, new drops 0
+Switch 1 port 3: TX 9.96 Mbps, RX 0.00 Mbps, new drops 0
+Switch 2 port 1: TX 9.88 Mbps, RX 0.00 Mbps, new drops 0
+Switch 2 port 3: TX 0.00 Mbps, RX 9.89 Mbps, new drops 0
+Switch 1 port 1: TX 0.01 Mbps, RX 3.54 Mbps, new drops 0
+Switch 1 port 3: TX 3.56 Mbps, RX 0.01 Mbps, new drops 0
+Switch 2 port 1: TX 3.57 Mbps, RX 0.01 Mbps, new drops 0
+Switch 2 port 3: TX 0.01 Mbps, RX 3.56 Mbps, new drops 0
+RECOVERED: Switch 1: h1 -> h3, 0.00 Mbps (threshold 2.43)
+RECOVERED: Switch 2: h1 -> h3, 0.00 Mbps (threshold 2.43)
+packet in 1 00:00:00:00:00:01 33:33:00:00:00:02 1
+packet in 2 00:00:00:00:00:01 33:33:00:00:00:02 3
+packet in 3 00:00:00:00:00:01 33:33:00:00:00:02 2
+packet in 3 76:94:36:c5:84:8a 33:33:00:00:00:02 2
+packet in 3 00:00:00:00:01:00 33:33:00:00:00:02 1
+packet in 2 00:00:00:00:01:00 33:33:00:00:00:02 4
+packet in 1 00:00:00:00:01:00 33:33:00:00:00:02 3
+packet in 2 3e:1a:ad:7f:6a:3c 33:33:00:00:00:fb 4
+packet in 1 3e:1a:ad:7f:6a:3c 33:33:00:00:00:fb 3
+packet in 1 16:42:c4:5a:76:69 33:33:00:00:00:fb 3
+packet in 3 76:94:36:c5:84:8a 33:33:00:00:00:fb 2
+packet in 2 a6:d0:3a:40:0f:d0 33:33:00:00:00:fb 3
+packet in 3 a6:d0:3a:40:0f:d0 33:33:00:00:00:fb 2
+packet in 2 00:00:00:00:00:04 33:33:00:00:00:02 2
+packet in 2 3e:1a:ad:7f:6a:3c 33:33:00:00:00:02 4
+packet in 2 00:00:00:00:00:03 33:33:00:00:00:02 1
+packet in 1 00:00:00:00:00:04 33:33:00:00:00:02 3
+packet in 1 3e:1a:ad:7f:6a:3c 33:33:00:00:00:02 3
+packet in 1 00:00:00:00:00:03 33:33:00:00:00:02 3
+packet in 3 00:00:00:00:00:04 33:33:00:00:00:02 2
+packet in 3 00:00:00:00:00:03 33:33:00:00:00:02 2
+packet in 1 16:42:c4:5a:76:69 33:33:00:00:00:02 3
+packet in 2 a6:d0:3a:40:0f:d0 33:33:00:00:00:02 3
+packet in 3 a6:d0:3a:40:0f:d0 33:33:00:00:00:02 2
+packet in 1 00:00:00:00:00:02 33:33:00:00:00:02 2
+packet in 2 00:00:00:00:00:02 33:33:00:00:00:02 3
+packet in 3 00:00:00:00:00:02 33:33:00:00:00:02 2
+packet in 1 00:00:00:00:00:01 33:33:00:00:00:02 1
+packet in 2 00:00:00:00:00:01 33:33:00:00:00:02 3
+packet in 3 00:00:00:00:00:01 33:33:00:00:00:02 2
+packet in 3 76:94:36:c5:84:8a 33:33:00:00:00:02 2
+packet in 3 00:00:00:00:01:00 33:33:00:00:00:02 1
+packet in 2 00:00:00:00:01:00 33:33:00:00:00:02 4
+packet in 1 00:00:00:00:01:00 33:33:00:00:00:02 3
+packet in 2 3e:1a:ad:7f:6a:3c 33:33:00:00:00:fb 4
+packet in 1 3e:1a:ad:7f:6a:3c 33:33:00:00:00:fb 3
+packet in 1 16:42:c4:5a:76:69 33:33:00:00:00:fb 3
+packet in 3 76:94:36:c5:84:8a 33:33:00:00:00:fb 2
+packet in 2 a6:d0:3a:40:0f:d0 33:33:00:00:00:fb 3
+packet in 3 a6:d0:3a:40:0f:d0 33:33:00:00:00:fb 2
+packet in 2 3e:1a:ad:7f:6a:3c 33:33:00:00:00:02 4
+packet in 2 00:00:00:00:00:04 33:33:00:00:00:02 2
+packet in 2 00:00:00:00:00:03 33:33:00:00:00:02 1
+packet in 1 3e:1a:ad:7f:6a:3c 33:33:00:00:00:02 3
+packet in 1 00:00:00:00:00:04 33:33:00:00:00:02 3
+packet in 1 00:00:00:00:00:03 33:33:00:00:00:02 3
+packet in 3 00:00:00:00:00:04 33:33:00:00:00:02 2
+packet in 3 00:00:00:00:00:03 33:33:00:00:00:02 2
+packet in 1 16:42:c4:5a:76:69 33:33:00:00:00:02 3
+packet in 2 a6:d0:3a:40:0f:d0 33:33:00:00:00:02 3
+packet in 3 a6:d0:3a:40:0f:d0 33:33:00:00:00:02 2
+packet in 1 00:00:00:00:00:02 33:33:00:00:00:02 2
+packet in 2 00:00:00:00:00:02 33:33:00:00:00:02 3
+packet in 3 00:00:00:00:00:02 33:33:00:00:00:02 2
+packet in 1 00:00:00:00:00:01 33:33:00:00:00:02 1
+packet in 2 00:00:00:00:00:01 33:33:00:00:00:02 3
+packet in 3 00:00:00:00:00:01 33:33:00:00:00:02 2
+packet in 3 76:94:36:c5:84:8a 33:33:00:00:00:02 2
+packet in 3 00:00:00:00:01:00 33:33:00:00:00:02 1
+packet in 2 00:00:00:00:01:00 33:33:00:00:00:02 4
+packet in 1 00:00:00:00:01:00 33:33:00:00:00:02 3
+packet in 2 3e:1a:ad:7f:6a:3c 33:33:00:00:00:fb 4
+packet in 1 3e:1a:ad:7f:6a:3c 33:33:00:00:00:fb 3
+packet in 1 16:42:c4:5a:76:69 33:33:00:00:00:fb 3
+packet in 3 76:94:36:c5:84:8a 33:33:00:00:00:fb 2
+packet in 2 a6:d0:3a:40:0f:d0 33:33:00:00:00:fb 3
+packet in 3 a6:d0:3a:40:0f:d0 33:33:00:00:00:fb 2
+packet in 2 00:00:00:00:00:04 33:33:00:00:00:02 2
+packet in 1 00:00:00:00:00:04 33:33:00:00:00:02 3
+packet in 3 00:00:00:00:00:04 33:33:00:00:00:02 2
+packet in 2 00:00:00:00:00:03 33:33:00:00:00:02 1
+packet in 1 00:00:00:00:00:03 33:33:00:00:00:02 3
+packet in 3 00:00:00:00:00:03 33:33:00:00:00:02 2
+packet in 1 16:42:c4:5a:76:69 33:33:00:00:00:02 3
+packet in 2 3e:1a:ad:7f:6a:3c 33:33:00:00:00:02 4
+packet in 1 3e:1a:ad:7f:6a:3c 33:33:00:00:00:02 3
+packet in 2 a6:d0:3a:40:0f:d0 33:33:00:00:00:02 3
+packet in 3 a6:d0:3a:40:0f:d0 33:33:00:00:00:02 2
+packet in 1 00:00:00:00:00:02 33:33:00:00:00:02 2
+packet in 2 00:00:00:00:00:02 33:33:00:00:00:02 3
+packet in 3 00:00:00:00:00:02 33:33:00:00:00:02 2
+packet in 1 00:00:00:00:00:01 33:33:00:00:00:02 1
+packet in 2 00:00:00:00:00:01 33:33:00:00:00:02 3
+packet in 3 00:00:00:00:00:01 33:33:00:00:00:02 2
+packet in 3 00:00:00:00:01:00 33:33:00:00:00:02 1
+packet in 3 76:94:36:c5:84:8a 33:33:00:00:00:02 2
+packet in 2 00:00:00:00:01:00 33:33:00:00:00:02 4
+packet in 1 00:00:00:00:01:00 33:33:00:00:00:02 3
+packet in 2 00:00:00:00:00:04 33:33:00:00:00:02 2
+packet in 1 00:00:00:00:00:04 33:33:00:00:00:02 3
+packet in 3 00:00:00:00:00:04 33:33:00:00:00:02 2
+packet in 2 3e:1a:ad:7f:6a:3c 33:33:00:00:00:fb 4
+packet in 1 3e:1a:ad:7f:6a:3c 33:33:00:00:00:fb 3
+packet in 1 16:42:c4:5a:76:69 33:33:00:00:00:fb 3
+packet in 3 76:94:36:c5:84:8a 33:33:00:00:00:fb 2
+packet in 2 a6:d0:3a:40:0f:d0 33:33:00:00:00:fb 3
+packet in 3 a6:d0:3a:40:0f:d0 33:33:00:00:00:fb 2
+packet in 1 16:42:c4:5a:76:69 33:33:00:00:00:02 3
+packet in 2 00:00:00:00:00:03 33:33:00:00:00:02 1
+packet in 1 00:00:00:00:00:03 33:33:00:00:00:02 3
+packet in 3 00:00:00:00:00:03 33:33:00:00:00:02 2
+packet in 2 3e:1a:ad:7f:6a:3c 33:33:00:00:00:02 4
+packet in 1 3e:1a:ad:7f:6a:3c 33:33:00:00:00:02 3
+packet in 2 a6:d0:3a:40:0f:d0 33:33:00:00:00:02 3
+packet in 3 a6:d0:3a:40:0f:d0 33:33:00:00:00:02 2
+packet in 1 00:00:00:00:00:02 33:33:00:00:00:02 2
+packet in 2 00:00:00:00:00:02 33:33:00:00:00:02 3
+packet in 3 00:00:00:00:00:02 33:33:00:00:00:02 2
+packet in 1 00:00:00:00:00:01 33:33:00:00:00:02 1
+packet in 2 00:00:00:00:00:01 33:33:00:00:00:02 3
+packet in 3 00:00:00:00:00:01 33:33:00:00:00:02 2
+packet in 2 3e:1a:ad:7f:6a:3c 33:33:00:00:00:fb 4
+packet in 1 16:42:c4:5a:76:69 33:33:00:00:00:fb 3
+packet in 1 3e:1a:ad:7f:6a:3c 33:33:00:00:00:fb 3
+packet in 3 76:94:36:c5:84:8a 33:33:00:00:00:fb 2
+packet in 2 a6:d0:3a:40:0f:d0 33:33:00:00:00:fb 3
+packet in 3 a6:d0:3a:40:0f:d0 33:33:00:00:00:fb 2
+packet in 1 16:42:c4:5a:76:69 33:33:00:00:00:02 3
+packet in 3 76:94:36:c5:84:8a 33:33:00:00:00:02 2
+packet in 2 00:00:00:00:00:03 33:33:00:00:00:02 1
+packet in 2 00:00:00:00:00:04 33:33:00:00:00:02 2
+packet in 1 00:00:00:00:00:03 33:33:00:00:00:02 3
+packet in 1 00:00:00:00:00:04 33:33:00:00:00:02 3
+packet in 3 00:00:00:00:00:03 33:33:00:00:00:02 2
+packet in 3 00:00:00:00:00:04 33:33:00:00:00:02 2
+packet in 3 00:00:00:00:01:00 33:33:00:00:00:02 1
+packet in 2 00:00:00:00:01:00 33:33:00:00:00:02 4
+packet in 1 00:00:00:00:01:00 33:33:00:00:00:02 3
+packet in 2 3e:1a:ad:7f:6a:3c 33:33:00:00:00:02 4
+packet in 1 3e:1a:ad:7f:6a:3c 33:33:00:00:00:02 3
+packet in 2 a6:d0:3a:40:0f:d0 33:33:00:00:00:02 3
+packet in 3 a6:d0:3a:40:0f:d0 33:33:00:00:00:02 2
+packet in 1 00:00:00:00:00:02 33:33:00:00:00:02 2
+packet in 2 00:00:00:00:00:02 33:33:00:00:00:02 3
+packet in 3 00:00:00:00:00:02 33:33:00:00:00:02 2
+packet in 1 00:00:00:00:00:01 33:33:00:00:00:02 1
+packet in 2 00:00:00:00:00:01 33:33:00:00:00:02 3
+packet in 3 00:00:00:00:00:01 33:33:00:00:00:02 2
+packet in 1 16:42:c4:5a:76:69 33:33:00:00:00:fb 3
+packet in 2 3e:1a:ad:7f:6a:3c 33:33:00:00:00:fb 4
+packet in 1 3e:1a:ad:7f:6a:3c 33:33:00:00:00:fb 3
+packet in 3 76:94:36:c5:84:8a 33:33:00:00:00:fb 2
+packet in 2 a6:d0:3a:40:0f:d0 33:33:00:00:00:fb 3
+packet in 3 a6:d0:3a:40:0f:d0 33:33:00:00:00:fb 2
+packet in 3 76:94:36:c5:84:8a 33:33:00:00:00:02 2
+packet in 2 00:00:00:00:00:03 33:33:00:00:00:02 1
+packet in 2 00:00:00:00:00:04 33:33:00:00:00:02 2
+packet in 1 00:00:00:00:00:03 33:33:00:00:00:02 3
+packet in 1 00:00:00:00:00:04 33:33:00:00:00:02 3
+packet in 3 00:00:00:00:00:03 33:33:00:00:00:02 2
+packet in 3 00:00:00:00:00:04 33:33:00:00:00:02 2
+packet in 3 00:00:00:00:01:00 33:33:00:00:00:02 1
+packet in 2 00:00:00:00:01:00 33:33:00:00:00:02 4
+packet in 1 00:00:00:00:01:00 33:33:00:00:00:02 3
+packet in 1 16:42:c4:5a:76:69 33:33:00:00:00:02 3
+packet in 2 3e:1a:ad:7f:6a:3c 33:33:00:00:00:02 4
+packet in 1 3e:1a:ad:7f:6a:3c 33:33:00:00:00:02 3
+packet in 2 a6:d0:3a:40:0f:d0 33:33:00:00:00:02 3
+packet in 3 a6:d0:3a:40:0f:d0 33:33:00:00:00:02 2
+packet in 1 00:00:00:00:00:02 33:33:00:00:00:02 2
+packet in 2 00:00:00:00:00:02 33:33:00:00:00:02 3
+packet in 3 00:00:00:00:00:02 33:33:00:00:00:02 2
+packet in 1 00:00:00:00:00:01 33:33:00:00:00:02 1
+packet in 2 00:00:00:00:00:04 33:33:00:00:00:02 2
+packet in 2 00:00:00:00:00:01 33:33:00:00:00:02 3
+packet in 3 00:00:00:00:00:04 33:33:00:00:00:02 2
+packet in 1 00:00:00:00:00:04 33:33:00:00:00:02 3
+packet in 3 00:00:00:00:00:01 33:33:00:00:00:02 2
+packet in 1 16:42:c4:5a:76:69 33:33:00:00:00:fb 3
+packet in 2 3e:1a:ad:7f:6a:3c 33:33:00:00:00:fb 4
+packet in 1 3e:1a:ad:7f:6a:3c 33:33:00:00:00:fb 3
+packet in 3 76:94:36:c5:84:8a 33:33:00:00:00:fb 2
+packet in 2 a6:d0:3a:40:0f:d0 33:33:00:00:00:fb 3
+packet in 3 a6:d0:3a:40:0f:d0 33:33:00:00:00:fb 2
+packet in 3 76:94:36:c5:84:8a 33:33:00:00:00:02 2
+packet in 2 00:00:00:00:00:03 33:33:00:00:00:02 1
+packet in 1 00:00:00:00:00:03 33:33:00:00:00:02 3
+packet in 3 00:00:00:00:00:03 33:33:00:00:00:02 2
+packet in 1 16:42:c4:5a:76:69 33:33:00:00:00:02 3
+packet in 3 00:00:00:00:01:00 33:33:00:00:00:02 1
+packet in 2 00:00:00:00:01:00 33:33:00:00:00:02 4
+packet in 1 00:00:00:00:01:00 33:33:00:00:00:02 3
+packet in 2 a6:d0:3a:40:0f:d0 33:33:00:00:00:02 3
+packet in 2 3e:1a:ad:7f:6a:3c 33:33:00:00:00:02 4
+packet in 1 3e:1a:ad:7f:6a:3c 33:33:00:00:00:02 3
+packet in 3 a6:d0:3a:40:0f:d0 33:33:00:00:00:02 2
+packet in 1 00:00:00:00:00:02 33:33:00:00:00:02 2
+packet in 2 00:00:00:00:00:02 33:33:00:00:00:02 3
+packet in 3 00:00:00:00:00:02 33:33:00:00:00:02 2
+packet in 1 16:42:c4:5a:76:69 33:33:00:00:00:fb 3
+packet in 2 3e:1a:ad:7f:6a:3c 33:33:00:00:00:fb 4
+packet in 1 3e:1a:ad:7f:6a:3c 33:33:00:00:00:fb 3
+packet in 3 76:94:36:c5:84:8a 33:33:00:00:00:fb 2
+packet in 2 a6:d0:3a:40:0f:d0 33:33:00:00:00:fb 3
+packet in 3 a6:d0:3a:40:0f:d0 33:33:00:00:00:fb 2
+packet in 1 00:00:00:00:00:01 33:33:00:00:00:02 1
+packet in 2 00:00:00:00:00:04 33:33:00:00:00:02 2
+packet in 2 00:00:00:00:00:03 33:33:00:00:00:02 1
+packet in 2 00:00:00:00:00:01 33:33:00:00:00:02 3
+packet in 1 00:00:00:00:00:04 33:33:00:00:00:02 3
+packet in 1 00:00:00:00:00:03 33:33:00:00:00:02 3
+packet in 3 00:00:00:00:00:04 33:33:00:00:00:02 2
+packet in 3 00:00:00:00:00:03 33:33:00:00:00:02 2
+packet in 3 00:00:00:00:00:01 33:33:00:00:00:02 2
+packet in 3 76:94:36:c5:84:8a 33:33:00:00:00:02 2
+packet in 1 16:42:c4:5a:76:69 33:33:00:00:00:02 3
+packet in 3 00:00:00:00:01:00 33:33:00:00:00:02 1
+packet in 2 a6:d0:3a:40:0f:d0 33:33:00:00:00:02 3
+packet in 3 a6:d0:3a:40:0f:d0 33:33:00:00:00:02 2
+packet in 2 00:00:00:00:01:00 33:33:00:00:00:02 4
+packet in 1 00:00:00:00:01:00 33:33:00:00:00:02 3
+packet in 2 3e:1a:ad:7f:6a:3c 33:33:00:00:00:02 4
+packet in 1 3e:1a:ad:7f:6a:3c 33:33:00:00:00:02 3
+packet in 1 16:42:c4:5a:76:69 33:33:00:00:00:fb 3
+packet in 2 3e:1a:ad:7f:6a:3c 33:33:00:00:00:fb 4
+packet in 1 3e:1a:ad:7f:6a:3c 33:33:00:00:00:fb 3
+packet in 3 76:94:36:c5:84:8a 33:33:00:00:00:fb 2
+packet in 2 a6:d0:3a:40:0f:d0 33:33:00:00:00:fb 3
+packet in 3 a6:d0:3a:40:0f:d0 33:33:00:00:00:fb 2
+packet in 1 00:00:00:00:00:02 33:33:00:00:00:02 2
+packet in 2 00:00:00:00:00:02 33:33:00:00:00:02 3
+packet in 3 00:00:00:00:00:02 33:33:00:00:00:02 2
+packet in 2 00:00:00:00:00:03 33:33:00:00:00:02 1
+packet in 1 00:00:00:00:00:03 33:33:00:00:00:02 3
+packet in 3 00:00:00:00:00:03 33:33:00:00:00:02 2
+packet in 3 76:94:36:c5:84:8a 33:33:00:00:00:02 2
+packet in 2 00:00:00:00:00:04 33:33:00:00:00:02 2
+packet in 1 00:00:00:00:00:04 33:33:00:00:00:02 3
+packet in 3 00:00:00:00:00:04 33:33:00:00:00:02 2
+packet in 1 16:42:c4:5a:76:69 33:33:00:00:00:02 3
+packet in 2 a6:d0:3a:40:0f:d0 33:33:00:00:00:02 3
+packet in 1 00:00:00:00:00:01 33:33:00:00:00:02 1
+packet in 2 00:00:00:00:00:01 33:33:00:00:00:02 3
+packet in 3 a6:d0:3a:40:0f:d0 33:33:00:00:00:02 2
+packet in 3 00:00:00:00:00:01 33:33:00:00:00:02 2
+packet in 3 00:00:00:00:01:00 33:33:00:00:00:02 1
+packet in 2 00:00:00:00:01:00 33:33:00:00:00:02 4
+packet in 1 00:00:00:00:01:00 33:33:00:00:00:02 3
+packet in 2 3e:1a:ad:7f:6a:3c 33:33:00:00:00:02 4
+packet in 1 3e:1a:ad:7f:6a:3c 33:33:00:00:00:02 3
+packet in 1 16:42:c4:5a:76:69 33:33:00:00:00:fb 3
+packet in 2 3e:1a:ad:7f:6a:3c 33:33:00:00:00:fb 4
+packet in 1 3e:1a:ad:7f:6a:3c 33:33:00:00:00:fb 3
+packet in 3 76:94:36:c5:84:8a 33:33:00:00:00:fb 2
+packet in 2 a6:d0:3a:40:0f:d0 33:33:00:00:00:fb 3
+packet in 3 a6:d0:3a:40:0f:d0 33:33:00:00:00:fb 2
+packet in 2 00:00:00:00:00:03 33:33:00:00:00:02 1
+packet in 1 00:00:00:00:00:03 33:33:00:00:00:02 3
+packet in 3 00:00:00:00:00:03 33:33:00:00:00:02 2
+packet in 1 00:00:00:00:00:02 33:33:00:00:00:02 2
+packet in 2 00:00:00:00:00:02 33:33:00:00:00:02 3
+packet in 3 00:00:00:00:00:02 33:33:00:00:00:02 2
+packet in 1 00:00:00:00:00:01 33:33:00:00:00:02 1
+packet in 2 a6:d0:3a:40:0f:d0 33:33:00:00:00:02 3
+packet in 2 00:00:00:00:00:01 33:33:00:00:00:02 3
+packet in 3 a6:d0:3a:40:0f:d0 33:33:00:00:00:02 2
+packet in 3 00:00:00:00:00:01 33:33:00:00:00:02 2
+packet in 1 16:42:c4:5a:76:69 33:33:00:00:00:02 3
+packet in 3 76:94:36:c5:84:8a 33:33:00:00:00:02 2
+packet in 2 00:00:00:00:00:04 33:33:00:00:00:02 2
+packet in 1 00:00:00:00:00:04 33:33:00:00:00:02 3
+packet in 3 00:00:00:00:00:04 33:33:00:00:00:02 2
+packet in 3 00:00:00:00:01:00 33:33:00:00:00:02 1
+packet in 2 00:00:00:00:01:00 33:33:00:00:00:02 4
+packet in 1 00:00:00:00:01:00 33:33:00:00:00:02 3
+packet in 2 3e:1a:ad:7f:6a:3c 33:33:00:00:00:02 4
+packet in 1 3e:1a:ad:7f:6a:3c 33:33:00:00:00:02 3
+packet in 1 16:42:c4:5a:76:69 33:33:00:00:00:fb 3
+packet in 2 3e:1a:ad:7f:6a:3c 33:33:00:00:00:fb 4
+packet in 1 3e:1a:ad:7f:6a:3c 33:33:00:00:00:fb 3
+packet in 3 76:94:36:c5:84:8a 33:33:00:00:00:fb 2
+packet in 2 a6:d0:3a:40:0f:d0 33:33:00:00:00:fb 3
+packet in 3 a6:d0:3a:40:0f:d0 33:33:00:00:00:fb 2
+packet in 1 00:00:00:00:00:02 33:33:00:00:00:02 2
+packet in 2 a6:d0:3a:40:0f:d0 33:33:00:00:00:02 3
+packet in 2 00:00:00:00:00:03 33:33:00:00:00:02 1
+packet in 2 00:00:00:00:00:02 33:33:00:00:00:02 3
+packet in 1 00:00:00:00:00:03 33:33:00:00:00:02 3
+packet in 3 a6:d0:3a:40:0f:d0 33:33:00:00:00:02 2
+packet in 3 00:00:00:00:00:03 33:33:00:00:00:02 2
+packet in 3 00:00:00:00:00:02 33:33:00:00:00:02 2
+packet in 1 16:42:c4:5a:76:69 33:33:00:00:00:02 3
+packet in 3 76:94:36:c5:84:8a 33:33:00:00:00:02 2
+packet in 1 00:00:00:00:00:01 33:33:00:00:00:02 1
+packet in 2 00:00:00:00:00:01 33:33:00:00:00:02 3
+packet in 3 00:00:00:00:00:01 33:33:00:00:00:02 2
+packet in 2 00:00:00:00:00:04 33:33:00:00:00:02 2
+packet in 1 00:00:00:00:00:04 33:33:00:00:00:02 3
+packet in 3 00:00:00:00:00:04 33:33:00:00:00:02 2
+packet in 3 00:00:00:00:01:00 33:33:00:00:00:02 1
+packet in 2 00:00:00:00:01:00 33:33:00:00:00:02 4
+packet in 1 00:00:00:00:01:00 33:33:00:00:00:02 3
+packet in 2 3e:1a:ad:7f:6a:3c 33:33:00:00:00:02 4
+packet in 1 3e:1a:ad:7f:6a:3c 33:33:00:00:00:02 3
+packet in 2 3e:1a:ad:7f:6a:3c 33:33:00:00:00:fb 4
+packet in 1 16:42:c4:5a:76:69 33:33:00:00:00:fb 3
+packet in 2 a6:d0:3a:40:0f:d0 33:33:00:00:00:fb 3
+packet in 1 3e:1a:ad:7f:6a:3c 33:33:00:00:00:fb 3
+packet in 3 a6:d0:3a:40:0f:d0 33:33:00:00:00:fb 2
+packet in 3 76:94:36:c5:84:8a 33:33:00:00:00:fb 2
+packet in 3 76:94:36:c5:84:8a 33:33:00:00:00:0c 2
+packet in 2 a6:d0:3a:40:0f:d0 33:33:00:00:00:0c 3
+packet in 2 3e:1a:ad:7f:6a:3c 33:33:00:00:00:0c 4
+packet in 1 16:42:c4:5a:76:69 33:33:00:00:00:0c 3
+packet in 2 3e:1a:ad:7f:6a:3c 33:33:00:00:00:16 4
+packet in 2 a6:d0:3a:40:0f:d0 33:33:00:00:00:16 3
+packet in 3 76:94:36:c5:84:8a 33:33:00:00:00:16 2
+packet in 1 16:42:c4:5a:76:69 33:33:00:00:00:16 3
+packet in 1 3e:1a:ad:7f:6a:3c 33:33:00:00:00:0c 3
+packet in 3 a6:d0:3a:40:0f:d0 33:33:00:00:00:0c 2
+packet in 3 76:94:36:c5:84:8a 33:33:00:00:00:16 2
+packet in 1 16:42:c4:5a:76:69 33:33:00:00:00:16 3
+packet in 2 a6:d0:3a:40:0f:d0 33:33:00:00:00:16 3
+packet in 2 3e:1a:ad:7f:6a:3c 33:33:00:00:00:16 4
+packet in 3 a6:d0:3a:40:0f:d0 33:33:00:00:00:16 2
+packet in 1 3e:1a:ad:7f:6a:3c 33:33:00:00:00:16 3
+packet in 1 3e:1a:ad:7f:6a:3c 33:33:00:00:00:16 3
+packet in 3 a6:d0:3a:40:0f:d0 33:33:00:00:00:16 2
+packet in 3 76:94:36:c5:84:8a 33:33:00:00:00:16 2
+packet in 2 a6:d0:3a:40:0f:d0 33:33:00:00:00:16 3
+packet in 3 a6:d0:3a:40:0f:d0 33:33:00:00:00:16 2
+packet in 2 3e:1a:ad:7f:6a:3c 33:33:00:00:00:16 4
+packet in 1 3e:1a:ad:7f:6a:3c 33:33:00:00:00:16 3
+packet in 1 16:42:c4:5a:76:69 33:33:00:00:00:16 3
+Switch 1 port 1: TX 0.05 Mbps, RX 0.16 Mbps, new drops 0
+Switch 1 port 2: TX 0.05 Mbps, RX 0.16 Mbps, new drops 0
+Switch 1 port 3: TX 0.32 Mbps, RX 0.08 Mbps, new drops 0
+Switch 2 port 1: TX 0.06 Mbps, RX 0.21 Mbps, new drops 0
+Switch 2 port 4: TX 0.54 Mbps, RX 0.12 Mbps, new drops 0
+Switch 2 port 2: TX 0.01 Mbps, RX 0.00 Mbps, new drops 0
+Switch 2 port 3: TX 0.08 Mbps, RX 0.32 Mbps, new drops 0
+Switch 3 port 1: TX 0.55 Mbps, RX 0.11 Mbps, new drops 0
+Switch 3 port 2: TX 0.12 Mbps, RX 0.54 Mbps, new drops 0
+Switch 1 port 1: TX 0.03 Mbps, RX 0.16 Mbps, new drops 0
+Switch 1 port 2: TX 0.03 Mbps, RX 0.16 Mbps, new drops 0
+Switch 1 port 3: TX 0.32 Mbps, RX 0.07 Mbps, new drops 0
+Switch 3 port 1: TX 0.53 Mbps, RX 0.11 Mbps, new drops 0
+Switch 3 port 2: TX 0.11 Mbps, RX 0.53 Mbps, new drops 0
+Switch 2 port 1: TX 0.04 Mbps, RX 0.21 Mbps, new drops 0
+Switch 2 port 4: TX 0.52 Mbps, RX 0.11 Mbps, new drops 0
+Switch 2 port 3: TX 0.07 Mbps, RX 0.32 Mbps, new drops 0
+Switch 1 port 1: TX 0.03 Mbps, RX 0.16 Mbps, new drops 0
+Switch 1 port 2: TX 0.03 Mbps, RX 0.16 Mbps, new drops 0
+Switch 1 port 3: TX 0.32 Mbps, RX 0.07 Mbps, new drops 0
+Switch 3 port 1: TX 0.52 Mbps, RX 0.11 Mbps, new drops 0
+Switch 3 port 2: TX 0.11 Mbps, RX 0.52 Mbps, new drops 0
+Switch 2 port 1: TX 0.04 Mbps, RX 0.21 Mbps, new drops 0
+Switch 2 port 4: TX 0.52 Mbps, RX 0.11 Mbps, new drops 0
+Switch 2 port 3: TX 0.07 Mbps, RX 0.32 Mbps, new drops 0
+Switch 1 port 1: TX 0.03 Mbps, RX 0.15 Mbps, new drops 0
+Switch 1 port 2: TX 0.03 Mbps, RX 0.15 Mbps, new drops 0
+Switch 1 port 3: TX 0.30 Mbps, RX 0.06 Mbps, new drops 0
+Switch 3 port 1: TX 0.50 Mbps, RX 0.10 Mbps, new drops 0
+Switch 3 port 2: TX 0.10 Mbps, RX 0.50 Mbps, new drops 0
+Switch 2 port 1: TX 0.04 Mbps, RX 0.20 Mbps, new drops 0
+Switch 2 port 4: TX 0.50 Mbps, RX 0.10 Mbps, new drops 0
+Switch 2 port 3: TX 0.06 Mbps, RX 0.30 Mbps, new drops 0
+Switch 1 port 1: TX 0.03 Mbps, RX 0.15 Mbps, new drops 0
+Switch 1 port 2: TX 0.03 Mbps, RX 0.15 Mbps, new drops 0
+Switch 1 port 3: TX 0.30 Mbps, RX 0.06 Mbps, new drops 0
+Switch 3 port 1: TX 0.50 Mbps, RX 0.10 Mbps, new drops 0
+Switch 3 port 2: TX 0.10 Mbps, RX 0.50 Mbps, new drops 0
+Switch 2 port 1: TX 0.04 Mbps, RX 0.20 Mbps, new drops 0
+Switch 2 port 4: TX 0.50 Mbps, RX 0.10 Mbps, new drops 0
+Switch 2 port 3: TX 0.06 Mbps, RX 0.30 Mbps, new drops 0
+packet in 1 16:42:c4:5a:76:69 33:33:00:00:00:0c 3
+packet in 2 a6:d0:3a:40:0f:d0 33:33:00:00:00:0c 3
+packet in 2 3e:1a:ad:7f:6a:3c 33:33:00:00:00:0c 4
+packet in 3 76:94:36:c5:84:8a 33:33:00:00:00:0c 2
+packet in 1 16:42:c4:5a:76:69 33:33:00:00:00:16 3
+packet in 3 76:94:36:c5:84:8a 33:33:00:00:00:16 2
+packet in 2 3e:1a:ad:7f:6a:3c 33:33:00:00:00:16 4
+packet in 2 a6:d0:3a:40:0f:d0 33:33:00:00:00:16 3
+packet in 1 3e:1a:ad:7f:6a:3c 33:33:00:00:00:0c 3
+packet in 3 a6:d0:3a:40:0f:d0 33:33:00:00:00:0c 2
+packet in 1 16:42:c4:5a:76:69 33:33:00:00:00:16 3
+packet in 3 76:94:36:c5:84:8a 33:33:00:00:00:16 2
+packet in 2 a6:d0:3a:40:0f:d0 33:33:00:00:00:16 3
+packet in 2 3e:1a:ad:7f:6a:3c 33:33:00:00:00:16 4
+packet in 1 3e:1a:ad:7f:6a:3c 33:33:00:00:00:16 3
+packet in 3 a6:d0:3a:40:0f:d0 33:33:00:00:00:16 2
+packet in 1 3e:1a:ad:7f:6a:3c 33:33:00:00:00:16 3
+packet in 3 a6:d0:3a:40:0f:d0 33:33:00:00:00:16 2
+packet in 1 16:42:c4:5a:76:69 33:33:00:00:00:16 3
+Switch 1 port 1: TX 0.04 Mbps, RX 0.16 Mbps, new drops 0
+Switch 1 port 2: TX 0.04 Mbps, RX 0.15 Mbps, new drops 0
+Switch 1 port 3: TX 0.31 Mbps, RX 0.07 Mbps, new drops 0
+Switch 3 port 1: TX 0.52 Mbps, RX 0.11 Mbps, new drops 0
+Switch 3 port 2: TX 0.11 Mbps, RX 0.52 Mbps, new drops 0
+Switch 2 port 1: TX 0.05 Mbps, RX 0.20 Mbps, new drops 0
+Switch 2 port 4: TX 0.52 Mbps, RX 0.11 Mbps, new drops 0
+Switch 2 port 2: TX 0.01 Mbps, RX 0.00 Mbps, new drops 0
+Switch 2 port 3: TX 0.07 Mbps, RX 0.31 Mbps, new drops 0
+packet in 2 a6:d0:3a:40:0f:d0 33:33:00:00:00:16 3
+packet in 3 a6:d0:3a:40:0f:d0 33:33:00:00:00:16 2
+packet in 2 3e:1a:ad:7f:6a:3c 33:33:00:00:00:16 4
+packet in 1 3e:1a:ad:7f:6a:3c 33:33:00:00:00:16 3
+packet in 3 76:94:36:c5:84:8a 33:33:00:00:00:16 2
+packet in 1 16:42:c4:5a:76:69 33:33:00:00:00:0c 3
+packet in 2 a6:d0:3a:40:0f:d0 33:33:00:00:00:0c 3
+packet in 2 3e:1a:ad:7f:6a:3c 33:33:00:00:00:0c 4
+packet in 3 76:94:36:c5:84:8a 33:33:00:00:00:0c 2
+packet in 1 3e:1a:ad:7f:6a:3c 33:33:00:00:00:0c 3
+packet in 1 16:42:c4:5a:76:69 33:33:00:00:00:16 3
+packet in 3 a6:d0:3a:40:0f:d0 33:33:00:00:00:0c 2
+packet in 3 76:94:36:c5:84:8a 33:33:00:00:00:16 2
+packet in 2 a6:d0:3a:40:0f:d0 33:33:00:00:00:16 3
+packet in 2 3e:1a:ad:7f:6a:3c 33:33:00:00:00:16 4
+packet in 1 3e:1a:ad:7f:6a:3c 33:33:00:00:00:16 3
+packet in 3 a6:d0:3a:40:0f:d0 33:33:00:00:00:16 2
+packet in 3 76:94:36:c5:84:8a 33:33:00:00:00:16 2
+packet in 2 a6:d0:3a:40:0f:d0 33:33:00:00:00:16 3
+packet in 3 a6:d0:3a:40:0f:d0 33:33:00:00:00:16 2
+packet in 1 16:42:c4:5a:76:69 33:33:00:00:00:16 3
+packet in 2 3e:1a:ad:7f:6a:3c 33:33:00:00:00:16 4
+packet in 1 3e:1a:ad:7f:6a:3c 33:33:00:00:00:16 3
+Switch 1 port 1: TX 0.04 Mbps, RX 0.16 Mbps, new drops 0
+Switch 1 port 2: TX 0.04 Mbps, RX 0.15 Mbps, new drops 0
+Switch 1 port 3: TX 0.31 Mbps, RX 0.07 Mbps, new drops 0
+Switch 3 port 1: TX 0.52 Mbps, RX 0.11 Mbps, new drops 0
+Switch 3 port 2: TX 0.11 Mbps, RX 0.52 Mbps, new drops 0
+Switch 2 port 1: TX 0.05 Mbps, RX 0.20 Mbps, new drops 0
+Switch 2 port 4: TX 0.52 Mbps, RX 0.11 Mbps, new drops 0
+Switch 2 port 2: TX 0.01 Mbps, RX 0.00 Mbps, new drops 0
+Switch 2 port 3: TX 0.07 Mbps, RX 0.31 Mbps, new drops 0
+Switch 1 port 1: TX 0.03 Mbps, RX 0.16 Mbps, new drops 0
+Switch 1 port 2: TX 0.03 Mbps, RX 0.15 Mbps, new drops 0
+Switch 1 port 3: TX 0.31 Mbps, RX 0.06 Mbps, new drops 0
+Switch 2 port 1: TX 0.04 Mbps, RX 0.20 Mbps, new drops 0
+Switch 2 port 4: TX 0.51 Mbps, RX 0.11 Mbps, new drops 0
+Switch 2 port 3: TX 0.06 Mbps, RX 0.31 Mbps, new drops 0
+Switch 3 port 1: TX 0.51 Mbps, RX 0.11 Mbps, new drops 0
+Switch 3 port 2: TX 0.11 Mbps, RX 0.51 Mbps, new drops 0
+Switch 1 port 1: TX 0.03 Mbps, RX 0.15 Mbps, new drops 0
+Switch 1 port 2: TX 0.03 Mbps, RX 0.15 Mbps, new drops 0
+Switch 1 port 3: TX 0.31 Mbps, RX 0.06 Mbps, new drops 0
+Switch 3 port 1: TX 0.52 Mbps, RX 0.11 Mbps, new drops 0
+Switch 3 port 2: TX 0.11 Mbps, RX 0.51 Mbps, new drops 0
+Switch 2 port 1: TX 0.04 Mbps, RX 0.20 Mbps, new drops 0
+Switch 2 port 4: TX 0.51 Mbps, RX 0.11 Mbps, new drops 0
+Switch 2 port 3: TX 0.07 Mbps, RX 0.31 Mbps, new drops 0
+Switch 1 port 1: TX 0.03 Mbps, RX 0.15 Mbps, new drops 0
+Switch 1 port 2: TX 0.03 Mbps, RX 0.15 Mbps, new drops 0
+Switch 1 port 3: TX 0.30 Mbps, RX 0.06 Mbps, new drops 0
+Switch 2 port 1: TX 0.04 Mbps, RX 0.19 Mbps, new drops 0
+Switch 2 port 4: TX 0.49 Mbps, RX 0.10 Mbps, new drops 0
+Switch 2 port 3: TX 0.06 Mbps, RX 0.30 Mbps, new drops 0
+Switch 3 port 1: TX 0.49 Mbps, RX 0.10 Mbps, new drops 0
+Switch 3 port 2: TX 0.10 Mbps, RX 0.49 Mbps, new drops 0
+Switch 1 port 1: TX 0.03 Mbps, RX 0.15 Mbps, new drops 0
+Switch 1 port 2: TX 0.03 Mbps, RX 0.15 Mbps, new drops 0
+Switch 1 port 3: TX 0.30 Mbps, RX 0.06 Mbps, new drops 0
+Switch 3 port 1: TX 0.50 Mbps, RX 0.10 Mbps, new drops 0
+Switch 3 port 2: TX 0.10 Mbps, RX 0.50 Mbps, new drops 0
+Switch 2 port 1: TX 0.04 Mbps, RX 0.19 Mbps, new drops 0
+Switch 2 port 4: TX 0.49 Mbps, RX 0.10 Mbps, new drops 0
+Switch 2 port 3: TX 0.06 Mbps, RX 0.30 Mbps, new drops 0
+Switch 1 port 1: TX 0.03 Mbps, RX 0.15 Mbps, new drops 0
+Switch 1 port 2: TX 0.03 Mbps, RX 0.15 Mbps, new drops 0
+Switch 1 port 3: TX 0.30 Mbps, RX 0.06 Mbps, new drops 0
+Switch 3 port 1: TX 0.49 Mbps, RX 0.10 Mbps, new drops 0
+Switch 3 port 2: TX 0.10 Mbps, RX 0.49 Mbps, new drops 0
+Switch 2 port 1: TX 0.04 Mbps, RX 0.19 Mbps, new drops 0
+Switch 2 port 4: TX 0.49 Mbps, RX 0.10 Mbps, new drops 0
+Switch 2 port 3: TX 0.06 Mbps, RX 0.30 Mbps, new drops 0
+Switch 1 port 1: TX 0.03 Mbps, RX 0.15 Mbps, new drops 0
+Switch 1 port 2: TX 0.03 Mbps, RX 0.15 Mbps, new drops 0
+Switch 1 port 3: TX 0.30 Mbps, RX 0.06 Mbps, new drops 0
+Switch 2 port 1: TX 0.04 Mbps, RX 0.20 Mbps, new drops 0
+Switch 2 port 4: TX 0.50 Mbps, RX 0.10 Mbps, new drops 0
+Switch 2 port 3: TX 0.06 Mbps, RX 0.30 Mbps, new drops 0
+Switch 3 port 1: TX 0.49 Mbps, RX 0.10 Mbps, new drops 0
+Switch 3 port 2: TX 0.10 Mbps, RX 0.49 Mbps, new drops 0
+Switch 1 port 1: TX 0.03 Mbps, RX 0.15 Mbps, new drops 0
+Switch 1 port 2: TX 0.03 Mbps, RX 0.15 Mbps, new drops 0
+Switch 1 port 3: TX 0.30 Mbps, RX 0.06 Mbps, new drops 0
+Switch 2 port 1: TX 0.04 Mbps, RX 0.19 Mbps, new drops 0
+Switch 2 port 4: TX 0.49 Mbps, RX 0.10 Mbps, new drops 0
+Switch 2 port 3: TX 0.06 Mbps, RX 0.30 Mbps, new drops 0
+Switch 3 port 1: TX 0.49 Mbps, RX 0.10 Mbps, new drops 0
+Switch 3 port 2: TX 0.10 Mbps, RX 0.49 Mbps, new drops 0
+Switch 1 port 1: TX 0.03 Mbps, RX 0.15 Mbps, new drops 0
+Switch 1 port 2: TX 0.03 Mbps, RX 0.15 Mbps, new drops 0
+Switch 1 port 3: TX 0.30 Mbps, RX 0.06 Mbps, new drops 0
+Switch 2 port 1: TX 0.04 Mbps, RX 0.20 Mbps, new drops 0
+Switch 2 port 4: TX 0.50 Mbps, RX 0.10 Mbps, new drops 0
+Switch 2 port 3: TX 0.06 Mbps, RX 0.30 Mbps, new drops 0
+Switch 3 port 1: TX 0.50 Mbps, RX 0.10 Mbps, new drops 0
+Switch 3 port 2: TX 0.10 Mbps, RX 0.50 Mbps, new drops 0
+Switch 1 port 1: TX 0.03 Mbps, RX 0.15 Mbps, new drops 0
+Switch 1 port 2: TX 0.03 Mbps, RX 0.15 Mbps, new drops 0
+Switch 1 port 3: TX 0.30 Mbps, RX 0.06 Mbps, new drops 0
+Switch 2 port 1: TX 0.04 Mbps, RX 0.20 Mbps, new drops 0
+Switch 2 port 4: TX 0.50 Mbps, RX 0.10 Mbps, new drops 0
+Switch 2 port 3: TX 0.06 Mbps, RX 0.30 Mbps, new drops 0
+Switch 3 port 1: TX 0.50 Mbps, RX 0.10 Mbps, new drops 0
+Switch 3 port 2: TX 0.10 Mbps, RX 0.50 Mbps, new drops 0
+Switch 1 port 1: TX 0.03 Mbps, RX 0.15 Mbps, new drops 0
+Switch 1 port 2: TX 0.03 Mbps, RX 0.15 Mbps, new drops 0
+Switch 1 port 3: TX 0.30 Mbps, RX 0.06 Mbps, new drops 0
+Switch 2 port 1: TX 0.04 Mbps, RX 0.19 Mbps, new drops 0
+Switch 2 port 4: TX 0.50 Mbps, RX 0.10 Mbps, new drops 0
+Switch 2 port 3: TX 0.06 Mbps, RX 0.30 Mbps, new drops 0
+Switch 3 port 1: TX 0.50 Mbps, RX 0.10 Mbps, new drops 0
+Switch 3 port 2: TX 0.10 Mbps, RX 0.50 Mbps, new drops 0
+Switch 1 port 1: TX 0.03 Mbps, RX 0.15 Mbps, new drops 0
+Switch 1 port 2: TX 0.03 Mbps, RX 0.15 Mbps, new drops 0
+Switch 1 port 3: TX 0.30 Mbps, RX 0.06 Mbps, new drops 0
+Switch 2 port 1: TX 0.04 Mbps, RX 0.20 Mbps, new drops 0
+Switch 2 port 4: TX 0.50 Mbps, RX 0.10 Mbps, new drops 0
+Switch 2 port 3: TX 0.06 Mbps, RX 0.30 Mbps, new drops 0
+Switch 3 port 1: TX 0.50 Mbps, RX 0.10 Mbps, new drops 0
+Switch 3 port 2: TX 0.10 Mbps, RX 0.50 Mbps, new drops 0
+Switch 1 port 1: TX 0.03 Mbps, RX 0.15 Mbps, new drops 0
+Switch 1 port 2: TX 0.03 Mbps, RX 0.15 Mbps, new drops 0
+Switch 1 port 3: TX 0.30 Mbps, RX 0.06 Mbps, new drops 0
+Switch 3 port 1: TX 0.50 Mbps, RX 0.10 Mbps, new drops 0
+Switch 3 port 2: TX 0.10 Mbps, RX 0.49 Mbps, new drops 0
+Switch 2 port 1: TX 0.04 Mbps, RX 0.19 Mbps, new drops 0
+Switch 2 port 4: TX 0.49 Mbps, RX 0.10 Mbps, new drops 0
+Switch 2 port 3: TX 0.06 Mbps, RX 0.30 Mbps, new drops 0
+Switch 1 port 1: TX 0.03 Mbps, RX 0.15 Mbps, new drops 0
+Switch 1 port 2: TX 0.03 Mbps, RX 0.15 Mbps, new drops 0
+Switch 1 port 3: TX 0.30 Mbps, RX 0.06 Mbps, new drops 0
+Switch 3 port 1: TX 0.49 Mbps, RX 0.10 Mbps, new drops 0
+Switch 3 port 2: TX 0.10 Mbps, RX 0.49 Mbps, new drops 0
+Switch 2 port 1: TX 0.04 Mbps, RX 0.19 Mbps, new drops 0
+Switch 2 port 4: TX 0.49 Mbps, RX 0.10 Mbps, new drops 0
+Switch 2 port 3: TX 0.06 Mbps, RX 0.30 Mbps, new drops 0
+Switch 1 port 1: TX 0.03 Mbps, RX 0.15 Mbps, new drops 0
+Switch 1 port 2: TX 0.03 Mbps, RX 0.15 Mbps, new drops 0
+Switch 1 port 3: TX 0.31 Mbps, RX 0.06 Mbps, new drops 0
+Switch 3 port 1: TX 0.51 Mbps, RX 0.11 Mbps, new drops 0
+Switch 3 port 2: TX 0.11 Mbps, RX 0.51 Mbps, new drops 0
+Switch 2 port 1: TX 0.04 Mbps, RX 0.20 Mbps, new drops 0
+Switch 2 port 4: TX 0.51 Mbps, RX 0.11 Mbps, new drops 0
+Switch 2 port 3: TX 0.06 Mbps, RX 0.31 Mbps, new drops 0
+Switch 1 port 1: TX 0.03 Mbps, RX 0.15 Mbps, new drops 0
+Switch 1 port 2: TX 0.03 Mbps, RX 0.15 Mbps, new drops 0
+Switch 1 port 3: TX 0.30 Mbps, RX 0.06 Mbps, new drops 0
+Switch 3 port 1: TX 0.49 Mbps, RX 0.10 Mbps, new drops 0
+Switch 3 port 2: TX 0.10 Mbps, RX 0.49 Mbps, new drops 0
+Switch 2 port 1: TX 0.04 Mbps, RX 0.19 Mbps, new drops 0
+Switch 2 port 4: TX 0.49 Mbps, RX 0.10 Mbps, new drops 0
+Switch 2 port 3: TX 0.06 Mbps, RX 0.30 Mbps, new drops 0
+Switch 1 port 1: TX 0.03 Mbps, RX 0.15 Mbps, new drops 0
+Switch 1 port 2: TX 0.03 Mbps, RX 0.15 Mbps, new drops 0
+Switch 1 port 3: TX 0.30 Mbps, RX 0.06 Mbps, new drops 0
+Switch 3 port 1: TX 0.50 Mbps, RX 0.10 Mbps, new drops 0
+Switch 3 port 2: TX 0.10 Mbps, RX 0.49 Mbps, new drops 0
+Switch 2 port 1: TX 0.04 Mbps, RX 0.19 Mbps, new drops 0
+Switch 2 port 4: TX 0.49 Mbps, RX 0.10 Mbps, new drops 0
+Switch 2 port 3: TX 0.06 Mbps, RX 0.30 Mbps, new drops 0
+Switch 1 port 1: TX 0.03 Mbps, RX 0.15 Mbps, new drops 0
+Switch 1 port 2: TX 0.03 Mbps, RX 0.15 Mbps, new drops 0
+Switch 1 port 3: TX 0.30 Mbps, RX 0.06 Mbps, new drops 0
+Switch 3 port 1: TX 0.49 Mbps, RX 0.10 Mbps, new drops 0
+Switch 3 port 2: TX 0.10 Mbps, RX 0.50 Mbps, new drops 0
+Switch 2 port 1: TX 0.04 Mbps, RX 0.19 Mbps, new drops 0
+Switch 2 port 4: TX 0.50 Mbps, RX 0.10 Mbps, new drops 0
+Switch 2 port 3: TX 0.06 Mbps, RX 0.30 Mbps, new drops 0
+Switch 1 port 1: TX 0.03 Mbps, RX 0.15 Mbps, new drops 0
+Switch 1 port 2: TX 0.03 Mbps, RX 0.15 Mbps, new drops 0
+Switch 1 port 3: TX 0.30 Mbps, RX 0.06 Mbps, new drops 0
+Switch 3 port 1: TX 0.49 Mbps, RX 0.10 Mbps, new drops 0
+Switch 3 port 2: TX 0.10 Mbps, RX 0.49 Mbps, new drops 0
+Switch 2 port 1: TX 0.04 Mbps, RX 0.20 Mbps, new drops 0
+Switch 2 port 4: TX 0.49 Mbps, RX 0.10 Mbps, new drops 0
+Switch 2 port 3: TX 0.06 Mbps, RX 0.30 Mbps, new drops 0
+Switch 1 port 1: TX 0.03 Mbps, RX 0.15 Mbps, new drops 0
+Switch 1 port 2: TX 0.03 Mbps, RX 0.15 Mbps, new drops 0
+Switch 1 port 3: TX 0.30 Mbps, RX 0.06 Mbps, new drops 0
+Switch 3 port 1: TX 0.50 Mbps, RX 0.10 Mbps, new drops 0
+Switch 3 port 2: TX 0.10 Mbps, RX 0.50 Mbps, new drops 0
+Switch 2 port 1: TX 0.04 Mbps, RX 0.20 Mbps, new drops 0
+Switch 2 port 4: TX 0.50 Mbps, RX 0.10 Mbps, new drops 0
+Switch 2 port 3: TX 0.06 Mbps, RX 0.30 Mbps, new drops 0
+Switch 1 port 1: TX 0.03 Mbps, RX 0.15 Mbps, new drops 0
+Switch 1 port 2: TX 0.03 Mbps, RX 0.15 Mbps, new drops 0
+Switch 1 port 3: TX 0.30 Mbps, RX 0.06 Mbps, new drops 0
+Switch 2 port 1: TX 0.04 Mbps, RX 0.19 Mbps, new drops 0
+Switch 2 port 4: TX 0.50 Mbps, RX 0.10 Mbps, new drops 0
+Switch 2 port 3: TX 0.06 Mbps, RX 0.30 Mbps, new drops 0
+Switch 3 port 1: TX 0.49 Mbps, RX 0.10 Mbps, new drops 0
+Switch 3 port 2: TX 0.10 Mbps, RX 0.49 Mbps, new drops 0
+Switch 1 port 1: TX 0.03 Mbps, RX 0.15 Mbps, new drops 0
+Switch 1 port 2: TX 0.03 Mbps, RX 0.15 Mbps, new drops 0
+Switch 1 port 3: TX 0.30 Mbps, RX 0.06 Mbps, new drops 0
+Switch 3 port 1: TX 0.50 Mbps, RX 0.10 Mbps, new drops 0
+Switch 3 port 2: TX 0.10 Mbps, RX 0.50 Mbps, new drops 0
+Switch 2 port 1: TX 0.04 Mbps, RX 0.20 Mbps, new drops 0
+Switch 2 port 4: TX 0.49 Mbps, RX 0.10 Mbps, new drops 0
+Switch 2 port 3: TX 0.06 Mbps, RX 0.30 Mbps, new drops 0
+Switch 1 port 1: TX 0.03 Mbps, RX 0.15 Mbps, new drops 0
+Switch 1 port 2: TX 0.03 Mbps, RX 0.15 Mbps, new drops 0
+Switch 1 port 3: TX 0.30 Mbps, RX 0.06 Mbps, new drops 0
+Switch 2 port 1: TX 0.04 Mbps, RX 0.19 Mbps, new drops 0
+Switch 2 port 4: TX 0.50 Mbps, RX 0.10 Mbps, new drops 0
+Switch 2 port 3: TX 0.06 Mbps, RX 0.30 Mbps, new drops 0
+Switch 3 port 1: TX 0.49 Mbps, RX 0.10 Mbps, new drops 0
+Switch 3 port 2: TX 0.10 Mbps, RX 0.49 Mbps, new drops 0
+Switch 1 port 1: TX 0.03 Mbps, RX 0.15 Mbps, new drops 0
+Switch 1 port 2: TX 0.03 Mbps, RX 0.15 Mbps, new drops 0
+Switch 1 port 3: TX 0.30 Mbps, RX 0.06 Mbps, new drops 0
+Switch 2 port 1: TX 0.04 Mbps, RX 0.19 Mbps, new drops 0
+Switch 2 port 4: TX 0.50 Mbps, RX 0.10 Mbps, new drops 0
+Switch 2 port 3: TX 0.06 Mbps, RX 0.30 Mbps, new drops 0
+Switch 3 port 1: TX 0.49 Mbps, RX 0.10 Mbps, new drops 0
+Switch 3 port 2: TX 0.10 Mbps, RX 0.50 Mbps, new drops 0
+Switch 1 port 1: TX 0.03 Mbps, RX 0.15 Mbps, new drops 0
+Switch 1 port 2: TX 0.03 Mbps, RX 0.15 Mbps, new drops 0
+Switch 1 port 3: TX 0.30 Mbps, RX 0.06 Mbps, new drops 0
+Switch 2 port 1: TX 0.04 Mbps, RX 0.20 Mbps, new drops 0
+Switch 2 port 4: TX 0.50 Mbps, RX 0.10 Mbps, new drops 0
+Switch 2 port 3: TX 0.06 Mbps, RX 0.30 Mbps, new drops 0
+Switch 3 port 1: TX 0.50 Mbps, RX 0.10 Mbps, new drops 0
+Switch 3 port 2: TX 0.10 Mbps, RX 0.50 Mbps, new drops 0
+Switch 1 port 1: TX 0.03 Mbps, RX 0.15 Mbps, new drops 0
+Switch 1 port 2: TX 0.03 Mbps, RX 0.15 Mbps, new drops 0
+Switch 1 port 3: TX 0.30 Mbps, RX 0.06 Mbps, new drops 0
+Switch 3 port 1: TX 0.50 Mbps, RX 0.10 Mbps, new drops 0
+Switch 3 port 2: TX 0.10 Mbps, RX 0.49 Mbps, new drops 0
+Switch 2 port 1: TX 0.04 Mbps, RX 0.19 Mbps, new drops 0
+Switch 2 port 4: TX 0.49 Mbps, RX 0.10 Mbps, new drops 0
+Switch 2 port 3: TX 0.06 Mbps, RX 0.30 Mbps, new drops 0
+Switch 1 port 1: TX 0.03 Mbps, RX 0.15 Mbps, new drops 0
+Switch 1 port 2: TX 0.03 Mbps, RX 0.15 Mbps, new drops 0
+Switch 1 port 3: TX 0.30 Mbps, RX 0.06 Mbps, new drops 0
+Switch 3 port 1: TX 0.49 Mbps, RX 0.10 Mbps, new drops 0
+Switch 3 port 2: TX 0.10 Mbps, RX 0.50 Mbps, new drops 0
+Switch 2 port 1: TX 0.04 Mbps, RX 0.19 Mbps, new drops 0
+Switch 2 port 4: TX 0.50 Mbps, RX 0.10 Mbps, new drops 0
+Switch 2 port 3: TX 0.06 Mbps, RX 0.30 Mbps, new drops 0
+Switch 1 port 1: TX 0.03 Mbps, RX 0.15 Mbps, new drops 0
+Switch 1 port 2: TX 0.03 Mbps, RX 0.15 Mbps, new drops 0
+Switch 1 port 3: TX 0.30 Mbps, RX 0.06 Mbps, new drops 0
+Switch 3 port 1: TX 0.49 Mbps, RX 0.10 Mbps, new drops 0
+Switch 3 port 2: TX 0.10 Mbps, RX 0.49 Mbps, new drops 0
+Switch 2 port 1: TX 0.04 Mbps, RX 0.19 Mbps, new drops 0
+Switch 2 port 4: TX 0.49 Mbps, RX 0.10 Mbps, new drops 0
+Switch 2 port 3: TX 0.06 Mbps, RX 0.30 Mbps, new drops 0
+Switch 1 port 1: TX 0.03 Mbps, RX 0.15 Mbps, new drops 0
+Switch 1 port 2: TX 0.03 Mbps, RX 0.15 Mbps, new drops 0
+Switch 1 port 3: TX 0.30 Mbps, RX 0.06 Mbps, new drops 0
+Switch 3 port 1: TX 0.50 Mbps, RX 0.10 Mbps, new drops 0
+Switch 3 port 2: TX 0.10 Mbps, RX 0.50 Mbps, new drops 0
+Switch 2 port 1: TX 0.04 Mbps, RX 0.20 Mbps, new drops 0
+Switch 2 port 4: TX 0.50 Mbps, RX 0.10 Mbps, new drops 0
+Switch 2 port 3: TX 0.06 Mbps, RX 0.30 Mbps, new drops 0
+Switch 1 port 1: TX 0.03 Mbps, RX 0.15 Mbps, new drops 0
+Switch 1 port 2: TX 0.03 Mbps, RX 0.15 Mbps, new drops 0
+Switch 1 port 3: TX 0.30 Mbps, RX 0.06 Mbps, new drops 0
+Switch 3 port 1: TX 0.50 Mbps, RX 0.11 Mbps, new drops 0
+Switch 3 port 2: TX 0.11 Mbps, RX 0.50 Mbps, new drops 0
+Switch 2 port 1: TX 0.04 Mbps, RX 0.20 Mbps, new drops 0
+Switch 2 port 4: TX 0.50 Mbps, RX 0.10 Mbps, new drops 0
+Switch 2 port 3: TX 0.06 Mbps, RX 0.30 Mbps, new drops 0
+Switch 1 port 1: TX 0.03 Mbps, RX 0.15 Mbps, new drops 0
+Switch 1 port 2: TX 0.03 Mbps, RX 0.15 Mbps, new drops 0
+Switch 1 port 3: TX 0.30 Mbps, RX 0.06 Mbps, new drops 0
+Switch 3 port 1: TX 0.49 Mbps, RX 0.10 Mbps, new drops 0
+Switch 3 port 2: TX 0.10 Mbps, RX 0.49 Mbps, new drops 0
+Switch 2 port 1: TX 0.04 Mbps, RX 0.19 Mbps, new drops 0
+Switch 2 port 4: TX 0.49 Mbps, RX 0.10 Mbps, new drops 0
+Switch 2 port 3: TX 0.06 Mbps, RX 0.30 Mbps, new drops 0
+Switch 1 port 1: TX 0.03 Mbps, RX 0.15 Mbps, new drops 0
+Switch 1 port 2: TX 0.03 Mbps, RX 0.15 Mbps, new drops 0
+Switch 1 port 3: TX 0.30 Mbps, RX 0.06 Mbps, new drops 0
+Switch 3 port 1: TX 0.49 Mbps, RX 0.10 Mbps, new drops 0
+Switch 3 port 2: TX 0.10 Mbps, RX 0.49 Mbps, new drops 0
+Switch 2 port 1: TX 0.04 Mbps, RX 0.20 Mbps, new drops 0
+Switch 2 port 4: TX 0.49 Mbps, RX 0.10 Mbps, new drops 0
+Switch 2 port 3: TX 0.06 Mbps, RX 0.30 Mbps, new drops 0
+Switch 1 port 1: TX 0.03 Mbps, RX 0.15 Mbps, new drops 0
+Switch 1 port 2: TX 0.03 Mbps, RX 0.15 Mbps, new drops 0
+Switch 1 port 3: TX 0.30 Mbps, RX 0.06 Mbps, new drops 0
+Switch 3 port 1: TX 0.49 Mbps, RX 0.10 Mbps, new drops 0
+Switch 3 port 2: TX 0.10 Mbps, RX 0.49 Mbps, new drops 0
+Switch 2 port 1: TX 0.04 Mbps, RX 0.19 Mbps, new drops 0
+Switch 2 port 4: TX 0.49 Mbps, RX 0.10 Mbps, new drops 0
+Switch 2 port 3: TX 0.06 Mbps, RX 0.30 Mbps, new drops 0
+Switch 1 port 1: TX 0.03 Mbps, RX 0.15 Mbps, new drops 0
+Switch 1 port 2: TX 0.03 Mbps, RX 0.15 Mbps, new drops 0
+Switch 1 port 3: TX 0.30 Mbps, RX 0.06 Mbps, new drops 0
+Switch 2 port 1: TX 0.04 Mbps, RX 0.19 Mbps, new drops 0
+Switch 2 port 4: TX 0.50 Mbps, RX 0.10 Mbps, new drops 0
+Switch 2 port 3: TX 0.06 Mbps, RX 0.30 Mbps, new drops 0
+Switch 3 port 1: TX 0.49 Mbps, RX 0.10 Mbps, new drops 0
+Switch 3 port 2: TX 0.10 Mbps, RX 0.49 Mbps, new drops 0
+Switch 1 port 1: TX 0.03 Mbps, RX 0.15 Mbps, new drops 0
+Switch 1 port 2: TX 0.03 Mbps, RX 0.15 Mbps, new drops 0
+Switch 1 port 3: TX 0.30 Mbps, RX 0.06 Mbps, new drops 0
+Switch 3 port 1: TX 0.50 Mbps, RX 0.10 Mbps, new drops 0
+Switch 3 port 2: TX 0.10 Mbps, RX 0.50 Mbps, new drops 0
+Switch 2 port 1: TX 0.04 Mbps, RX 0.19 Mbps, new drops 0
+Switch 2 port 4: TX 0.49 Mbps, RX 0.10 Mbps, new drops 0
+Switch 2 port 3: TX 0.06 Mbps, RX 0.30 Mbps, new drops 0
+Switch 1 port 1: TX 0.03 Mbps, RX 0.15 Mbps, new drops 0
+Switch 1 port 2: TX 0.03 Mbps, RX 0.15 Mbps, new drops 0
+Switch 1 port 3: TX 0.30 Mbps, RX 0.06 Mbps, new drops 0
+Switch 3 port 1: TX 0.49 Mbps, RX 0.10 Mbps, new drops 0
+Switch 3 port 2: TX 0.10 Mbps, RX 0.49 Mbps, new drops 0
+Switch 2 port 1: TX 0.04 Mbps, RX 0.19 Mbps, new drops 0
+Switch 2 port 4: TX 0.49 Mbps, RX 0.10 Mbps, new drops 0
+Switch 2 port 3: TX 0.06 Mbps, RX 0.30 Mbps, new drops 0
+Switch 1 port 1: TX 0.03 Mbps, RX 0.15 Mbps, new drops 0
+Switch 1 port 2: TX 0.03 Mbps, RX 0.15 Mbps, new drops 0
+Switch 1 port 3: TX 0.30 Mbps, RX 0.06 Mbps, new drops 0
+Switch 2 port 1: TX 0.04 Mbps, RX 0.20 Mbps, new drops 0
+Switch 2 port 4: TX 0.49 Mbps, RX 0.10 Mbps, new drops 0
+Switch 2 port 3: TX 0.06 Mbps, RX 0.30 Mbps, new drops 0
+Switch 3 port 1: TX 0.49 Mbps, RX 0.10 Mbps, new drops 0
+Switch 3 port 2: TX 0.10 Mbps, RX 0.49 Mbps, new drops 0
+Switch 1 port 1: TX 0.03 Mbps, RX 0.15 Mbps, new drops 0
+Switch 1 port 2: TX 0.03 Mbps, RX 0.15 Mbps, new drops 0
+Switch 1 port 3: TX 0.30 Mbps, RX 0.06 Mbps, new drops 0
+Switch 3 port 1: TX 0.50 Mbps, RX 0.10 Mbps, new drops 0
+Switch 3 port 2: TX 0.10 Mbps, RX 0.50 Mbps, new drops 0
+Switch 2 port 1: TX 0.04 Mbps, RX 0.20 Mbps, new drops 0
+Switch 2 port 4: TX 0.50 Mbps, RX 0.10 Mbps, new drops 0
+Switch 2 port 3: TX 0.06 Mbps, RX 0.30 Mbps, new drops 0
+Switch 1 port 1: TX 0.03 Mbps, RX 0.15 Mbps, new drops 0
+Switch 1 port 2: TX 0.03 Mbps, RX 0.15 Mbps, new drops 0
+Switch 1 port 3: TX 0.29 Mbps, RX 0.06 Mbps, new drops 0
+Switch 2 port 1: TX 0.04 Mbps, RX 0.20 Mbps, new drops 0
+Switch 2 port 4: TX 0.49 Mbps, RX 0.10 Mbps, new drops 0
+Switch 2 port 3: TX 0.06 Mbps, RX 0.29 Mbps, new drops 0
+Switch 3 port 1: TX 0.49 Mbps, RX 0.10 Mbps, new drops 0
+Switch 3 port 2: TX 0.10 Mbps, RX 0.49 Mbps, new drops 0
+Switch 1 port 1: TX 0.03 Mbps, RX 0.15 Mbps, new drops 0
+Switch 1 port 2: TX 0.03 Mbps, RX 0.15 Mbps, new drops 0
+Switch 1 port 3: TX 0.30 Mbps, RX 0.06 Mbps, new drops 0
+Switch 2 port 1: TX 0.04 Mbps, RX 0.20 Mbps, new drops 0
+Switch 2 port 4: TX 0.50 Mbps, RX 0.10 Mbps, new drops 0
+Switch 2 port 3: TX 0.06 Mbps, RX 0.30 Mbps, new drops 0
+Switch 3 port 1: TX 0.50 Mbps, RX 0.10 Mbps, new drops 0
+Switch 3 port 2: TX 0.10 Mbps, RX 0.50 Mbps, new drops 0
+Switch 1 port 1: TX 0.03 Mbps, RX 0.15 Mbps, new drops 0
+Switch 1 port 2: TX 0.03 Mbps, RX 0.15 Mbps, new drops 0
+Switch 1 port 3: TX 0.30 Mbps, RX 0.06 Mbps, new drops 0
+Switch 3 port 1: TX 0.50 Mbps, RX 0.10 Mbps, new drops 0
+Switch 3 port 2: TX 0.10 Mbps, RX 0.50 Mbps, new drops 0
+Switch 2 port 1: TX 0.04 Mbps, RX 0.19 Mbps, new drops 0
+Switch 2 port 4: TX 0.49 Mbps, RX 0.10 Mbps, new drops 0
+Switch 2 port 3: TX 0.06 Mbps, RX 0.30 Mbps, new drops 0
+Switch 1 port 1: TX 0.03 Mbps, RX 0.15 Mbps, new drops 0
+Switch 1 port 2: TX 0.03 Mbps, RX 0.15 Mbps, new drops 0
+Switch 1 port 3: TX 0.30 Mbps, RX 0.06 Mbps, new drops 0
+Switch 2 port 1: TX 0.04 Mbps, RX 0.20 Mbps, new drops 0
+Switch 2 port 4: TX 0.50 Mbps, RX 0.10 Mbps, new drops 0
+Switch 2 port 3: TX 0.06 Mbps, RX 0.30 Mbps, new drops 0
+Switch 3 port 1: TX 0.49 Mbps, RX 0.10 Mbps, new drops 0
+Switch 3 port 2: TX 0.10 Mbps, RX 0.49 Mbps, new drops 0
+Switch 1 port 1: TX 0.03 Mbps, RX 0.15 Mbps, new drops 0
+Switch 1 port 2: TX 0.03 Mbps, RX 0.15 Mbps, new drops 0
+Switch 1 port 3: TX 0.30 Mbps, RX 0.06 Mbps, new drops 0
+Switch 2 port 1: TX 0.04 Mbps, RX 0.19 Mbps, new drops 0
+Switch 2 port 4: TX 0.49 Mbps, RX 0.10 Mbps, new drops 0
+Switch 2 port 3: TX 0.06 Mbps, RX 0.30 Mbps, new drops 0
+Switch 3 port 1: TX 0.49 Mbps, RX 0.10 Mbps, new drops 0
+Switch 3 port 2: TX 0.10 Mbps, RX 0.49 Mbps, new drops 0
+Switch 1 port 1: TX 0.03 Mbps, RX 0.15 Mbps, new drops 0
+Switch 1 port 2: TX 0.03 Mbps, RX 0.15 Mbps, new drops 0
+Switch 1 port 3: TX 0.30 Mbps, RX 0.06 Mbps, new drops 0
+Switch 2 port 1: TX 0.04 Mbps, RX 0.19 Mbps, new drops 0
+Switch 2 port 4: TX 0.49 Mbps, RX 0.10 Mbps, new drops 0
+Switch 2 port 3: TX 0.06 Mbps, RX 0.30 Mbps, new drops 0
+Switch 3 port 1: TX 0.49 Mbps, RX 0.10 Mbps, new drops 0
+Switch 3 port 2: TX 0.10 Mbps, RX 0.49 Mbps, new drops 0
+Switch 1 port 1: TX 0.03 Mbps, RX 0.15 Mbps, new drops 0
+Switch 1 port 2: TX 0.03 Mbps, RX 0.15 Mbps, new drops 0
+Switch 1 port 3: TX 0.30 Mbps, RX 0.06 Mbps, new drops 0
+Switch 3 port 1: TX 0.50 Mbps, RX 0.10 Mbps, new drops 0
+Switch 3 port 2: TX 0.10 Mbps, RX 0.50 Mbps, new drops 0
+Switch 2 port 1: TX 0.04 Mbps, RX 0.20 Mbps, new drops 0
+Switch 2 port 4: TX 0.50 Mbps, RX 0.10 Mbps, new drops 0
+Switch 2 port 3: TX 0.06 Mbps, RX 0.30 Mbps, new drops 0
+Switch 1 port 1: TX 0.03 Mbps, RX 0.15 Mbps, new drops 0
+Switch 1 port 2: TX 0.03 Mbps, RX 0.15 Mbps, new drops 0
+Switch 1 port 3: TX 0.30 Mbps, RX 0.06 Mbps, new drops 0
+Switch 3 port 1: TX 0.49 Mbps, RX 0.10 Mbps, new drops 0
+Switch 3 port 2: TX 0.10 Mbps, RX 0.49 Mbps, new drops 0
+Switch 2 port 1: TX 0.04 Mbps, RX 0.19 Mbps, new drops 0
+Switch 2 port 4: TX 0.49 Mbps, RX 0.10 Mbps, new drops 0
+Switch 2 port 3: TX 0.06 Mbps, RX 0.30 Mbps, new drops 0
+Switch 1 port 1: TX 0.03 Mbps, RX 0.15 Mbps, new drops 0
+Switch 1 port 2: TX 0.03 Mbps, RX 0.15 Mbps, new drops 0
+Switch 1 port 3: TX 0.30 Mbps, RX 0.06 Mbps, new drops 0
+Switch 2 port 1: TX 0.04 Mbps, RX 0.19 Mbps, new drops 0
+Switch 2 port 4: TX 0.49 Mbps, RX 0.10 Mbps, new drops 0
+Switch 2 port 3: TX 0.06 Mbps, RX 0.30 Mbps, new drops 0
+Switch 3 port 1: TX 0.49 Mbps, RX 0.10 Mbps, new drops 0
+Switch 3 port 2: TX 0.10 Mbps, RX 0.49 Mbps, new drops 0
+Switch 1 port 1: TX 0.03 Mbps, RX 0.15 Mbps, new drops 0
+Switch 1 port 2: TX 0.03 Mbps, RX 0.15 Mbps, new drops 0
+Switch 1 port 3: TX 0.30 Mbps, RX 0.06 Mbps, new drops 0
+Switch 2 port 1: TX 0.04 Mbps, RX 0.19 Mbps, new drops 0
+Switch 2 port 4: TX 0.49 Mbps, RX 0.10 Mbps, new drops 0
+Switch 2 port 3: TX 0.06 Mbps, RX 0.30 Mbps, new drops 0
+Switch 3 port 1: TX 0.49 Mbps, RX 0.10 Mbps, new drops 0
+Switch 3 port 2: TX 0.10 Mbps, RX 0.49 Mbps, new drops 0
+Switch 1 port 1: TX 0.03 Mbps, RX 0.15 Mbps, new drops 0
+Switch 1 port 2: TX 0.03 Mbps, RX 0.15 Mbps, new drops 0
+Switch 1 port 3: TX 0.30 Mbps, RX 0.06 Mbps, new drops 0
+Switch 3 port 1: TX 0.50 Mbps, RX 0.10 Mbps, new drops 0
+Switch 3 port 2: TX 0.10 Mbps, RX 0.50 Mbps, new drops 0
+Switch 2 port 1: TX 0.04 Mbps, RX 0.20 Mbps, new drops 0
+Switch 2 port 4: TX 0.50 Mbps, RX 0.10 Mbps, new drops 0
+Switch 2 port 3: TX 0.06 Mbps, RX 0.30 Mbps, new drops 0
+Switch 1 port 1: TX 0.03 Mbps, RX 0.15 Mbps, new drops 0
+Switch 1 port 2: TX 0.03 Mbps, RX 0.15 Mbps, new drops 0
+Switch 1 port 3: TX 0.30 Mbps, RX 0.06 Mbps, new drops 0
+Switch 2 port 1: TX 0.04 Mbps, RX 0.20 Mbps, new drops 0
+Switch 2 port 4: TX 0.49 Mbps, RX 0.10 Mbps, new drops 0
+Switch 2 port 3: TX 0.06 Mbps, RX 0.30 Mbps, new drops 0
+Switch 3 port 1: TX 0.49 Mbps, RX 0.10 Mbps, new drops 0
+Switch 3 port 2: TX 0.10 Mbps, RX 0.49 Mbps, new drops 0
+Switch 1 port 1: TX 0.03 Mbps, RX 0.15 Mbps, new drops 0
+Switch 1 port 2: TX 0.03 Mbps, RX 0.15 Mbps, new drops 0
+Switch 1 port 3: TX 0.30 Mbps, RX 0.06 Mbps, new drops 0
+Switch 2 port 1: TX 0.04 Mbps, RX 0.19 Mbps, new drops 0
+Switch 2 port 4: TX 0.49 Mbps, RX 0.10 Mbps, new drops 0
+Switch 2 port 3: TX 0.06 Mbps, RX 0.30 Mbps, new drops 0
+Switch 3 port 1: TX 0.49 Mbps, RX 0.10 Mbps, new drops 0
+Switch 3 port 2: TX 0.10 Mbps, RX 0.49 Mbps, new drops 0
+Switch 1 port 1: TX 0.03 Mbps, RX 0.15 Mbps, new drops 0
+Switch 1 port 2: TX 0.03 Mbps, RX 0.15 Mbps, new drops 0
+Switch 1 port 3: TX 0.30 Mbps, RX 0.06 Mbps, new drops 0
+Switch 2 port 1: TX 0.04 Mbps, RX 0.19 Mbps, new drops 0
+Switch 2 port 4: TX 0.49 Mbps, RX 0.10 Mbps, new drops 0
+Switch 2 port 3: TX 0.06 Mbps, RX 0.30 Mbps, new drops 0
+Switch 3 port 1: TX 0.49 Mbps, RX 0.10 Mbps, new drops 0
+Switch 3 port 2: TX 0.10 Mbps, RX 0.49 Mbps, new drops 0
+Switch 1 port 1: TX 0.03 Mbps, RX 0.15 Mbps, new drops 0
+Switch 1 port 2: TX 0.03 Mbps, RX 0.15 Mbps, new drops 0
+Switch 1 port 3: TX 0.30 Mbps, RX 0.06 Mbps, new drops 0
+Switch 3 port 1: TX 0.49 Mbps, RX 0.10 Mbps, new drops 0
+Switch 3 port 2: TX 0.10 Mbps, RX 0.49 Mbps, new drops 0
+Switch 2 port 1: TX 0.04 Mbps, RX 0.20 Mbps, new drops 0
+Switch 2 port 4: TX 0.49 Mbps, RX 0.10 Mbps, new drops 0
+Switch 2 port 3: TX 0.06 Mbps, RX 0.30 Mbps, new drops 0
+Switch 1 port 1: TX 0.03 Mbps, RX 0.15 Mbps, new drops 0
+Switch 1 port 2: TX 0.03 Mbps, RX 0.15 Mbps, new drops 0
+Switch 1 port 3: TX 0.30 Mbps, RX 0.06 Mbps, new drops 0
+Switch 3 port 1: TX 0.49 Mbps, RX 0.10 Mbps, new drops 0
+Switch 3 port 2: TX 0.10 Mbps, RX 0.49 Mbps, new drops 0
+Switch 2 port 1: TX 0.04 Mbps, RX 0.19 Mbps, new drops 0
+Switch 2 port 4: TX 0.49 Mbps, RX 0.10 Mbps, new drops 0
+Switch 2 port 3: TX 0.06 Mbps, RX 0.30 Mbps, new drops 0
+Switch 1 port 1: TX 0.03 Mbps, RX 0.15 Mbps, new drops 0
+Switch 1 port 2: TX 0.03 Mbps, RX 0.15 Mbps, new drops 0
+Switch 1 port 3: TX 0.30 Mbps, RX 0.06 Mbps, new drops 0
+Switch 3 port 1: TX 0.50 Mbps, RX 0.10 Mbps, new drops 0
+Switch 3 port 2: TX 0.10 Mbps, RX 0.50 Mbps, new drops 0
+Switch 2 port 1: TX 0.04 Mbps, RX 0.20 Mbps, new drops 0
+Switch 2 port 4: TX 0.50 Mbps, RX 0.10 Mbps, new drops 0
+Switch 2 port 3: TX 0.06 Mbps, RX 0.30 Mbps, new drops 0
+Switch 1 port 1: TX 0.03 Mbps, RX 0.15 Mbps, new drops 0
+Switch 1 port 2: TX 0.03 Mbps, RX 0.15 Mbps, new drops 0
+Switch 1 port 3: TX 0.30 Mbps, RX 0.06 Mbps, new drops 0
+Switch 3 port 1: TX 0.49 Mbps, RX 0.10 Mbps, new drops 0
+Switch 3 port 2: TX 0.10 Mbps, RX 0.49 Mbps, new drops 0
+Switch 2 port 1: TX 0.04 Mbps, RX 0.19 Mbps, new drops 0
+Switch 2 port 4: TX 0.49 Mbps, RX 0.10 Mbps, new drops 0
+Switch 2 port 3: TX 0.06 Mbps, RX 0.30 Mbps, new drops 0
+Switch 1 port 1: TX 0.03 Mbps, RX 0.15 Mbps, new drops 0
+Switch 1 port 2: TX 0.03 Mbps, RX 0.15 Mbps, new drops 0
+Switch 1 port 3: TX 0.30 Mbps, RX 0.06 Mbps, new drops 0
+Switch 3 port 1: TX 0.49 Mbps, RX 0.10 Mbps, new drops 0
+Switch 3 port 2: TX 0.10 Mbps, RX 0.49 Mbps, new drops 0
+Switch 2 port 1: TX 0.04 Mbps, RX 0.19 Mbps, new drops 0
+Switch 2 port 4: TX 0.49 Mbps, RX 0.10 Mbps, new drops 0
+Switch 2 port 3: TX 0.06 Mbps, RX 0.30 Mbps, new drops 0
+Switch 1 port 1: TX 0.03 Mbps, RX 0.15 Mbps, new drops 0
+Switch 1 port 2: TX 0.03 Mbps, RX 0.15 Mbps, new drops 0
+Switch 1 port 3: TX 0.30 Mbps, RX 0.06 Mbps, new drops 0
+Switch 3 port 1: TX 0.50 Mbps, RX 0.10 Mbps, new drops 0
+Switch 3 port 2: TX 0.10 Mbps, RX 0.49 Mbps, new drops 0
+Switch 2 port 1: TX 0.04 Mbps, RX 0.19 Mbps, new drops 0
+Switch 2 port 4: TX 0.49 Mbps, RX 0.10 Mbps, new drops 0
+Switch 2 port 3: TX 0.06 Mbps, RX 0.30 Mbps, new drops 0
+Switch 1 port 1: TX 0.03 Mbps, RX 0.15 Mbps, new drops 0
+Switch 1 port 2: TX 0.03 Mbps, RX 0.15 Mbps, new drops 0
+Switch 1 port 3: TX 0.30 Mbps, RX 0.06 Mbps, new drops 0
+Switch 3 port 1: TX 0.49 Mbps, RX 0.10 Mbps, new drops 0
+Switch 3 port 2: TX 0.10 Mbps, RX 0.49 Mbps, new drops 0
+Switch 2 port 1: TX 0.04 Mbps, RX 0.19 Mbps, new drops 0
+Switch 2 port 4: TX 0.49 Mbps, RX 0.10 Mbps, new drops 0
+Switch 2 port 3: TX 0.06 Mbps, RX 0.30 Mbps, new drops 0
+Switch 1 port 1: TX 0.03 Mbps, RX 0.15 Mbps, new drops 0
+Switch 1 port 2: TX 0.03 Mbps, RX 0.15 Mbps, new drops 0
+Switch 1 port 3: TX 0.31 Mbps, RX 0.06 Mbps, new drops 0
+Switch 3 port 1: TX 0.51 Mbps, RX 0.11 Mbps, new drops 0
+Switch 3 port 2: TX 0.11 Mbps, RX 0.51 Mbps, new drops 0
+Switch 2 port 1: TX 0.04 Mbps, RX 0.20 Mbps, new drops 0
+Switch 2 port 4: TX 0.51 Mbps, RX 0.11 Mbps, new drops 0
+Switch 2 port 3: TX 0.06 Mbps, RX 0.31 Mbps, new drops 0
+Switch 1 port 1: TX 0.03 Mbps, RX 0.15 Mbps, new drops 0
+Switch 1 port 2: TX 0.03 Mbps, RX 0.15 Mbps, new drops 0
+Switch 1 port 3: TX 0.30 Mbps, RX 0.06 Mbps, new drops 0
+Switch 3 port 1: TX 0.50 Mbps, RX 0.10 Mbps, new drops 0
+Switch 3 port 2: TX 0.10 Mbps, RX 0.50 Mbps, new drops 0
+Switch 2 port 1: TX 0.04 Mbps, RX 0.19 Mbps, new drops 0
+Switch 2 port 4: TX 0.50 Mbps, RX 0.10 Mbps, new drops 0
+Switch 2 port 3: TX 0.06 Mbps, RX 0.30 Mbps, new drops 0
+Switch 1 port 1: TX 0.03 Mbps, RX 0.15 Mbps, new drops 0
+Switch 1 port 2: TX 0.03 Mbps, RX 0.15 Mbps, new drops 0
+Switch 1 port 3: TX 0.30 Mbps, RX 0.06 Mbps, new drops 0
+Switch 2 port 1: TX 0.04 Mbps, RX 0.20 Mbps, new drops 0
+Switch 2 port 4: TX 0.50 Mbps, RX 0.10 Mbps, new drops 0
+Switch 2 port 3: TX 0.06 Mbps, RX 0.30 Mbps, new drops 0
+Switch 3 port 1: TX 0.49 Mbps, RX 0.10 Mbps, new drops 0
+Switch 3 port 2: TX 0.10 Mbps, RX 0.49 Mbps, new drops 0
+Switch 1 port 1: TX 0.03 Mbps, RX 0.15 Mbps, new drops 0
+Switch 1 port 2: TX 0.03 Mbps, RX 0.14 Mbps, new drops 0
+Switch 1 port 3: TX 0.29 Mbps, RX 0.06 Mbps, new drops 0
+Switch 3 port 1: TX 0.49 Mbps, RX 0.10 Mbps, new drops 0
+Switch 3 port 2: TX 0.10 Mbps, RX 0.49 Mbps, new drops 0
+Switch 2 port 1: TX 0.04 Mbps, RX 0.19 Mbps, new drops 0
+Switch 2 port 4: TX 0.49 Mbps, RX 0.10 Mbps, new drops 0
+Switch 2 port 3: TX 0.06 Mbps, RX 0.29 Mbps, new drops 0
+Switch 1 port 1: TX 0.03 Mbps, RX 0.15 Mbps, new drops 0
+Switch 1 port 2: TX 0.03 Mbps, RX 0.15 Mbps, new drops 0
+Switch 1 port 3: TX 0.30 Mbps, RX 0.06 Mbps, new drops 0
+Switch 3 port 1: TX 0.49 Mbps, RX 0.10 Mbps, new drops 0
+Switch 3 port 2: TX 0.10 Mbps, RX 0.50 Mbps, new drops 0
+Switch 2 port 1: TX 0.04 Mbps, RX 0.19 Mbps, new drops 0
+Switch 2 port 4: TX 0.50 Mbps, RX 0.10 Mbps, new drops 0
+Switch 2 port 3: TX 0.06 Mbps, RX 0.30 Mbps, new drops 0
+Switch 1 port 1: TX 0.03 Mbps, RX 0.15 Mbps, new drops 0
+Switch 1 port 2: TX 0.03 Mbps, RX 0.15 Mbps, new drops 0
+Switch 1 port 3: TX 0.30 Mbps, RX 0.06 Mbps, new drops 0
+Switch 3 port 1: TX 0.50 Mbps, RX 0.10 Mbps, new drops 0
+Switch 3 port 2: TX 0.10 Mbps, RX 0.49 Mbps, new drops 0
+Switch 2 port 1: TX 0.04 Mbps, RX 0.20 Mbps, new drops 0
+Switch 2 port 4: TX 0.49 Mbps, RX 0.10 Mbps, new drops 0
+Switch 2 port 3: TX 0.06 Mbps, RX 0.30 Mbps, new drops 0
+Switch 1 port 1: TX 0.03 Mbps, RX 0.15 Mbps, new drops 0
+Switch 1 port 2: TX 0.03 Mbps, RX 0.15 Mbps, new drops 0
+Switch 1 port 3: TX 0.30 Mbps, RX 0.06 Mbps, new drops 0
+Switch 2 port 1: TX 0.04 Mbps, RX 0.19 Mbps, new drops 0
+Switch 2 port 4: TX 0.49 Mbps, RX 0.10 Mbps, new drops 0
+Switch 2 port 3: TX 0.06 Mbps, RX 0.30 Mbps, new drops 0
+Switch 3 port 1: TX 0.49 Mbps, RX 0.10 Mbps, new drops 0
+Switch 3 port 2: TX 0.10 Mbps, RX 0.49 Mbps, new drops 0
+Switch 1 port 1: TX 0.03 Mbps, RX 0.15 Mbps, new drops 0
+Switch 1 port 2: TX 0.03 Mbps, RX 0.15 Mbps, new drops 0
+Switch 1 port 3: TX 0.30 Mbps, RX 0.06 Mbps, new drops 0
+Switch 2 port 1: TX 0.04 Mbps, RX 0.19 Mbps, new drops 0
+Switch 2 port 4: TX 0.49 Mbps, RX 0.10 Mbps, new drops 0
+Switch 2 port 3: TX 0.06 Mbps, RX 0.30 Mbps, new drops 0
+Switch 3 port 1: TX 0.49 Mbps, RX 0.10 Mbps, new drops 0
+Switch 3 port 2: TX 0.10 Mbps, RX 0.49 Mbps, new drops 0
+Switch 1 port 1: TX 0.03 Mbps, RX 0.15 Mbps, new drops 0
+Switch 1 port 2: TX 0.03 Mbps, RX 0.15 Mbps, new drops 0
+Switch 1 port 3: TX 0.30 Mbps, RX 0.06 Mbps, new drops 0
+Switch 3 port 1: TX 0.50 Mbps, RX 0.10 Mbps, new drops 0
+Switch 3 port 2: TX 0.10 Mbps, RX 0.50 Mbps, new drops 0
+Switch 2 port 1: TX 0.04 Mbps, RX 0.20 Mbps, new drops 0
+Switch 2 port 4: TX 0.50 Mbps, RX 0.10 Mbps, new drops 0
+Switch 2 port 3: TX 0.06 Mbps, RX 0.30 Mbps, new drops 0
+Switch 1 port 1: TX 0.03 Mbps, RX 0.15 Mbps, new drops 0
+Switch 1 port 2: TX 0.03 Mbps, RX 0.15 Mbps, new drops 0
+Switch 1 port 3: TX 0.30 Mbps, RX 0.06 Mbps, new drops 0
+Switch 3 port 1: TX 0.50 Mbps, RX 0.10 Mbps, new drops 0
+Switch 3 port 2: TX 0.10 Mbps, RX 0.50 Mbps, new drops 0
+Switch 2 port 1: TX 0.04 Mbps, RX 0.20 Mbps, new drops 0
+Switch 2 port 4: TX 0.50 Mbps, RX 0.10 Mbps, new drops 0
+Switch 2 port 3: TX 0.06 Mbps, RX 0.30 Mbps, new drops 0
+Switch 1 port 1: TX 0.03 Mbps, RX 0.15 Mbps, new drops 0
+Switch 1 port 2: TX 0.03 Mbps, RX 0.15 Mbps, new drops 0
+Switch 1 port 3: TX 0.30 Mbps, RX 0.06 Mbps, new drops 0
+Switch 3 port 1: TX 0.50 Mbps, RX 0.10 Mbps, new drops 0
+Switch 3 port 2: TX 0.10 Mbps, RX 0.50 Mbps, new drops 0
+Switch 2 port 1: TX 0.04 Mbps, RX 0.19 Mbps, new drops 0
+Switch 2 port 4: TX 0.50 Mbps, RX 0.10 Mbps, new drops 0
+Switch 2 port 3: TX 0.06 Mbps, RX 0.30 Mbps, new drops 0
+Switch 1 port 1: TX 0.03 Mbps, RX 0.15 Mbps, new drops 0
+Switch 1 port 2: TX 0.03 Mbps, RX 0.15 Mbps, new drops 0
+Switch 1 port 3: TX 0.30 Mbps, RX 0.06 Mbps, new drops 0
+Switch 2 port 1: TX 0.04 Mbps, RX 0.20 Mbps, new drops 0
+Switch 2 port 4: TX 0.49 Mbps, RX 0.10 Mbps, new drops 0
+Switch 2 port 3: TX 0.06 Mbps, RX 0.30 Mbps, new drops 0
+Switch 3 port 1: TX 0.49 Mbps, RX 0.10 Mbps, new drops 0
+Switch 3 port 2: TX 0.10 Mbps, RX 0.49 Mbps, new drops 0
+Switch 1 port 1: TX 0.03 Mbps, RX 0.15 Mbps, new drops 0
+Switch 1 port 2: TX 0.03 Mbps, RX 0.15 Mbps, new drops 0
+Switch 1 port 3: TX 0.30 Mbps, RX 0.06 Mbps, new drops 0
+Switch 3 port 1: TX 0.50 Mbps, RX 0.10 Mbps, new drops 0
+Switch 3 port 2: TX 0.10 Mbps, RX 0.50 Mbps, new drops 0
+Switch 2 port 1: TX 0.04 Mbps, RX 0.20 Mbps, new drops 0
+Switch 2 port 4: TX 0.50 Mbps, RX 0.10 Mbps, new drops 0
+Switch 2 port 3: TX 0.06 Mbps, RX 0.30 Mbps, new drops 0
+Switch 1 port 1: TX 0.03 Mbps, RX 0.15 Mbps, new drops 0
+Switch 1 port 2: TX 0.03 Mbps, RX 0.15 Mbps, new drops 0
+Switch 1 port 3: TX 0.30 Mbps, RX 0.06 Mbps, new drops 0
+Switch 3 port 1: TX 0.49 Mbps, RX 0.10 Mbps, new drops 0
+Switch 3 port 2: TX 0.10 Mbps, RX 0.49 Mbps, new drops 0
+Switch 2 port 1: TX 0.04 Mbps, RX 0.19 Mbps, new drops 0
+Switch 2 port 4: TX 0.49 Mbps, RX 0.10 Mbps, new drops 0
+Switch 2 port 3: TX 0.06 Mbps, RX 0.30 Mbps, new drops 0
+Switch 1 port 1: TX 0.03 Mbps, RX 0.15 Mbps, new drops 0
+Switch 1 port 2: TX 0.03 Mbps, RX 0.15 Mbps, new drops 0
+Switch 1 port 3: TX 0.30 Mbps, RX 0.06 Mbps, new drops 0
+Switch 2 port 1: TX 0.04 Mbps, RX 0.19 Mbps, new drops 0
+Switch 2 port 4: TX 0.49 Mbps, RX 0.10 Mbps, new drops 0
+Switch 2 port 3: TX 0.06 Mbps, RX 0.30 Mbps, new drops 0
+Switch 3 port 1: TX 0.49 Mbps, RX 0.10 Mbps, new drops 0
+Switch 3 port 2: TX 0.10 Mbps, RX 0.49 Mbps, new drops 0
+Switch 1 port 1: TX 0.03 Mbps, RX 0.15 Mbps, new drops 0
+Switch 1 port 2: TX 0.03 Mbps, RX 0.15 Mbps, new drops 0
+Switch 1 port 3: TX 0.30 Mbps, RX 0.06 Mbps, new drops 0
+Switch 3 port 1: TX 0.50 Mbps, RX 0.10 Mbps, new drops 0
+Switch 3 port 2: TX 0.10 Mbps, RX 0.50 Mbps, new drops 0
+Switch 2 port 1: TX 0.04 Mbps, RX 0.20 Mbps, new drops 0
+Switch 2 port 4: TX 0.50 Mbps, RX 0.10 Mbps, new drops 0
+Switch 2 port 3: TX 0.06 Mbps, RX 0.30 Mbps, new drops 0
+Switch 1 port 1: TX 0.03 Mbps, RX 0.15 Mbps, new drops 0
+Switch 1 port 2: TX 0.03 Mbps, RX 0.15 Mbps, new drops 0
+Switch 1 port 3: TX 0.30 Mbps, RX 0.06 Mbps, new drops 0
+Switch 3 port 1: TX 0.49 Mbps, RX 0.10 Mbps, new drops 0
+Switch 3 port 2: TX 0.10 Mbps, RX 0.49 Mbps, new drops 0
+Switch 2 port 1: TX 0.04 Mbps, RX 0.19 Mbps, new drops 0
+Switch 2 port 4: TX 0.49 Mbps, RX 0.10 Mbps, new drops 0
+Switch 2 port 3: TX 0.06 Mbps, RX 0.30 Mbps, new drops 0
+Switch 1 port 1: TX 0.03 Mbps, RX 0.15 Mbps, new drops 0
+Switch 1 port 2: TX 0.03 Mbps, RX 0.15 Mbps, new drops 0
+Switch 1 port 3: TX 0.30 Mbps, RX 0.06 Mbps, new drops 0
+Switch 2 port 1: TX 0.04 Mbps, RX 0.19 Mbps, new drops 0
+Switch 2 port 4: TX 0.49 Mbps, RX 0.10 Mbps, new drops 0
+Switch 2 port 3: TX 0.06 Mbps, RX 0.29 Mbps, new drops 0
+Switch 3 port 1: TX 0.49 Mbps, RX 0.10 Mbps, new drops 0
+Switch 3 port 2: TX 0.10 Mbps, RX 0.49 Mbps, new drops 0
+Switch 1 port 1: TX 0.03 Mbps, RX 0.15 Mbps, new drops 0
+Switch 1 port 2: TX 0.03 Mbps, RX 0.15 Mbps, new drops 0
+Switch 1 port 3: TX 0.30 Mbps, RX 0.06 Mbps, new drops 0
+Switch 2 port 1: TX 0.04 Mbps, RX 0.19 Mbps, new drops 0
+Switch 2 port 4: TX 0.49 Mbps, RX 0.10 Mbps, new drops 0
+Switch 2 port 3: TX 0.06 Mbps, RX 0.30 Mbps, new drops 0
+Switch 3 port 1: TX 0.49 Mbps, RX 0.10 Mbps, new drops 0
+Switch 3 port 2: TX 0.10 Mbps, RX 0.49 Mbps, new drops 0
+Switch 1 port 1: TX 0.03 Mbps, RX 0.15 Mbps, new drops 0
+Switch 1 port 2: TX 0.03 Mbps, RX 0.15 Mbps, new drops 0
+Switch 1 port 3: TX 0.30 Mbps, RX 0.06 Mbps, new drops 0
+Switch 3 port 1: TX 0.49 Mbps, RX 0.10 Mbps, new drops 0
+Switch 3 port 2: TX 0.10 Mbps, RX 0.50 Mbps, new drops 0
+Switch 2 port 1: TX 0.04 Mbps, RX 0.19 Mbps, new drops 0
+Switch 2 port 4: TX 0.49 Mbps, RX 0.10 Mbps, new drops 0
+Switch 2 port 3: TX 0.06 Mbps, RX 0.30 Mbps, new drops 0
+Switch 1 port 1: TX 0.03 Mbps, RX 0.15 Mbps, new drops 0
+Switch 1 port 2: TX 0.03 Mbps, RX 0.15 Mbps, new drops 0
+Switch 1 port 3: TX 0.30 Mbps, RX 0.06 Mbps, new drops 0
+Switch 2 port 1: TX 0.04 Mbps, RX 0.20 Mbps, new drops 0
+Switch 2 port 4: TX 0.50 Mbps, RX 0.10 Mbps, new drops 0
+Switch 2 port 3: TX 0.06 Mbps, RX 0.30 Mbps, new drops 0
+Switch 3 port 1: TX 0.50 Mbps, RX 0.10 Mbps, new drops 0
+Switch 3 port 2: TX 0.10 Mbps, RX 0.50 Mbps, new drops 0
+Switch 1 port 1: TX 0.03 Mbps, RX 0.15 Mbps, new drops 0
+Switch 1 port 2: TX 0.03 Mbps, RX 0.15 Mbps, new drops 0
+Switch 1 port 3: TX 0.30 Mbps, RX 0.06 Mbps, new drops 0
+Switch 3 port 1: TX 0.50 Mbps, RX 0.11 Mbps, new drops 0
+Switch 3 port 2: TX 0.11 Mbps, RX 0.50 Mbps, new drops 0
+Switch 2 port 1: TX 0.04 Mbps, RX 0.20 Mbps, new drops 0
+Switch 2 port 4: TX 0.50 Mbps, RX 0.10 Mbps, new drops 0
+Switch 2 port 3: TX 0.06 Mbps, RX 0.30 Mbps, new drops 0
+Switch 1 port 1: TX 0.03 Mbps, RX 0.15 Mbps, new drops 0
+Switch 1 port 2: TX 0.03 Mbps, RX 0.15 Mbps, new drops 0
+Switch 1 port 3: TX 0.30 Mbps, RX 0.06 Mbps, new drops 0
+Switch 3 port 1: TX 0.50 Mbps, RX 0.10 Mbps, new drops 0
+Switch 3 port 2: TX 0.10 Mbps, RX 0.50 Mbps, new drops 0
+Switch 2 port 1: TX 0.04 Mbps, RX 0.20 Mbps, new drops 0
+Switch 2 port 4: TX 0.50 Mbps, RX 0.10 Mbps, new drops 0
+Switch 2 port 3: TX 0.06 Mbps, RX 0.30 Mbps, new drops 0
+Switch 1 port 1: TX 0.03 Mbps, RX 0.15 Mbps, new drops 0
+Switch 1 port 2: TX 0.03 Mbps, RX 0.15 Mbps, new drops 0
+Switch 1 port 3: TX 0.30 Mbps, RX 0.06 Mbps, new drops 0
+Switch 2 port 1: TX 0.04 Mbps, RX 0.20 Mbps, new drops 0
+Switch 2 port 4: TX 0.50 Mbps, RX 0.10 Mbps, new drops 0
+Switch 2 port 3: TX 0.06 Mbps, RX 0.30 Mbps, new drops 0
+Switch 3 port 1: TX 0.49 Mbps, RX 0.10 Mbps, new drops 0
+Switch 3 port 2: TX 0.10 Mbps, RX 0.49 Mbps, new drops 0
+Switch 1 port 1: TX 0.03 Mbps, RX 0.15 Mbps, new drops 0
+Switch 1 port 2: TX 0.03 Mbps, RX 0.15 Mbps, new drops 0
+Switch 1 port 3: TX 0.30 Mbps, RX 0.06 Mbps, new drops 0
+Switch 3 port 1: TX 0.50 Mbps, RX 0.10 Mbps, new drops 0
+Switch 3 port 2: TX 0.10 Mbps, RX 0.50 Mbps, new drops 0
+Switch 2 port 1: TX 0.04 Mbps, RX 0.19 Mbps, new drops 0
+Switch 2 port 4: TX 0.49 Mbps, RX 0.10 Mbps, new drops 0
+Switch 2 port 3: TX 0.06 Mbps, RX 0.30 Mbps, new drops 0
+Switch 1 port 1: TX 0.03 Mbps, RX 0.15 Mbps, new drops 0
+Switch 1 port 2: TX 0.03 Mbps, RX 0.15 Mbps, new drops 0
+Switch 1 port 3: TX 0.30 Mbps, RX 0.06 Mbps, new drops 0
+Switch 3 port 1: TX 0.50 Mbps, RX 0.10 Mbps, new drops 0
+Switch 3 port 2: TX 0.10 Mbps, RX 0.50 Mbps, new drops 0
+Switch 2 port 1: TX 0.04 Mbps, RX 0.20 Mbps, new drops 0
+Switch 2 port 4: TX 0.50 Mbps, RX 0.10 Mbps, new drops 0
+Switch 2 port 3: TX 0.06 Mbps, RX 0.30 Mbps, new drops 0
+Switch 1 port 1: TX 0.03 Mbps, RX 0.15 Mbps, new drops 0
+Switch 1 port 2: TX 0.03 Mbps, RX 0.15 Mbps, new drops 0
+Switch 1 port 3: TX 0.30 Mbps, RX 0.06 Mbps, new drops 0
+Switch 2 port 1: TX 0.04 Mbps, RX 0.20 Mbps, new drops 0
+Switch 2 port 4: TX 0.50 Mbps, RX 0.10 Mbps, new drops 0
+Switch 2 port 3: TX 0.06 Mbps, RX 0.30 Mbps, new drops 0
+Switch 3 port 1: TX 0.50 Mbps, RX 0.10 Mbps, new drops 0
+Switch 3 port 2: TX 0.10 Mbps, RX 0.49 Mbps, new drops 0
+Switch 1 port 1: TX 0.03 Mbps, RX 0.15 Mbps, new drops 0
+Switch 1 port 2: TX 0.03 Mbps, RX 0.15 Mbps, new drops 0
+Switch 1 port 3: TX 0.30 Mbps, RX 0.06 Mbps, new drops 0
+Switch 2 port 1: TX 0.04 Mbps, RX 0.19 Mbps, new drops 0
+Switch 2 port 4: TX 0.49 Mbps, RX 0.10 Mbps, new drops 0
+Switch 2 port 3: TX 0.06 Mbps, RX 0.30 Mbps, new drops 0
+Switch 3 port 1: TX 0.49 Mbps, RX 0.10 Mbps, new drops 0
+Switch 3 port 2: TX 0.10 Mbps, RX 0.49 Mbps, new drops 0
+Switch 1 port 1: TX 0.03 Mbps, RX 0.15 Mbps, new drops 0
+Switch 1 port 2: TX 0.03 Mbps, RX 0.15 Mbps, new drops 0
+Switch 1 port 3: TX 0.29 Mbps, RX 0.06 Mbps, new drops 0
+Switch 3 port 1: TX 0.49 Mbps, RX 0.10 Mbps, new drops 0
+Switch 3 port 2: TX 0.10 Mbps, RX 0.49 Mbps, new drops 0
+Switch 2 port 1: TX 0.04 Mbps, RX 0.19 Mbps, new drops 0
+Switch 2 port 4: TX 0.49 Mbps, RX 0.10 Mbps, new drops 0
+Switch 2 port 3: TX 0.06 Mbps, RX 0.29 Mbps, new drops 0
+Switch 1 port 1: TX 0.03 Mbps, RX 0.15 Mbps, new drops 0
+Switch 1 port 2: TX 0.03 Mbps, RX 0.15 Mbps, new drops 0
+Switch 1 port 3: TX 0.30 Mbps, RX 0.06 Mbps, new drops 0
+Switch 3 port 1: TX 0.49 Mbps, RX 0.10 Mbps, new drops 0
+Switch 3 port 2: TX 0.10 Mbps, RX 0.49 Mbps, new drops 0
+Switch 2 port 1: TX 0.04 Mbps, RX 0.19 Mbps, new drops 0
+Switch 2 port 4: TX 0.49 Mbps, RX 0.10 Mbps, new drops 0
+Switch 2 port 3: TX 0.06 Mbps, RX 0.30 Mbps, new drops 0
+Switch 1 port 1: TX 0.03 Mbps, RX 0.15 Mbps, new drops 0
+Switch 1 port 2: TX 0.03 Mbps, RX 0.15 Mbps, new drops 0
+Switch 1 port 3: TX 0.30 Mbps, RX 0.06 Mbps, new drops 0
+Switch 3 port 1: TX 0.50 Mbps, RX 0.10 Mbps, new drops 0
+Switch 3 port 2: TX 0.10 Mbps, RX 0.50 Mbps, new drops 0
+Switch 2 port 1: TX 0.04 Mbps, RX 0.20 Mbps, new drops 0
+Switch 2 port 4: TX 0.50 Mbps, RX 0.10 Mbps, new drops 0
+Switch 2 port 3: TX 0.06 Mbps, RX 0.30 Mbps, new drops 0
+Switch 1 port 1: TX 0.03 Mbps, RX 0.15 Mbps, new drops 0
+Switch 1 port 2: TX 0.03 Mbps, RX 0.15 Mbps, new drops 0
+Switch 1 port 3: TX 0.30 Mbps, RX 0.06 Mbps, new drops 0
+Switch 3 port 1: TX 0.50 Mbps, RX 0.10 Mbps, new drops 0
+Switch 3 port 2: TX 0.10 Mbps, RX 0.50 Mbps, new drops 0
+Switch 2 port 1: TX 0.04 Mbps, RX 0.20 Mbps, new drops 0
+Switch 2 port 4: TX 0.50 Mbps, RX 0.10 Mbps, new drops 0
+Switch 2 port 3: TX 0.06 Mbps, RX 0.30 Mbps, new drops 0
+Switch 1 port 1: TX 0.03 Mbps, RX 0.15 Mbps, new drops 0
+Switch 1 port 2: TX 0.03 Mbps, RX 0.15 Mbps, new drops 0
+Switch 1 port 3: TX 0.30 Mbps, RX 0.06 Mbps, new drops 0
+Switch 2 port 1: TX 0.04 Mbps, RX 0.20 Mbps, new drops 0
+Switch 2 port 4: TX 0.50 Mbps, RX 0.10 Mbps, new drops 0
+Switch 2 port 3: TX 0.06 Mbps, RX 0.30 Mbps, new drops 0
+Switch 3 port 1: TX 0.50 Mbps, RX 0.10 Mbps, new drops 0
+Switch 3 port 2: TX 0.10 Mbps, RX 0.50 Mbps, new drops 0
+Switch 1 port 1: TX 0.03 Mbps, RX 0.15 Mbps, new drops 0
+Switch 1 port 2: TX 0.03 Mbps, RX 0.15 Mbps, new drops 0
+Switch 1 port 3: TX 0.30 Mbps, RX 0.06 Mbps, new drops 0
+Switch 2 port 1: TX 0.04 Mbps, RX 0.20 Mbps, new drops 0
+Switch 2 port 4: TX 0.49 Mbps, RX 0.10 Mbps, new drops 0
+Switch 2 port 3: TX 0.06 Mbps, RX 0.30 Mbps, new drops 0
+Switch 3 port 1: TX 0.49 Mbps, RX 0.10 Mbps, new drops 0
+Switch 3 port 2: TX 0.10 Mbps, RX 0.49 Mbps, new drops 0
+Switch 1 port 1: TX 0.03 Mbps, RX 0.15 Mbps, new drops 0
+Switch 1 port 2: TX 0.03 Mbps, RX 0.15 Mbps, new drops 0
+Switch 1 port 3: TX 0.30 Mbps, RX 0.06 Mbps, new drops 0
+Switch 3 port 1: TX 0.50 Mbps, RX 0.10 Mbps, new drops 0
+Switch 3 port 2: TX 0.10 Mbps, RX 0.50 Mbps, new drops 0
+Switch 2 port 1: TX 0.04 Mbps, RX 0.19 Mbps, new drops 0
+Switch 2 port 4: TX 0.49 Mbps, RX 0.10 Mbps, new drops 0
+Switch 2 port 3: TX 0.06 Mbps, RX 0.30 Mbps, new drops 0
+Switch 1 port 1: TX 0.03 Mbps, RX 0.15 Mbps, new drops 0
+Switch 1 port 2: TX 0.03 Mbps, RX 0.15 Mbps, new drops 0
+Switch 1 port 3: TX 0.30 Mbps, RX 0.06 Mbps, new drops 0
+Switch 3 port 1: TX 0.50 Mbps, RX 0.10 Mbps, new drops 0
+Switch 3 port 2: TX 0.10 Mbps, RX 0.50 Mbps, new drops 0
+Switch 2 port 1: TX 0.04 Mbps, RX 0.20 Mbps, new drops 0
+Switch 2 port 4: TX 0.50 Mbps, RX 0.10 Mbps, new drops 0
+Switch 2 port 3: TX 0.06 Mbps, RX 0.30 Mbps, new drops 0
+Switch 1 port 1: TX 0.03 Mbps, RX 0.15 Mbps, new drops 0
+Switch 1 port 2: TX 0.03 Mbps, RX 0.15 Mbps, new drops 0
+Switch 1 port 3: TX 0.30 Mbps, RX 0.06 Mbps, new drops 0
+Switch 2 port 1: TX 0.04 Mbps, RX 0.20 Mbps, new drops 0
+Switch 2 port 4: TX 0.50 Mbps, RX 0.10 Mbps, new drops 0
+Switch 2 port 3: TX 0.06 Mbps, RX 0.30 Mbps, new drops 0
+Switch 3 port 1: TX 0.49 Mbps, RX 0.10 Mbps, new drops 0
+Switch 3 port 2: TX 0.10 Mbps, RX 0.49 Mbps, new drops 0
+Switch 1 port 1: TX 0.03 Mbps, RX 0.15 Mbps, new drops 0
+Switch 1 port 2: TX 0.03 Mbps, RX 0.15 Mbps, new drops 0
+Switch 1 port 3: TX 0.30 Mbps, RX 0.06 Mbps, new drops 0
+Switch 2 port 1: TX 0.04 Mbps, RX 0.20 Mbps, new drops 0
+Switch 2 port 4: TX 0.50 Mbps, RX 0.10 Mbps, new drops 0
+Switch 2 port 3: TX 0.06 Mbps, RX 0.30 Mbps, new drops 0
+Switch 3 port 1: TX 0.50 Mbps, RX 0.10 Mbps, new drops 0
+Switch 3 port 2: TX 0.10 Mbps, RX 0.50 Mbps, new drops 0
+Switch 1 port 1: TX 0.03 Mbps, RX 0.15 Mbps, new drops 0
+Switch 1 port 2: TX 0.03 Mbps, RX 0.15 Mbps, new drops 0
+Switch 1 port 3: TX 0.30 Mbps, RX 0.06 Mbps, new drops 0
+Switch 2 port 1: TX 0.04 Mbps, RX 0.20 Mbps, new drops 0
+Switch 2 port 4: TX 0.50 Mbps, RX 0.10 Mbps, new drops 0
+Switch 2 port 3: TX 0.06 Mbps, RX 0.30 Mbps, new drops 0
+Switch 3 port 1: TX 0.50 Mbps, RX 0.10 Mbps, new drops 0
+Switch 3 port 2: TX 0.10 Mbps, RX 0.50 Mbps, new drops 0
+Switch 1 port 1: TX 0.03 Mbps, RX 0.15 Mbps, new drops 0
+Switch 1 port 2: TX 0.03 Mbps, RX 0.15 Mbps, new drops 0
+Switch 1 port 3: TX 0.30 Mbps, RX 0.06 Mbps, new drops 0
+Switch 2 port 1: TX 0.04 Mbps, RX 0.20 Mbps, new drops 0
+Switch 2 port 4: TX 0.50 Mbps, RX 0.10 Mbps, new drops 0
+Switch 2 port 3: TX 0.06 Mbps, RX 0.30 Mbps, new drops 0
+Switch 3 port 1: TX 0.50 Mbps, RX 0.10 Mbps, new drops 0
+Switch 3 port 2: TX 0.10 Mbps, RX 0.50 Mbps, new drops 0
+Switch 1 port 1: TX 0.03 Mbps, RX 0.15 Mbps, new drops 0
+Switch 1 port 2: TX 0.03 Mbps, RX 0.15 Mbps, new drops 0
+Switch 1 port 3: TX 0.31 Mbps, RX 0.06 Mbps, new drops 0
+Switch 2 port 1: TX 0.04 Mbps, RX 0.20 Mbps, new drops 0
+Switch 2 port 4: TX 0.51 Mbps, RX 0.11 Mbps, new drops 0
+Switch 2 port 3: TX 0.06 Mbps, RX 0.31 Mbps, new drops 0
+Switch 3 port 1: TX 0.51 Mbps, RX 0.11 Mbps, new drops 0
+Switch 3 port 2: TX 0.11 Mbps, RX 0.50 Mbps, new drops 0
+Switch 1 port 1: TX 0.03 Mbps, RX 0.15 Mbps, new drops 0
+Switch 1 port 2: TX 0.03 Mbps, RX 0.15 Mbps, new drops 0
+Switch 1 port 3: TX 0.30 Mbps, RX 0.06 Mbps, new drops 0
+Switch 3 port 1: TX 0.50 Mbps, RX 0.10 Mbps, new drops 0
+Switch 3 port 2: TX 0.10 Mbps, RX 0.50 Mbps, new drops 0
+Switch 2 port 1: TX 0.04 Mbps, RX 0.20 Mbps, new drops 0
+Switch 2 port 4: TX 0.49 Mbps, RX 0.10 Mbps, new drops 0
+Switch 2 port 3: TX 0.06 Mbps, RX 0.30 Mbps, new drops 0
+Switch 1 port 1: TX 0.03 Mbps, RX 0.15 Mbps, new drops 0
+Switch 1 port 2: TX 0.03 Mbps, RX 0.15 Mbps, new drops 0
+Switch 1 port 3: TX 0.30 Mbps, RX 0.06 Mbps, new drops 0
+Switch 2 port 1: TX 0.04 Mbps, RX 0.20 Mbps, new drops 0
+Switch 2 port 4: TX 0.50 Mbps, RX 0.10 Mbps, new drops 0
+Switch 2 port 3: TX 0.06 Mbps, RX 0.30 Mbps, new drops 0
+Switch 3 port 1: TX 0.50 Mbps, RX 0.10 Mbps, new drops 0
+Switch 3 port 2: TX 0.10 Mbps, RX 0.50 Mbps, new drops 0
+Switch 1 port 1: TX 0.03 Mbps, RX 0.15 Mbps, new drops 0
+Switch 1 port 2: TX 0.03 Mbps, RX 0.15 Mbps, new drops 0
+Switch 1 port 3: TX 0.30 Mbps, RX 0.06 Mbps, new drops 0
+Switch 2 port 1: TX 0.04 Mbps, RX 0.20 Mbps, new drops 0
+Switch 2 port 4: TX 0.50 Mbps, RX 0.11 Mbps, new drops 0
+Switch 2 port 3: TX 0.06 Mbps, RX 0.30 Mbps, new drops 0
+Switch 3 port 1: TX 0.50 Mbps, RX 0.11 Mbps, new drops 0
+Switch 3 port 2: TX 0.11 Mbps, RX 0.50 Mbps, new drops 0
+Switch 1 port 1: TX 0.03 Mbps, RX 0.15 Mbps, new drops 0
+Switch 1 port 2: TX 0.03 Mbps, RX 0.15 Mbps, new drops 0
+Switch 1 port 3: TX 0.30 Mbps, RX 0.06 Mbps, new drops 0
+Switch 3 port 1: TX 0.50 Mbps, RX 0.10 Mbps, new drops 0
+Switch 3 port 2: TX 0.10 Mbps, RX 0.50 Mbps, new drops 0
+Switch 2 port 1: TX 0.04 Mbps, RX 0.20 Mbps, new drops 0
+Switch 2 port 4: TX 0.50 Mbps, RX 0.10 Mbps, new drops 0
+Switch 2 port 3: TX 0.06 Mbps, RX 0.30 Mbps, new drops 0
+Switch 1 port 1: TX 0.03 Mbps, RX 0.15 Mbps, new drops 0
+Switch 1 port 2: TX 0.03 Mbps, RX 0.15 Mbps, new drops 0
+Switch 1 port 3: TX 0.31 Mbps, RX 0.06 Mbps, new drops 0
+Switch 3 port 1: TX 0.51 Mbps, RX 0.11 Mbps, new drops 0
+Switch 3 port 2: TX 0.11 Mbps, RX 0.51 Mbps, new drops 0
+Switch 2 port 1: TX 0.04 Mbps, RX 0.20 Mbps, new drops 0
+Switch 2 port 4: TX 0.51 Mbps, RX 0.11 Mbps, new drops 0
+Switch 2 port 3: TX 0.06 Mbps, RX 0.31 Mbps, new drops 0
+Switch 1 port 1: TX 0.03 Mbps, RX 0.15 Mbps, new drops 0
+Switch 1 port 2: TX 0.03 Mbps, RX 0.15 Mbps, new drops 0
+Switch 1 port 3: TX 0.31 Mbps, RX 0.06 Mbps, new drops 0
+Switch 3 port 1: TX 0.51 Mbps, RX 0.11 Mbps, new drops 0
+Switch 3 port 2: TX 0.11 Mbps, RX 0.51 Mbps, new drops 0
+Switch 2 port 1: TX 0.04 Mbps, RX 0.20 Mbps, new drops 0
+Switch 2 port 4: TX 0.51 Mbps, RX 0.11 Mbps, new drops 0
+Switch 2 port 3: TX 0.06 Mbps, RX 0.31 Mbps, new drops 0
+Switch 1 port 1: TX 0.03 Mbps, RX 0.15 Mbps, new drops 0
+Switch 1 port 2: TX 0.03 Mbps, RX 0.15 Mbps, new drops 0
+Switch 1 port 3: TX 0.30 Mbps, RX 0.06 Mbps, new drops 0
+Switch 2 port 1: TX 0.04 Mbps, RX 0.20 Mbps, new drops 0
+Switch 2 port 4: TX 0.50 Mbps, RX 0.11 Mbps, new drops 0
+Switch 2 port 3: TX 0.06 Mbps, RX 0.30 Mbps, new drops 0
+Switch 3 port 1: TX 0.50 Mbps, RX 0.10 Mbps, new drops 0
+Switch 3 port 2: TX 0.10 Mbps, RX 0.50 Mbps, new drops 0
+Switch 1 port 1: TX 0.03 Mbps, RX 0.15 Mbps, new drops 0
+Switch 1 port 2: TX 0.03 Mbps, RX 0.15 Mbps, new drops 0
+Switch 1 port 3: TX 0.30 Mbps, RX 0.06 Mbps, new drops 0
+Switch 3 port 1: TX 0.50 Mbps, RX 0.10 Mbps, new drops 0
+Switch 3 port 2: TX 0.10 Mbps, RX 0.50 Mbps, new drops 0
+Switch 2 port 1: TX 0.04 Mbps, RX 0.20 Mbps, new drops 0
+Switch 2 port 4: TX 0.50 Mbps, RX 0.10 Mbps, new drops 0
+Switch 2 port 3: TX 0.06 Mbps, RX 0.30 Mbps, new drops 0
+Switch 1 port 1: TX 0.03 Mbps, RX 0.15 Mbps, new drops 0
+Switch 1 port 2: TX 0.03 Mbps, RX 0.15 Mbps, new drops 0
+Switch 1 port 3: TX 0.30 Mbps, RX 0.06 Mbps, new drops 0
+Switch 3 port 1: TX 0.49 Mbps, RX 0.10 Mbps, new drops 0
+Switch 3 port 2: TX 0.10 Mbps, RX 0.49 Mbps, new drops 0
+Switch 2 port 1: TX 0.04 Mbps, RX 0.20 Mbps, new drops 0
+Switch 2 port 4: TX 0.50 Mbps, RX 0.10 Mbps, new drops 0
+Switch 2 port 3: TX 0.06 Mbps, RX 0.30 Mbps, new drops 0
+Switch 1 port 1: TX 0.03 Mbps, RX 0.15 Mbps, new drops 0
+Switch 1 port 2: TX 0.03 Mbps, RX 0.15 Mbps, new drops 0
+Switch 1 port 3: TX 0.30 Mbps, RX 0.06 Mbps, new drops 0
+Switch 2 port 1: TX 0.04 Mbps, RX 0.20 Mbps, new drops 0
+Switch 2 port 4: TX 0.50 Mbps, RX 0.10 Mbps, new drops 0
+Switch 2 port 3: TX 0.06 Mbps, RX 0.30 Mbps, new drops 0
+Switch 3 port 1: TX 0.49 Mbps, RX 0.10 Mbps, new drops 0
+Switch 3 port 2: TX 0.10 Mbps, RX 0.49 Mbps, new drops 0
+Switch 1 port 1: TX 0.03 Mbps, RX 0.15 Mbps, new drops 0
+Switch 1 port 2: TX 0.03 Mbps, RX 0.15 Mbps, new drops 0
+Switch 1 port 3: TX 0.30 Mbps, RX 0.06 Mbps, new drops 0
+Switch 2 port 1: TX 0.04 Mbps, RX 0.20 Mbps, new drops 0
+Switch 2 port 4: TX 0.50 Mbps, RX 0.10 Mbps, new drops 0
+Switch 2 port 3: TX 0.06 Mbps, RX 0.30 Mbps, new drops 0
+Switch 3 port 1: TX 0.50 Mbps, RX 0.10 Mbps, new drops 0
+Switch 3 port 2: TX 0.10 Mbps, RX 0.50 Mbps, new drops 0
+Switch 1 port 1: TX 0.03 Mbps, RX 0.15 Mbps, new drops 0
+Switch 1 port 2: TX 0.03 Mbps, RX 0.15 Mbps, new drops 0
+Switch 1 port 3: TX 0.30 Mbps, RX 0.06 Mbps, new drops 0
+Switch 2 port 1: TX 0.04 Mbps, RX 0.19 Mbps, new drops 0
+Switch 2 port 4: TX 0.50 Mbps, RX 0.10 Mbps, new drops 0
+Switch 2 port 3: TX 0.06 Mbps, RX 0.30 Mbps, new drops 0
+Switch 3 port 1: TX 0.50 Mbps, RX 0.10 Mbps, new drops 0
+Switch 3 port 2: TX 0.10 Mbps, RX 0.50 Mbps, new drops 0
+Switch 1 port 1: TX 0.03 Mbps, RX 0.15 Mbps, new drops 0
+Switch 1 port 2: TX 0.03 Mbps, RX 0.15 Mbps, new drops 0
+Switch 1 port 3: TX 0.30 Mbps, RX 0.06 Mbps, new drops 0
+Switch 3 port 1: TX 0.50 Mbps, RX 0.10 Mbps, new drops 0
+Switch 3 port 2: TX 0.10 Mbps, RX 0.50 Mbps, new drops 0
+Switch 2 port 1: TX 0.04 Mbps, RX 0.19 Mbps, new drops 0
+Switch 2 port 4: TX 0.49 Mbps, RX 0.10 Mbps, new drops 0
+Switch 2 port 3: TX 0.06 Mbps, RX 0.30 Mbps, new drops 0
+Switch 1 port 1: TX 0.03 Mbps, RX 0.15 Mbps, new drops 0
+Switch 1 port 2: TX 0.03 Mbps, RX 0.15 Mbps, new drops 0
+Switch 1 port 3: TX 0.30 Mbps, RX 0.06 Mbps, new drops 0
+Switch 3 port 1: TX 0.50 Mbps, RX 0.10 Mbps, new drops 0
+Switch 3 port 2: TX 0.10 Mbps, RX 0.50 Mbps, new drops 0
+Switch 2 port 1: TX 0.04 Mbps, RX 0.20 Mbps, new drops 0
+Switch 2 port 4: TX 0.50 Mbps, RX 0.10 Mbps, new drops 0
+Switch 2 port 3: TX 0.06 Mbps, RX 0.30 Mbps, new drops 0
+Switch 1 port 1: TX 0.03 Mbps, RX 0.15 Mbps, new drops 0
+Switch 1 port 2: TX 0.03 Mbps, RX 0.15 Mbps, new drops 0
+Switch 1 port 3: TX 0.30 Mbps, RX 0.06 Mbps, new drops 0
+Switch 3 port 1: TX 0.50 Mbps, RX 0.11 Mbps, new drops 0
+Switch 3 port 2: TX 0.11 Mbps, RX 0.50 Mbps, new drops 0
+Switch 2 port 1: TX 0.04 Mbps, RX 0.20 Mbps, new drops 0
+Switch 2 port 4: TX 0.50 Mbps, RX 0.11 Mbps, new drops 0
+Switch 2 port 3: TX 0.06 Mbps, RX 0.30 Mbps, new drops 0
+Switch 1 port 1: TX 0.03 Mbps, RX 0.15 Mbps, new drops 0
+Switch 1 port 2: TX 0.03 Mbps, RX 0.15 Mbps, new drops 0
+Switch 1 port 3: TX 0.30 Mbps, RX 0.06 Mbps, new drops 0
+Switch 2 port 1: TX 0.04 Mbps, RX 0.20 Mbps, new drops 0
+Switch 2 port 4: TX 0.49 Mbps, RX 0.10 Mbps, new drops 0
+Switch 2 port 3: TX 0.06 Mbps, RX 0.30 Mbps, new drops 0
+Switch 3 port 1: TX 0.49 Mbps, RX 0.10 Mbps, new drops 0
+Switch 3 port 2: TX 0.10 Mbps, RX 0.49 Mbps, new drops 0
+Switch 1 port 1: TX 0.03 Mbps, RX 0.15 Mbps, new drops 0
+Switch 1 port 2: TX 0.03 Mbps, RX 0.15 Mbps, new drops 0
+Switch 1 port 3: TX 0.30 Mbps, RX 0.06 Mbps, new drops 0
+Switch 2 port 1: TX 0.04 Mbps, RX 0.20 Mbps, new drops 0
+Switch 2 port 4: TX 0.50 Mbps, RX 0.10 Mbps, new drops 0
+Switch 2 port 3: TX 0.06 Mbps, RX 0.30 Mbps, new drops 0
+Switch 3 port 1: TX 0.50 Mbps, RX 0.10 Mbps, new drops 0
+Switch 3 port 2: TX 0.10 Mbps, RX 0.50 Mbps, new drops 0
+Switch 1 port 1: TX 0.03 Mbps, RX 0.15 Mbps, new drops 0
+Switch 1 port 2: TX 0.03 Mbps, RX 0.15 Mbps, new drops 0
+Switch 1 port 3: TX 0.30 Mbps, RX 0.06 Mbps, new drops 0
+Switch 3 port 1: TX 0.50 Mbps, RX 0.10 Mbps, new drops 0
+Switch 3 port 2: TX 0.10 Mbps, RX 0.50 Mbps, new drops 0
+Switch 2 port 1: TX 0.04 Mbps, RX 0.20 Mbps, new drops 0
+Switch 2 port 4: TX 0.50 Mbps, RX 0.10 Mbps, new drops 0
+Switch 2 port 3: TX 0.06 Mbps, RX 0.30 Mbps, new drops 0
+Switch 1 port 1: TX 0.03 Mbps, RX 0.15 Mbps, new drops 0
+Switch 1 port 2: TX 0.03 Mbps, RX 0.15 Mbps, new drops 0
+Switch 1 port 3: TX 0.31 Mbps, RX 0.06 Mbps, new drops 0
+Switch 2 port 1: TX 0.04 Mbps, RX 0.20 Mbps, new drops 0
+Switch 2 port 4: TX 0.51 Mbps, RX 0.11 Mbps, new drops 0
+Switch 2 port 3: TX 0.06 Mbps, RX 0.31 Mbps, new drops 0
+Switch 3 port 1: TX 0.51 Mbps, RX 0.11 Mbps, new drops 0
+Switch 3 port 2: TX 0.11 Mbps, RX 0.51 Mbps, new drops 0
+Switch 1 port 1: TX 0.03 Mbps, RX 0.15 Mbps, new drops 0
+Switch 1 port 2: TX 0.03 Mbps, RX 0.15 Mbps, new drops 0
+Switch 1 port 3: TX 0.30 Mbps, RX 0.06 Mbps, new drops 0
+Switch 2 port 1: TX 0.01 Mbps, RX 0.02 Mbps, new drops 0
+Switch 2 port 4: TX 0.33 Mbps, RX 0.07 Mbps, new drops 0
+Switch 2 port 3: TX 0.06 Mbps, RX 0.30 Mbps, new drops 0
+Switch 3 port 1: TX 0.33 Mbps, RX 0.07 Mbps, new drops 0
+Switch 3 port 2: TX 0.07 Mbps, RX 0.33 Mbps, new drops 0
+Switch 1 port 1: TX 0.03 Mbps, RX 0.15 Mbps, new drops 0
+Switch 1 port 2: TX 0.03 Mbps, RX 0.15 Mbps, new drops 0
+Switch 1 port 3: TX 0.30 Mbps, RX 0.06 Mbps, new drops 0
+Switch 2 port 4: TX 0.30 Mbps, RX 0.06 Mbps, new drops 0
+Switch 2 port 3: TX 0.06 Mbps, RX 0.30 Mbps, new drops 0
+Switch 3 port 1: TX 0.30 Mbps, RX 0.06 Mbps, new drops 0
+Switch 3 port 2: TX 0.06 Mbps, RX 0.30 Mbps, new drops 0
+Switch 1 port 1: TX 0.03 Mbps, RX 0.15 Mbps, new drops 0
+Switch 1 port 2: TX 0.03 Mbps, RX 0.15 Mbps, new drops 0
+Switch 1 port 3: TX 0.30 Mbps, RX 0.06 Mbps, new drops 0
+Switch 3 port 1: TX 0.30 Mbps, RX 0.06 Mbps, new drops 0
+Switch 3 port 2: TX 0.06 Mbps, RX 0.30 Mbps, new drops 0
+Switch 2 port 4: TX 0.30 Mbps, RX 0.06 Mbps, new drops 0
+Switch 2 port 3: TX 0.06 Mbps, RX 0.30 Mbps, new drops 0
+Switch 1 port 1: TX 0.03 Mbps, RX 0.15 Mbps, new drops 0
+Switch 1 port 2: TX 0.03 Mbps, RX 0.15 Mbps, new drops 0
+Switch 1 port 3: TX 0.30 Mbps, RX 0.06 Mbps, new drops 0
+Switch 3 port 1: TX 0.30 Mbps, RX 0.06 Mbps, new drops 0
+Switch 3 port 2: TX 0.06 Mbps, RX 0.30 Mbps, new drops 0
+Switch 2 port 4: TX 0.30 Mbps, RX 0.06 Mbps, new drops 0
+Switch 2 port 3: TX 0.06 Mbps, RX 0.30 Mbps, new drops 0
+Switch 1 port 1: TX 0.03 Mbps, RX 0.15 Mbps, new drops 0
+Switch 1 port 2: TX 0.03 Mbps, RX 0.15 Mbps, new drops 0
+Switch 1 port 3: TX 0.31 Mbps, RX 0.06 Mbps, new drops 0
+Switch 2 port 4: TX 0.31 Mbps, RX 0.07 Mbps, new drops 0
+Switch 2 port 3: TX 0.07 Mbps, RX 0.31 Mbps, new drops 0
+Switch 3 port 1: TX 0.31 Mbps, RX 0.06 Mbps, new drops 0
+Switch 3 port 2: TX 0.06 Mbps, RX 0.31 Mbps, new drops 0
+Switch 1 port 1: TX 0.03 Mbps, RX 0.15 Mbps, new drops 0
+Switch 1 port 2: TX 0.03 Mbps, RX 0.15 Mbps, new drops 0
+Switch 1 port 3: TX 0.30 Mbps, RX 0.06 Mbps, new drops 0
+Switch 3 port 1: TX 0.30 Mbps, RX 0.06 Mbps, new drops 0
+Switch 3 port 2: TX 0.06 Mbps, RX 0.30 Mbps, new drops 0
+Switch 2 port 4: TX 0.30 Mbps, RX 0.06 Mbps, new drops 0
+Switch 2 port 3: TX 0.06 Mbps, RX 0.30 Mbps, new drops 0
+Switch 1 port 1: TX 0.03 Mbps, RX 0.15 Mbps, new drops 0
+Switch 1 port 2: TX 0.03 Mbps, RX 0.15 Mbps, new drops 0
+Switch 1 port 3: TX 0.30 Mbps, RX 0.06 Mbps, new drops 0
+Switch 2 port 4: TX 0.31 Mbps, RX 0.06 Mbps, new drops 0
+Switch 2 port 3: TX 0.06 Mbps, RX 0.30 Mbps, new drops 0
+Switch 3 port 1: TX 0.30 Mbps, RX 0.06 Mbps, new drops 0
+Switch 3 port 2: TX 0.06 Mbps, RX 0.30 Mbps, new drops 0
+Switch 1 port 1: TX 0.03 Mbps, RX 0.15 Mbps, new drops 0
+Switch 1 port 2: TX 0.03 Mbps, RX 0.15 Mbps, new drops 0
+Switch 1 port 3: TX 0.30 Mbps, RX 0.06 Mbps, new drops 0
+Switch 3 port 1: TX 0.31 Mbps, RX 0.06 Mbps, new drops 0
+Switch 3 port 2: TX 0.06 Mbps, RX 0.31 Mbps, new drops 0
+Switch 2 port 4: TX 0.30 Mbps, RX 0.06 Mbps, new drops 0
+Switch 2 port 3: TX 0.06 Mbps, RX 0.30 Mbps, new drops 0
+Switch 1 port 1: TX 0.03 Mbps, RX 0.15 Mbps, new drops 0
+Switch 1 port 2: TX 0.03 Mbps, RX 0.15 Mbps, new drops 0
+Switch 1 port 3: TX 0.30 Mbps, RX 0.06 Mbps, new drops 0
+Switch 2 port 4: TX 0.30 Mbps, RX 0.06 Mbps, new drops 0
+Switch 2 port 3: TX 0.06 Mbps, RX 0.30 Mbps, new drops 0
+Switch 3 port 1: TX 0.30 Mbps, RX 0.06 Mbps, new drops 0
+Switch 3 port 2: TX 0.06 Mbps, RX 0.30 Mbps, new drops 0
+Switch 1 port 1: TX 0.03 Mbps, RX 0.15 Mbps, new drops 0
+Switch 1 port 2: TX 0.03 Mbps, RX 0.15 Mbps, new drops 0
+Switch 1 port 3: TX 0.30 Mbps, RX 0.06 Mbps, new drops 0
+Switch 3 port 1: TX 0.30 Mbps, RX 0.06 Mbps, new drops 0
+Switch 3 port 2: TX 0.06 Mbps, RX 0.30 Mbps, new drops 0
+Switch 2 port 4: TX 0.30 Mbps, RX 0.06 Mbps, new drops 0
+Switch 2 port 3: TX 0.06 Mbps, RX 0.30 Mbps, new drops 0
+Switch 1 port 1: TX 0.03 Mbps, RX 0.15 Mbps, new drops 0
+Switch 1 port 2: TX 0.03 Mbps, RX 0.15 Mbps, new drops 0
+Switch 1 port 3: TX 0.30 Mbps, RX 0.06 Mbps, new drops 0
+Switch 3 port 1: TX 0.30 Mbps, RX 0.06 Mbps, new drops 0
+Switch 3 port 2: TX 0.06 Mbps, RX 0.30 Mbps, new drops 0
+Switch 2 port 4: TX 0.30 Mbps, RX 0.06 Mbps, new drops 0
+Switch 2 port 3: TX 0.06 Mbps, RX 0.30 Mbps, new drops 0
+Switch 1 port 1: TX 0.03 Mbps, RX 0.15 Mbps, new drops 0
+Switch 1 port 2: TX 0.03 Mbps, RX 0.15 Mbps, new drops 0
+Switch 1 port 3: TX 0.30 Mbps, RX 0.06 Mbps, new drops 0
+Switch 2 port 4: TX 0.31 Mbps, RX 0.06 Mbps, new drops 0
+Switch 2 port 3: TX 0.06 Mbps, RX 0.31 Mbps, new drops 0
+Switch 3 port 1: TX 0.31 Mbps, RX 0.06 Mbps, new drops 0
+Switch 3 port 2: TX 0.06 Mbps, RX 0.31 Mbps, new drops 0
+Switch 1 port 1: TX 0.03 Mbps, RX 0.16 Mbps, new drops 0
+Switch 1 port 2: TX 0.03 Mbps, RX 0.15 Mbps, new drops 0
+Switch 1 port 3: TX 0.31 Mbps, RX 0.07 Mbps, new drops 0
+Switch 3 port 1: TX 0.31 Mbps, RX 0.07 Mbps, new drops 0
+Switch 3 port 2: TX 0.07 Mbps, RX 0.31 Mbps, new drops 0
+Switch 2 port 4: TX 0.31 Mbps, RX 0.07 Mbps, new drops 0
+Switch 2 port 3: TX 0.06 Mbps, RX 0.31 Mbps, new drops 0
+Switch 1 port 1: TX 0.03 Mbps, RX 0.15 Mbps, new drops 0
+Switch 1 port 2: TX 0.03 Mbps, RX 0.15 Mbps, new drops 0
+Switch 1 port 3: TX 0.30 Mbps, RX 0.06 Mbps, new drops 0
+Switch 3 port 1: TX 0.30 Mbps, RX 0.06 Mbps, new drops 0
+Switch 3 port 2: TX 0.06 Mbps, RX 0.30 Mbps, new drops 0
+Switch 2 port 4: TX 0.30 Mbps, RX 0.06 Mbps, new drops 0
+Switch 2 port 3: TX 0.06 Mbps, RX 0.30 Mbps, new drops 0
+Switch 1 port 1: TX 0.03 Mbps, RX 0.15 Mbps, new drops 0
+Switch 1 port 2: TX 0.03 Mbps, RX 0.15 Mbps, new drops 0
+Switch 1 port 3: TX 0.31 Mbps, RX 0.06 Mbps, new drops 0
+Switch 3 port 1: TX 0.31 Mbps, RX 0.07 Mbps, new drops 0
+Switch 3 port 2: TX 0.06 Mbps, RX 0.31 Mbps, new drops 0
+Switch 2 port 4: TX 0.31 Mbps, RX 0.06 Mbps, new drops 0
+Switch 2 port 3: TX 0.06 Mbps, RX 0.31 Mbps, new drops 0
+Switch 1 port 1: TX 0.03 Mbps, RX 0.16 Mbps, new drops 0
+Switch 1 port 2: TX 0.03 Mbps, RX 0.15 Mbps, new drops 0
+Switch 1 port 3: TX 0.31 Mbps, RX 0.07 Mbps, new drops 0
+Switch 2 port 4: TX 0.31 Mbps, RX 0.07 Mbps, new drops 0
+Switch 2 port 3: TX 0.07 Mbps, RX 0.31 Mbps, new drops 0
+Switch 3 port 1: TX 0.31 Mbps, RX 0.06 Mbps, new drops 0
+Switch 3 port 2: TX 0.07 Mbps, RX 0.31 Mbps, new drops 0
+Switch 1 port 1: TX 0.03 Mbps, RX 0.15 Mbps, new drops 0
+Switch 1 port 2: TX 0.03 Mbps, RX 0.15 Mbps, new drops 0
+Switch 1 port 3: TX 0.31 Mbps, RX 0.06 Mbps, new drops 0
+Switch 3 port 1: TX 0.31 Mbps, RX 0.06 Mbps, new drops 0
+Switch 3 port 2: TX 0.06 Mbps, RX 0.31 Mbps, new drops 0
+Switch 2 port 4: TX 0.31 Mbps, RX 0.06 Mbps, new drops 0
+Switch 2 port 3: TX 0.06 Mbps, RX 0.31 Mbps, new drops 0
+Switch 1 port 1: TX 0.03 Mbps, RX 0.15 Mbps, new drops 0
+Switch 1 port 2: TX 0.03 Mbps, RX 0.15 Mbps, new drops 0
+Switch 1 port 3: TX 0.30 Mbps, RX 0.06 Mbps, new drops 0
+Switch 2 port 4: TX 0.30 Mbps, RX 0.06 Mbps, new drops 0
+Switch 2 port 3: TX 0.06 Mbps, RX 0.30 Mbps, new drops 0
+Switch 3 port 1: TX 0.30 Mbps, RX 0.06 Mbps, new drops 0
+Switch 3 port 2: TX 0.06 Mbps, RX 0.30 Mbps, new drops 0
+Switch 1 port 1: TX 0.03 Mbps, RX 0.15 Mbps, new drops 0
+Switch 1 port 2: TX 0.03 Mbps, RX 0.15 Mbps, new drops 0
+Switch 1 port 3: TX 0.30 Mbps, RX 0.06 Mbps, new drops 0
+Switch 3 port 1: TX 0.31 Mbps, RX 0.06 Mbps, new drops 0
+Switch 3 port 2: TX 0.06 Mbps, RX 0.31 Mbps, new drops 0
+Switch 2 port 4: TX 0.31 Mbps, RX 0.06 Mbps, new drops 0
+Switch 2 port 3: TX 0.06 Mbps, RX 0.30 Mbps, new drops 0
+Switch 1 port 1: TX 0.03 Mbps, RX 0.16 Mbps, new drops 0
+Switch 1 port 2: TX 0.03 Mbps, RX 0.16 Mbps, new drops 0
+Switch 1 port 3: TX 0.32 Mbps, RX 0.07 Mbps, new drops 0
+Switch 3 port 1: TX 0.33 Mbps, RX 0.07 Mbps, new drops 0
+Switch 3 port 2: TX 0.07 Mbps, RX 0.33 Mbps, new drops 0
+Switch 2 port 4: TX 0.33 Mbps, RX 0.07 Mbps, new drops 0
+Switch 2 port 3: TX 0.07 Mbps, RX 0.32 Mbps, new drops 0
+Switch 1 port 1: TX 0.03 Mbps, RX 0.16 Mbps, new drops 0
+Switch 1 port 2: TX 0.03 Mbps, RX 0.16 Mbps, new drops 0
+Switch 1 port 3: TX 0.32 Mbps, RX 0.07 Mbps, new drops 0
+Switch 2 port 4: TX 0.32 Mbps, RX 0.07 Mbps, new drops 0
+Switch 2 port 3: TX 0.07 Mbps, RX 0.32 Mbps, new drops 0
+Switch 3 port 1: TX 0.32 Mbps, RX 0.07 Mbps, new drops 0
+Switch 3 port 2: TX 0.07 Mbps, RX 0.32 Mbps, new drops 0
+Switch 1 port 1: TX 0.03 Mbps, RX 0.15 Mbps, new drops 0
+Switch 1 port 2: TX 0.03 Mbps, RX 0.15 Mbps, new drops 0
+Switch 1 port 3: TX 0.30 Mbps, RX 0.06 Mbps, new drops 0
+Switch 3 port 1: TX 0.30 Mbps, RX 0.06 Mbps, new drops 0
+Switch 3 port 2: TX 0.06 Mbps, RX 0.30 Mbps, new drops 0
+Switch 2 port 4: TX 0.30 Mbps, RX 0.06 Mbps, new drops 0
+Switch 2 port 3: TX 0.06 Mbps, RX 0.30 Mbps, new drops 0
+Switch 1 port 1: TX 0.03 Mbps, RX 0.16 Mbps, new drops 0
+Switch 1 port 2: TX 0.03 Mbps, RX 0.16 Mbps, new drops 0
+Switch 1 port 3: TX 0.31 Mbps, RX 0.07 Mbps, new drops 0
+Switch 3 port 1: TX 0.32 Mbps, RX 0.07 Mbps, new drops 0
+Switch 3 port 2: TX 0.07 Mbps, RX 0.32 Mbps, new drops 0
+Switch 2 port 4: TX 0.32 Mbps, RX 0.07 Mbps, new drops 0
+Switch 2 port 3: TX 0.07 Mbps, RX 0.31 Mbps, new drops 0
+Switch 1 port 1: TX 0.03 Mbps, RX 0.16 Mbps, new drops 0
+Switch 1 port 2: TX 0.03 Mbps, RX 0.16 Mbps, new drops 0
+Switch 1 port 3: TX 0.31 Mbps, RX 0.07 Mbps, new drops 0
+Switch 2 port 4: TX 0.31 Mbps, RX 0.07 Mbps, new drops 0
+Switch 2 port 3: TX 0.06 Mbps, RX 0.31 Mbps, new drops 0
+Switch 3 port 1: TX 0.31 Mbps, RX 0.07 Mbps, new drops 0
+Switch 3 port 2: TX 0.06 Mbps, RX 0.31 Mbps, new drops 0
+Switch 1 port 1: TX 0.03 Mbps, RX 0.15 Mbps, new drops 0
+Switch 1 port 2: TX 0.03 Mbps, RX 0.15 Mbps, new drops 0
+Switch 1 port 3: TX 0.30 Mbps, RX 0.06 Mbps, new drops 0
+Switch 2 port 4: TX 0.30 Mbps, RX 0.06 Mbps, new drops 0
+Switch 2 port 3: TX 0.06 Mbps, RX 0.30 Mbps, new drops 0
+Switch 3 port 1: TX 0.30 Mbps, RX 0.06 Mbps, new drops 0
+Switch 3 port 2: TX 0.06 Mbps, RX 0.30 Mbps, new drops 0
+Switch 1 port 1: TX 0.03 Mbps, RX 0.15 Mbps, new drops 0
+Switch 1 port 2: TX 0.03 Mbps, RX 0.15 Mbps, new drops 0
+Switch 1 port 3: TX 0.30 Mbps, RX 0.06 Mbps, new drops 0
+Switch 2 port 4: TX 0.30 Mbps, RX 0.06 Mbps, new drops 0
+Switch 2 port 3: TX 0.06 Mbps, RX 0.30 Mbps, new drops 0
+Switch 3 port 1: TX 0.30 Mbps, RX 0.06 Mbps, new drops 0
+Switch 3 port 2: TX 0.06 Mbps, RX 0.30 Mbps, new drops 0
+Switch 1 port 1: TX 0.03 Mbps, RX 0.15 Mbps, new drops 0
+Switch 1 port 2: TX 0.03 Mbps, RX 0.15 Mbps, new drops 0
+Switch 1 port 3: TX 0.30 Mbps, RX 0.06 Mbps, new drops 0
+Switch 3 port 1: TX 0.30 Mbps, RX 0.06 Mbps, new drops 0
+Switch 3 port 2: TX 0.06 Mbps, RX 0.30 Mbps, new drops 0
+Switch 2 port 4: TX 0.30 Mbps, RX 0.06 Mbps, new drops 0
+Switch 2 port 3: TX 0.06 Mbps, RX 0.30 Mbps, new drops 0
+Switch 1 port 1: TX 0.03 Mbps, RX 0.16 Mbps, new drops 0
+Switch 1 port 2: TX 0.03 Mbps, RX 0.15 Mbps, new drops 0
+Switch 1 port 3: TX 0.31 Mbps, RX 0.06 Mbps, new drops 0
+Switch 2 port 4: TX 0.31 Mbps, RX 0.07 Mbps, new drops 0
+Switch 2 port 3: TX 0.06 Mbps, RX 0.31 Mbps, new drops 0
+Switch 3 port 1: TX 0.31 Mbps, RX 0.07 Mbps, new drops 0
+Switch 3 port 2: TX 0.07 Mbps, RX 0.31 Mbps, new drops 0
+Switch 1 port 1: TX 0.03 Mbps, RX 0.15 Mbps, new drops 0
+Switch 1 port 2: TX 0.03 Mbps, RX 0.15 Mbps, new drops 0
+Switch 1 port 3: TX 0.31 Mbps, RX 0.06 Mbps, new drops 0
+Switch 3 port 1: TX 0.31 Mbps, RX 0.06 Mbps, new drops 0
+Switch 3 port 2: TX 0.06 Mbps, RX 0.31 Mbps, new drops 0
+Switch 2 port 4: TX 0.31 Mbps, RX 0.06 Mbps, new drops 0
+Switch 2 port 3: TX 0.06 Mbps, RX 0.31 Mbps, new drops 0
+Switch 1 port 1: TX 0.03 Mbps, RX 0.15 Mbps, new drops 0
+Switch 1 port 2: TX 0.03 Mbps, RX 0.15 Mbps, new drops 0
+Switch 1 port 3: TX 0.31 Mbps, RX 0.06 Mbps, new drops 0
+Switch 3 port 1: TX 0.31 Mbps, RX 0.07 Mbps, new drops 0
+Switch 3 port 2: TX 0.07 Mbps, RX 0.31 Mbps, new drops 0
+Switch 2 port 4: TX 0.31 Mbps, RX 0.07 Mbps, new drops 0
+Switch 2 port 3: TX 0.06 Mbps, RX 0.31 Mbps, new drops 0
+Switch 1 port 1: TX 0.03 Mbps, RX 0.16 Mbps, new drops 0
+Switch 1 port 2: TX 0.03 Mbps, RX 0.15 Mbps, new drops 0
+Switch 1 port 3: TX 0.31 Mbps, RX 0.06 Mbps, new drops 0
+Switch 3 port 1: TX 0.31 Mbps, RX 0.07 Mbps, new drops 0
+Switch 3 port 2: TX 0.07 Mbps, RX 0.31 Mbps, new drops 0
+Switch 2 port 4: TX 0.31 Mbps, RX 0.06 Mbps, new drops 0
+Switch 2 port 3: TX 0.06 Mbps, RX 0.31 Mbps, new drops 0
+Switch 1 port 1: TX 0.03 Mbps, RX 0.15 Mbps, new drops 0
+Switch 1 port 2: TX 0.03 Mbps, RX 0.15 Mbps, new drops 0
+Switch 1 port 3: TX 0.31 Mbps, RX 0.06 Mbps, new drops 0
+Switch 3 port 1: TX 0.31 Mbps, RX 0.06 Mbps, new drops 0
+Switch 3 port 2: TX 0.06 Mbps, RX 0.31 Mbps, new drops 0
+Switch 2 port 4: TX 0.31 Mbps, RX 0.06 Mbps, new drops 0
+Switch 2 port 3: TX 0.06 Mbps, RX 0.31 Mbps, new drops 0
+Switch 1 port 1: TX 0.03 Mbps, RX 0.15 Mbps, new drops 0
+Switch 1 port 2: TX 0.03 Mbps, RX 0.15 Mbps, new drops 0
+Switch 1 port 3: TX 0.30 Mbps, RX 0.06 Mbps, new drops 0
+Switch 3 port 1: TX 0.31 Mbps, RX 0.06 Mbps, new drops 0
+Switch 3 port 2: TX 0.06 Mbps, RX 0.31 Mbps, new drops 0
+Switch 2 port 4: TX 0.31 Mbps, RX 0.06 Mbps, new drops 0
+Switch 2 port 3: TX 0.06 Mbps, RX 0.31 Mbps, new drops 0
+Switch 1 port 1: TX 0.03 Mbps, RX 0.15 Mbps, new drops 0
+Switch 1 port 2: TX 0.03 Mbps, RX 0.15 Mbps, new drops 0
+Switch 1 port 3: TX 0.30 Mbps, RX 0.06 Mbps, new drops 0
+Switch 2 port 4: TX 0.30 Mbps, RX 0.06 Mbps, new drops 0
+Switch 2 port 3: TX 0.06 Mbps, RX 0.30 Mbps, new drops 0
+Switch 3 port 1: TX 0.30 Mbps, RX 0.06 Mbps, new drops 0
+Switch 3 port 2: TX 0.06 Mbps, RX 0.30 Mbps, new drops 0
+Switch 1 port 1: TX 0.03 Mbps, RX 0.15 Mbps, new drops 0
+Switch 1 port 2: TX 0.03 Mbps, RX 0.15 Mbps, new drops 0
+Switch 1 port 3: TX 0.30 Mbps, RX 0.06 Mbps, new drops 0
+Switch 3 port 1: TX 0.30 Mbps, RX 0.06 Mbps, new drops 0
+Switch 3 port 2: TX 0.06 Mbps, RX 0.30 Mbps, new drops 0
+Switch 2 port 4: TX 0.30 Mbps, RX 0.06 Mbps, new drops 0
+Switch 2 port 3: TX 0.06 Mbps, RX 0.30 Mbps, new drops 0
+Switch 1 port 1: TX 0.03 Mbps, RX 0.16 Mbps, new drops 0
+Switch 1 port 2: TX 0.03 Mbps, RX 0.16 Mbps, new drops 0
+Switch 1 port 3: TX 0.32 Mbps, RX 0.07 Mbps, new drops 0
+Switch 2 port 4: TX 0.33 Mbps, RX 0.07 Mbps, new drops 0
+Switch 2 port 3: TX 0.07 Mbps, RX 0.33 Mbps, new drops 0
+Switch 3 port 1: TX 0.33 Mbps, RX 0.07 Mbps, new drops 0
+Switch 3 port 2: TX 0.07 Mbps, RX 0.33 Mbps, new drops 0
+Switch 1 port 1: TX 0.03 Mbps, RX 0.16 Mbps, new drops 0
+Switch 1 port 2: TX 0.03 Mbps, RX 0.16 Mbps, new drops 0
+Switch 1 port 3: TX 0.32 Mbps, RX 0.07 Mbps, new drops 0
+Switch 2 port 4: TX 0.32 Mbps, RX 0.07 Mbps, new drops 0
+Switch 2 port 3: TX 0.07 Mbps, RX 0.32 Mbps, new drops 0
+Switch 3 port 1: TX 0.32 Mbps, RX 0.07 Mbps, new drops 0
+Switch 3 port 2: TX 0.07 Mbps, RX 0.32 Mbps, new drops 0
+Switch 1 port 1: TX 0.01 Mbps, RX 0.06 Mbps, new drops 0
+Switch 1 port 2: TX 0.01 Mbps, RX 0.06 Mbps, new drops 0
+Switch 1 port 3: TX 0.13 Mbps, RX 0.03 Mbps, new drops 0
+Switch 2 port 4: TX 0.13 Mbps, RX 0.03 Mbps, new drops 0
+Switch 2 port 3: TX 0.03 Mbps, RX 0.13 Mbps, new drops 0
+Switch 3 port 1: TX 0.13 Mbps, RX 0.03 Mbps, new drops 0
+Switch 3 port 2: TX 0.03 Mbps, RX 0.13 Mbps, new drops 0
+packet in 2 a6:d0:3a:40:0f:d0 33:33:00:00:00:02 3
+packet in 3 a6:d0:3a:40:0f:d0 33:33:00:00:00:02 2
+Switch 1 port 1: TX 0.00 Mbps, RX 2.05 Mbps, new drops 0
+Switch 1 port 3: TX 2.05 Mbps, RX 0.00 Mbps, new drops 0
+Switch 2 port 1: TX 2.05 Mbps, RX 0.00 Mbps, new drops 0
+Switch 2 port 3: TX 0.00 Mbps, RX 2.06 Mbps, new drops 0
+Switch 1 port 1: TX 0.00 Mbps, RX 2.16 Mbps, new drops 0
+Switch 1 port 3: TX 2.16 Mbps, RX 0.00 Mbps, new drops 0
+Switch 2 port 1: TX 2.16 Mbps, RX 0.00 Mbps, new drops 0
+Switch 2 port 3: TX 0.00 Mbps, RX 2.16 Mbps, new drops 0
+Switch 1 port 1: TX 0.00 Mbps, RX 2.16 Mbps, new drops 0
+Switch 1 port 3: TX 2.16 Mbps, RX 0.00 Mbps, new drops 0
+Switch 2 port 1: TX 2.16 Mbps, RX 0.00 Mbps, new drops 0
+Switch 2 port 3: TX 0.00 Mbps, RX 2.16 Mbps, new drops 0
+Switch 1 port 1: TX 0.00 Mbps, RX 2.16 Mbps, new drops 0
+Switch 1 port 3: TX 2.16 Mbps, RX 0.00 Mbps, new drops 0
+Switch 2 port 1: TX 2.16 Mbps, RX 0.00 Mbps, new drops 0
+Switch 2 port 3: TX 0.00 Mbps, RX 2.16 Mbps, new drops 0
+Switch 1 port 1: TX 0.00 Mbps, RX 2.16 Mbps, new drops 0
+Switch 1 port 3: TX 2.16 Mbps, RX 0.00 Mbps, new drops 0
+Switch 2 port 1: TX 2.15 Mbps, RX 0.00 Mbps, new drops 0
+Switch 2 port 3: TX 0.00 Mbps, RX 2.15 Mbps, new drops 0
+Switch 1 port 1: TX 0.00 Mbps, RX 2.16 Mbps, new drops 0
+Switch 1 port 3: TX 2.16 Mbps, RX 0.00 Mbps, new drops 0
+Switch 2 port 1: TX 2.15 Mbps, RX 0.00 Mbps, new drops 0
+Switch 2 port 3: TX 0.00 Mbps, RX 2.16 Mbps, new drops 0
+Switch 1 port 1: TX 0.00 Mbps, RX 2.16 Mbps, new drops 0
+Switch 1 port 3: TX 2.16 Mbps, RX 0.00 Mbps, new drops 0
+Switch 2 port 1: TX 2.17 Mbps, RX 0.00 Mbps, new drops 0
+Switch 2 port 3: TX 0.00 Mbps, RX 2.16 Mbps, new drops 0
+Switch 1 port 1: TX 0.00 Mbps, RX 2.16 Mbps, new drops 0
+Switch 1 port 3: TX 2.16 Mbps, RX 0.00 Mbps, new drops 0
+Switch 2 port 1: TX 2.15 Mbps, RX 0.00 Mbps, new drops 0
+Switch 2 port 3: TX 0.00 Mbps, RX 2.15 Mbps, new drops 0
+Switch 1 port 1: TX 0.00 Mbps, RX 2.16 Mbps, new drops 0
+Switch 1 port 3: TX 2.16 Mbps, RX 0.00 Mbps, new drops 0
+Switch 2 port 1: TX 2.16 Mbps, RX 0.00 Mbps, new drops 0
+Switch 2 port 3: TX 0.00 Mbps, RX 2.16 Mbps, new drops 0
+Switch 1 port 1: TX 0.00 Mbps, RX 2.16 Mbps, new drops 0
+Switch 1 port 3: TX 2.16 Mbps, RX 0.00 Mbps, new drops 0
+Switch 2 port 1: TX 2.16 Mbps, RX 0.00 Mbps, new drops 0
+Switch 2 port 3: TX 0.00 Mbps, RX 2.16 Mbps, new drops 0
+Switch 1 port 1: TX 0.00 Mbps, RX 0.11 Mbps, new drops 0
+Switch 1 port 3: TX 0.12 Mbps, RX 0.00 Mbps, new drops 0
+Switch 2 port 1: TX 0.12 Mbps, RX 0.00 Mbps, new drops 0
+Switch 2 port 3: TX 0.00 Mbps, RX 0.12 Mbps, new drops 0
+packet in 3 76:94:36:c5:84:8a 33:33:00:00:00:02 2
+packet in 1 00:00:00:00:00:02 33:33:00:00:00:02 2
+packet in 2 00:00:00:00:00:02 33:33:00:00:00:02 3
+packet in 3 00:00:00:00:00:02 33:33:00:00:00:02 2
+packet in 1 16:42:c4:5a:76:69 33:33:00:00:00:02 3
+packet in 1 00:00:00:00:00:01 33:33:00:00:00:02 1
+packet in 2 00:00:00:00:00:03 33:33:00:00:00:02 1
+packet in 2 00:00:00:00:00:01 33:33:00:00:00:02 3
+packet in 1 00:00:00:00:00:03 33:33:00:00:00:02 3
+packet in 3 00:00:00:00:00:03 33:33:00:00:00:02 2
+packet in 3 00:00:00:00:00:01 33:33:00:00:00:02 2
+packet in 2 00:00:00:00:00:04 33:33:00:00:00:02 2
+packet in 1 00:00:00:00:00:04 33:33:00:00:00:02 3
+packet in 3 00:00:00:00:00:04 33:33:00:00:00:02 2
+packet in 3 00:00:00:00:01:00 33:33:00:00:00:02 1
+packet in 2 3e:1a:ad:7f:6a:3c 33:33:00:00:00:02 4
+packet in 2 00:00:00:00:01:00 33:33:00:00:00:02 4
+packet in 1 3e:1a:ad:7f:6a:3c 33:33:00:00:00:02 3
+packet in 1 00:00:00:00:01:00 33:33:00:00:00:02 3
+packet in 2 3e:1a:ad:7f:6a:3c 33:33:00:00:00:fb 4
+packet in 1 16:42:c4:5a:76:69 33:33:00:00:00:fb 3
+packet in 2 a6:d0:3a:40:0f:d0 33:33:00:00:00:fb 3
+packet in 3 76:94:36:c5:84:8a 33:33:00:00:00:fb 2
+packet in 1 3e:1a:ad:7f:6a:3c 33:33:00:00:00:fb 3
+packet in 3 a6:d0:3a:40:0f:d0 33:33:00:00:00:fb 2
+packet in 1 00:00:00:00:00:02 33:33:00:00:00:02 2
+packet in 3 76:94:36:c5:84:8a 33:33:00:00:00:02 2
+packet in 2 a6:d0:3a:40:0f:d0 33:33:00:00:00:02 3
+packet in 2 00:00:00:00:00:02 33:33:00:00:00:02 3
+packet in 3 a6:d0:3a:40:0f:d0 33:33:00:00:00:02 2
+packet in 3 00:00:00:00:00:02 33:33:00:00:00:02 2
+packet in 1 16:42:c4:5a:76:69 33:33:00:00:00:02 3
+packet in 1 00:00:00:00:00:01 33:33:00:00:00:02 1
+packet in 2 00:00:00:00:00:04 33:33:00:00:00:02 2
+packet in 2 00:00:00:00:00:03 33:33:00:00:00:02 1
+packet in 2 00:00:00:00:00:01 33:33:00:00:00:02 3
+packet in 1 00:00:00:00:00:04 33:33:00:00:00:02 3
+packet in 1 00:00:00:00:00:03 33:33:00:00:00:02 3
+packet in 3 00:00:00:00:00:04 33:33:00:00:00:02 2
+packet in 3 00:00:00:00:00:03 33:33:00:00:00:02 2
+packet in 3 00:00:00:00:00:01 33:33:00:00:00:02 2
+packet in 3 00:00:00:00:01:00 33:33:00:00:00:02 1
+packet in 2 3e:1a:ad:7f:6a:3c 33:33:00:00:00:02 4
+packet in 2 00:00:00:00:01:00 33:33:00:00:00:02 4
+packet in 1 3e:1a:ad:7f:6a:3c 33:33:00:00:00:02 3
+packet in 1 00:00:00:00:01:00 33:33:00:00:00:02 3
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            

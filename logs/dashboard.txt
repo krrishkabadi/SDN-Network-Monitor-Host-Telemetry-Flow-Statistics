@@ -1,0 +1,47 @@
+==============================================================================
+ NETWORK MONITOR  10:36:23    SDN stats: live
+==============================================================================
+
+ HOSTS (application telemetry)
+ host     tx Mbps   rx Mbps    rtt ms   loss %  status
+ --------------------------------------------------------------
+ h1          0.15      0.03      17.0        0  ok
+ h2          0.16      0.03      17.0        0  ok
+ h3          0.19      0.04      12.9        0  ok
+ h4          0.00      0.00      12.6        0  DOWN
+
+ SWITCH PORTS (SDN statistics)
+ port     role    rx Mbps  tx Mbps  util %  
+ --------------------------------------------------------------
+ s1:1     host       0.15     0.03       1  
+ s1:2     host       0.15     0.03       2  
+ s1:3     trunk      0.06     0.30       3  
+ s2:1     host       0.20     0.04       2  
+ s2:2     host       0.00     0.00       0  
+ s2:3     trunk      0.30     0.07       3  
+ s2:4     trunk      0.10     0.50       5  #
+ s3:1     host       0.10     0.50       5  #
+ s3:2     trunk      0.50     0.10       5  #
+
+ TOP FLOWS
+ --------------------------------------------------------------
+ s3  h3     -> 00:00:00:00:01:00     0.20 Mbps
+ s2  h3     -> 00:00:00:00:01:00     0.20 Mbps
+ s3  h2     -> 00:00:00:00:01:00     0.15 Mbps
+ s2  h2     -> 00:00:00:00:01:00     0.15 Mbps
+ s3  h1     -> 00:00:00:00:01:00     0.15 Mbps
+
+ ACTIVE ALERTS
+ --------------------------------------------------------------
+ [CRIT] HOST/h4: no telemetry for 75041s (host or agent down)
+
+ RECENT EVENTS
+ --------------------------------------------------------------
+ 10:36:19 [ALERT] WARN SDN/controller: no fresh flow statistics from controller
+ 10:36:19 [ALERT] CRIT HOST/h1: no telemetry for 2049s (host or agent down)
+ 10:36:19 [ALERT] CRIT HOST/h2: no telemetry for 2049s (host or agent down)
+ 10:36:19 [ALERT] CRIT HOST/h3: no telemetry for 2049s (host or agent down)
+ 10:36:21 [CLEAR] OK   SDN/controller: back to normal
+ 10:36:21 [CLEAR] OK   HOST/h1: back to normal
+ 10:36:21 [CLEAR] OK   HOST/h2: back to normal
+ 10:36:21 [CLEAR] OK   HOST/h3: back to normal
